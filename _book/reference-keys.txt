@@ -1,3 +1,6 @@
+fig:nice-fig
+tab:nice-tab
+eq:binom
 about
 usage
 render-book

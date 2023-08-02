@@ -1,6 +1,6 @@
 --- 
-title: "A Minimal Book Example"
-author: "John Doe"
+title: "Research Data Management Workbook"
+author: "Kristin Briney"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 documentclass: book
