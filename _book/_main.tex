@@ -100,9 +100,9 @@
 
 This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license
 
-\hypertarget{about-the-author}{%
-\section*{About the Author}\label{about-the-author}}
-\addcontentsline{toc}{section}{About the Author}
+\hypertarget{the-author}{%
+\section*{The Author}\label{the-author}}
+\addcontentsline{toc}{section}{The Author}
 
 \hypertarget{introduction}{%
 \chapter{Introduction}\label{introduction}}
@@ -127,6 +127,70 @@ This book is available under a Creative Commons Attribution-NonCommercial (CC BY
 
 \hypertarget{file-naming}{%
 \section{File Naming}\label{file-naming}}
+
+\textbf{1. What group of files will this naming convention cover?}
+
+You can use different conventions for different file sets.
+
+\emph{Example: This convention will apply to all of my microscopy files, from raw image through processed image.}
+
+\textbf{2. What information (metadata) is important about these files and makes each file distinct?}
+
+Ideally, pick three pieces of metadata; use no more than five. This metadata should be enough for you to visually scan the file names and easily understand what's in each one.
+
+\emph{Example: For my images, I want to know date, sample ID, and image number for that sample on that date.}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+\item
+\item
+\item
+\item
+\end{enumerate}
+
+\textbf{3. Do you need to abbreviate any of the metadata or encode it?}
+
+If any of the metadata from step 2 is described by lots of text, decide what shortened information to keep. If any of the metadata from step 2 has regular categories, standardize the categories and/or replace them with 2- or 3-letter codes; be sure to document these codes.
+
+\emph{Example: Sample ID will use a code made up of: a 2-letter project abbreviation (project 1 = P1, project 2 = P2); a 3-letter species abbreviation (mouse = ``MUS'', fruit fly = ``DRS''); and 3-digit sample ID (assigned in my notebook).}
+
+\textbf{4. What is the order for the metadata in the file name?}
+
+Think about how you want to sort and search for your files to decide what metadata should appear at the beginning of the file name. If date is important, use ISO 8601-formatted dates (YYYYMMDD or YYYY-MM-DD) at the beginning of the file names so dates sort chronologically.
+
+\emph{Example: My sample ID is most important so I will list it first, followed by date, then image number.}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+\item
+\item
+\item
+\item
+\end{enumerate}
+
+\textbf{5. What characters will you use to separate each piece of metadata in the file name?}
+
+Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names.
+
+\emph{Example: I will use underscores to separate metadata and dashes between parts of my sample ID.}
+
+\textbf{6. Will you need to track different versions of each file?}
+
+You can track versions of a file by appending version information to end of the file name. Consider using a version number (e.g.~``v01'') or the version date (use ISO 8601 format: YYYYMMDD or YYYY-MM-DD).
+
+*Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g.~``\_raw'', ``\_processed'', and ``\_composite'').*
+
+\textbf{7. Write down your naming convention pattern.}
+
+Make sure the convention only uses alphanumeric characters, dashes, and underscores. Ideally, file names will be 32 characters or less.
+
+*Example: My file naming convention is ``SA-MPL-EID\_YYYYMMDD\_\#\#\#\_status.tif'' Examples are ``P1-MUS-023\_20200229\_051\_raw.tif'' and ``P2-DRS-285\_20191031\_062\_composite.tif''.*
+
+\textbf{8. Document this convention in a README.txt (or save this worksheet) and keep it with your files.}
 
 \hypertarget{data-storage}{%
 \chapter{Data Storage}\label{data-storage}}
