@@ -2,4 +2,83 @@
 
 ## Project Close Out
 
+**Make Decisions**
+
+Determine with the project PI/your collaborators:
+
+* Who is allowed to reuse this data later?
+* Who will store the master copy of the data and for how long?
+* Will this data be shared publicly?
+* Are there security or intellectual property restrictions on the data?
+* Who keeps any physical research notebooks?
+
+**Prepare Files for Archiving**
+
+Prepare data:
+
+* Convert data to more open/common file formats (e.g. .CSV or .TXT) 
+
+Record general project information in a README file:
+
+* Project title
+* Project description
+* Dates
+* Personnel
+* Where files are stored
+* File organization and naming conventions
+
+**Share Data**
+
+Identify information necessary to reproduce published results:
+
+* Data 
+* Code
+* Relevant documentation
+
+See [chapter on data sharing](#data-sharing)
+
+## The Archive Folder
+
+Project documentation:
+
+* README file of project information
+
+Data snapshots:
+
+* Raw data
+* Key data analyses
+* Final data
+
+Code:
+
+* Analysis code
+* (Record software version, as appropriate)
+
+Other research documents:
+
+* Protocols
+* Survey instruments
+
+Research notes:
+
+* Scan of research notebook
+* Digital notes
+
+Images:
+
+* Flat files of figures (e.g. .JPG or .TIFF)
+* Editable image files (e.g. Photoshop)
+
+Publications:
+
+* Published article in .PDF format
+* Final version of the article in editable document format (e.g. .DOCX)
+* Posters
+
+Administrative documents:
+
+* Grant proposals
+* Grant report 
+
 ## Separation From The Institution
+
