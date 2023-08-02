@@ -4,13 +4,12 @@
 
 ### Licensed under a CC BY-NC license
 
-This is the bookdown version of the RDM Workbook, containing the following sections:
+This is the bookdown version of the RDM Workbook (version 1), containing the following sections:
 
 1. Introduction
-2. Data Management Plans
-3. Documentation
-4. File Organization and Naming
-5. [Sensitive Data]
-6. Storage and Backups
-7. Data Sharing
-8. Project Wrap Up
+2. Documentation
+3. File Organization and Naming
+4. Storage and Backups
+5. Data Management Plans
+6. Data Sharing
+7. Project Wrap Up
