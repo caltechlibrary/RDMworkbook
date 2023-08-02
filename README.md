@@ -1,13 +1,16 @@
-Welcome! 
+# Research Data Management Workbook
+## Kristin A. Briney
+## 2023-08
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
+### Licensed under a CC BY-NC license
 
-This template provides a skeleton file structure that you can edit to create your book. 
+This is the bookdown version of the RDM Workbook, containing the following sections:
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
-
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
+1. Introduction
+2. Data Management Plans
+3. Documentation
+4. File Organization and Naming
+5. [Sensitive Data]
+6. Storage and Backups
+7. Data Sharing
+8. Project Wrap Up
