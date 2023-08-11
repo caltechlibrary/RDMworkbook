@@ -22,7 +22,7 @@ library(tidyverse)
 
 ---
 
-What is the title of the project?
+**What is the title of the project?**
 
 &nbsp;
 
@@ -30,7 +30,7 @@ What is the title of the project?
 
 &nbsp;
 
-What is the project description?
+**What is the project description?**
 
 &nbsp;
 
@@ -38,7 +38,7 @@ What is the project description?
 
 &nbsp;
 
-What is the time period the project was done over?
+**What is the time period the project was done over?**
 
 &nbsp;
 
@@ -46,7 +46,7 @@ What is the time period the project was done over?
 
 &nbsp;
 
-Who worked on the project?
+**Who worked on the project?**
 
 &nbsp;
 
@@ -54,7 +54,7 @@ Who worked on the project?
 
 &nbsp;
 
-Where are the files are stored?
+**Where are the files are stored?**
 
 &nbsp;
 
@@ -62,7 +62,7 @@ Where are the files are stored?
 
 &nbsp;
 
-How are files organized? Are any naming conventions used and what are they (see [Chapter 3](#file-organization-and-naming))?
+**How are files organized? Are any naming conventions used and what are they (see [Chapter 3](#file-organization-and-naming))?**
 
 &nbsp;
 
