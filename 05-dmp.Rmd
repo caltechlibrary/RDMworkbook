@@ -42,7 +42,7 @@
 
 &nbsp;
 
-**Are there any data sharing requirements and, if so, what are they?**
+**Are there any requirement to share the data and, if so, what are they?**
 
 &nbsp;
 
