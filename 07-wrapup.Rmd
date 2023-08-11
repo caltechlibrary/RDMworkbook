@@ -16,19 +16,12 @@ Prepare data:
 
 &#9633; Convert data to more open/common file formats (e.g. .CSV or .TXT) 
 
-**Record General Project Information in a [README.txt File](#readme-txt):**
 
-&#9633; Project title
+**Create a Project-Level README File**
 
-&#9633; Project description
+Work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
 
-&#9633; Dates
-
-&#9633; Personnel
-
-&#9633; Where files are stored
-
-&#9633; File organization and naming conventions
+Store a copy of the README file with the data.
 
 
 ## The Archive Folder {#archive-folder}
@@ -96,6 +89,8 @@ Prepare data:
 ***Description:*** **
 
 ***Instructions:*** **
+
+***Source:*** *This exercise has been adapted from the "Data Departure Checklist" @goben_data_2023.*
 
 ---
 
