@@ -62,7 +62,7 @@ library(tidyverse)
 
 &nbsp;
 
-**How are files organized? Are any naming conventions used and what are they (see [Chapter 3](#file-organization-and-naming))?**
+**How are files organized? Are any naming conventions used and, if so, what are they (see [Chapter 3](#file-organization-and-naming))?**
 
 &nbsp;
 
