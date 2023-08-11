@@ -18,7 +18,7 @@
 
 ---
 
-What data do these agreements apply to?
+**What data do these agreements apply to?**
 
 &nbsp;
 
@@ -26,7 +26,7 @@ What data do these agreements apply to?
 
 &nbsp;
 
-Are there security or intellectual property restrictions on the data?
+**Are there security or intellectual property restrictions on the data and, if so, what are they?**
 
 &nbsp;
 
@@ -34,7 +34,7 @@ Are there security or intellectual property restrictions on the data?
 
 &nbsp;
 
-Who will store the copy of record of the data and for how long?
+**Who will store the copy of record of the data and for how long?**
 
 &nbsp;
 
@@ -42,7 +42,7 @@ Who will store the copy of record of the data and for how long?
 
 &nbsp;
 
-Are there any data sharing requirements and, if so, what are they?
+**Are there any data sharing requirements and, if so, what are they?**
 
 &nbsp;
 
@@ -50,7 +50,7 @@ Are there any data sharing requirements and, if so, what are they?
 
 &nbsp;
 
-Who is allowed to reuse the data after the project ends?
+**Who is allowed to reuse the data after the project ends? Are there any requirements for reuse?**
 
 &nbsp;
 
@@ -58,7 +58,7 @@ Who is allowed to reuse the data after the project ends?
 
 &nbsp;
 
-Who keeps any physical research notebooks after the project ends?
+**Who keeps any physical research notebooks after the project ends?**
 
 &nbsp;
 
