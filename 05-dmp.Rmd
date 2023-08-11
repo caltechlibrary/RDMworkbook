@@ -1,4 +1,4 @@
-# Data Management Planning
+# Data Management
 
 ## Living Data Management Plan {#living-dmp}
 
