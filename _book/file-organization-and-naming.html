@@ -5,31 +5,28 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 3 File Organization and Naming | Research Data Management Workbook</title>
-  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
+  <meta name="description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 3 File Organization and Naming | Research Data Management Workbook" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta property="og:description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
+  <meta name="github-repo" content="kbriney/RDMworkbook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 3 File Organization and Naming | Research Data Management Workbook" />
   
-  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
+  <meta name="twitter:description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
   
 
 <meta name="author" content="Kristin Briney" />
 
 
-<meta name="date" content="2023-08-02" />
+<meta name="date" content="2023-08-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -65,6 +62,28 @@ set in the _output.yml file.</p>" />
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -91,8 +110,8 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>2</b> Documentation</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="documentation.html"><a href="documentation.html#checking-laboratory-notebooks"><i class="fa fa-check"></i><b>2.1</b> Checking Laboratory Notebooks</a></li>
-<li class="chapter" data-level="2.2" data-path="documentation.html"><a href="documentation.html#readme.txt"><i class="fa fa-check"></i><b>2.2</b> README.txt</a></li>
+<li class="chapter" data-level="2.1" data-path="documentation.html"><a href="documentation.html#lab-notebook"><i class="fa fa-check"></i><b>2.1</b> Checking Laboratory Notebooks</a></li>
+<li class="chapter" data-level="2.2" data-path="documentation.html"><a href="documentation.html#readme-txt"><i class="fa fa-check"></i><b>2.2</b> README.txt</a></li>
 <li class="chapter" data-level="2.3" data-path="documentation.html"><a href="documentation.html#data-dictionary"><i class="fa fa-check"></i><b>2.3</b> Data Dictionary</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="file-organization-and-naming.html"><a href="file-organization-and-naming.html"><i class="fa fa-check"></i><b>3</b> File Organization and Naming</a>
@@ -104,19 +123,21 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-storage.html"><a href="data-storage.html#backups"><i class="fa fa-check"></i><b>4.1</b> Backups</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="data-management-plans.html"><a href="data-management-plans.html"><i class="fa fa-check"></i><b>5</b> Data Management Plans</a>
+<li class="chapter" data-level="5" data-path="data-management-planning.html"><a href="data-management-planning.html"><i class="fa fa-check"></i><b>5</b> Data Management Planning</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="data-management-plans.html"><a href="data-management-plans.html#living-data-management-plan"><i class="fa fa-check"></i><b>5.1</b> Living Data Management Plan</a></li>
+<li class="chapter" data-level="5.1" data-path="data-management-planning.html"><a href="data-management-planning.html#living-dmp"><i class="fa fa-check"></i><b>5.1</b> Living Data Management Plan</a></li>
+<li class="chapter" data-level="5.2" data-path="data-management-planning.html"><a href="data-management-planning.html#data-governance"><i class="fa fa-check"></i><b>5.2</b> Data Governance</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>6</b> Data Sharing</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#picking-a-repository"><i class="fa fa-check"></i><b>6.1</b> Picking a Repository</a></li>
-<li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#sharing-data"><i class="fa fa-check"></i><b>6.2</b> Sharing Data</a></li>
+<li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#data-repository"><i class="fa fa-check"></i><b>6.1</b> Picking a Repository</a></li>
+<li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#share-data"><i class="fa fa-check"></i><b>6.2</b> Sharing Data</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="project-wrap-up.html"><a href="project-wrap-up.html"><i class="fa fa-check"></i><b>7</b> Project Wrap Up</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="project-wrap-up.html"><a href="project-wrap-up.html#project-close-out"><i class="fa fa-check"></i><b>7.1</b> Project Close Out</a></li>
-<li class="chapter" data-level="7.2" data-path="project-wrap-up.html"><a href="project-wrap-up.html#separation-from-the-institution"><i class="fa fa-check"></i><b>7.2</b> Separation From The Institution</a></li>
+<li class="chapter" data-level="7.1" data-path="project-wrap-up.html"><a href="project-wrap-up.html#future-use"><i class="fa fa-check"></i><b>7.1</b> Prepare Files for Future Use</a></li>
+<li class="chapter" data-level="7.2" data-path="project-wrap-up.html"><a href="project-wrap-up.html#archive-folder"><i class="fa fa-check"></i><b>7.2</b> The Archive Folder</a></li>
+<li class="chapter" data-level="7.3" data-path="project-wrap-up.html"><a href="project-wrap-up.html#separation"><i class="fa fa-check"></i><b>7.3</b> Separation From The Institution</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -143,12 +164,26 @@ set in the _output.yml file.</p>" />
 <h1><span class="header-section-number">Chapter 3</span> File Organization and Naming<a href="file-organization-and-naming.html#file-organization-and-naming" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <div id="file-organization" class="section level2 hasAnchor" number="3.1">
 <h2><span class="header-section-number">3.1</span> File Organization<a href="file-organization-and-naming.html#file-organization" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> **</p>
+<p><strong><em>Instructions:</em></strong> **</p>
+<hr />
 </div>
 <div id="file-naming" class="section level2 hasAnchor" number="3.2">
 <h2><span class="header-section-number">3.2</span> File Naming<a href="file-organization-and-naming.html#file-naming" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> <em>File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.</em></p>
+<div class="figure">
+<img src="images/03_FileNaming.jpg" alt="" />
+<p class="caption">Screenshot of pdf’s with consistent file names using the convention FirstAuthorLastName_YEAR_ShortTitle.pdf</p>
+</div>
+<p><strong><em>Instructions:</em></strong> <em>This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.</em></p>
+<p><em>This exercise is based on the “File Naming Convention Worksheet” <span class="citation"><a href="#ref-briney_file_2020" role="doc-biblioref">K. A. Briney</a> (<a href="#ref-briney_file_2020" role="doc-biblioref">2020a</a>)</span>.</em></p>
+<hr />
 <p><strong>1. What group of files will this naming convention cover?</strong></p>
 <p>You can use different conventions for different file sets.</p>
 <p><em>Example: This convention will apply to all of my microscopy files, from raw image through processed image.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
 <p><strong>2. What information (metadata) is important about these files and makes each file distinct?</strong></p>
 <p>Ideally, pick three pieces of metadata; use no more than five. This metadata should be enough for you to visually scan the file names and easily understand what’s in each one.</p>
 <p><em>Example: For my images, I want to know date, sample ID, and image number for that sample on that date.</em></p>
@@ -162,6 +197,9 @@ set in the _output.yml file.</p>" />
 <p><strong>3. Do you need to abbreviate any of the metadata or encode it?</strong></p>
 <p>If any of the metadata from step 2 is described by lots of text, decide what shortened information to keep. If any of the metadata from step 2 has regular categories, standardize the categories and/or replace them with 2- or 3-letter codes; be sure to document these codes.</p>
 <p><em>Example: Sample ID will use a code made up of: a 2-letter project abbreviation (project 1 = P1, project 2 = P2); a 3-letter species abbreviation (mouse = “MUS,” fruit fly = “DRS”); and 3-digit sample ID (assigned in my notebook).</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
 <p><strong>4. What is the order for the metadata in the file name?</strong></p>
 <p>Think about how you want to sort and search for your files to decide what metadata should appear at the beginning of the file name. If date is important, use ISO 8601-formatted dates (YYYYMMDD or YYYY-MM-DD) at the beginning of the file names so dates sort chronologically.</p>
 <p><em>Example: My sample ID is most important so I will list it first, followed by date, then image number.</em></p>
@@ -175,14 +213,32 @@ set in the _output.yml file.</p>" />
 <p><strong>5. What characters will you use to separate each piece of metadata in the file name?</strong></p>
 <p>Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (_), and/or capitalize the first letter of each word in the file names.</p>
 <p><em>Example: I will use underscores to separate metadata and dashes between parts of my sample ID.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
 <p><strong>6. Will you need to track different versions of each file?</strong></p>
 <p>You can track versions of a file by appending version information to end of the file name. Consider using a version number (e.g. “v01”) or the version date (use ISO 8601 format: YYYYMMDD or YYYY-MM-DD).</p>
 <p>*Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g. “_raw”, “_processed”, and “_composite”).*</p>
+<p> </p>
+<p> </p>
+<p> </p>
 <p><strong>7. Write down your naming convention pattern.</strong></p>
 <p>Make sure the convention only uses alphanumeric characters, dashes, and underscores. Ideally, file names will be 32 characters or less.</p>
 <p>*Example: My file naming convention is “SA-MPL-EID_YYYYMMDD_###_status.tif” Examples are “P1-MUS-023_20200229_051_raw.tif” and “P2-DRS-285_20191031_062_composite.tif.”*</p>
+<p> </p>
+<p> </p>
+<p> </p>
 <p><strong>8. Document this convention in a README.txt (or save this worksheet) and keep it with your files.</strong></p>
+<p> </p>
+<p> </p>
+<p> </p>
 
+</div>
+</div>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-briney_file_2020" class="csl-entry">
+Briney, K. A. (2020a). <em>File <span>Naming</span> <span>Convention</span> <span>Worksheet</span></em>. <a href="https://doi.org/10.7907/894q-zr22">https://doi.org/10.7907/894q-zr22</a>
 </div>
 </div>
             </section>

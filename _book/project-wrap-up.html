@@ -5,31 +5,28 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>Chapter 7 Project Wrap Up | Research Data Management Workbook</title>
-  <meta name="description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
+  <meta name="description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
   <meta name="generator" content="bookdown 0.34 and GitBook 2.6.7" />
 
   <meta property="og:title" content="Chapter 7 Project Wrap Up | Research Data Management Workbook" />
   <meta property="og:type" content="book" />
   
-  <meta property="og:description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
-  <meta name="github-repo" content="rstudio/bookdown-demo" />
+  <meta property="og:description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
+  <meta name="github-repo" content="kbriney/RDMworkbook" />
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="Chapter 7 Project Wrap Up | Research Data Management Workbook" />
   
-  <meta name="twitter:description" content="<p>This is a minimal example of using the bookdown package to write a book.
-The HTML output format for this example is bookdown::gitbook,
-set in the _output.yml file.</p>" />
+  <meta name="twitter:description" content="<p>The Research Data Management Workbook is made up of a collection of exercises
+for researchers to improve their data management.</p>" />
   
 
 <meta name="author" content="Kristin Briney" />
 
 
-<meta name="date" content="2023-08-02" />
+<meta name="date" content="2023-08-11" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -65,6 +62,28 @@ set in the _output.yml file.</p>" />
   
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 </style>
+<style type="text/css">
+/* Used with Pandoc 2.11+ new --citeproc when CSL is used */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}
+</style>
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 </head>
@@ -91,8 +110,8 @@ set in the _output.yml file.</p>" />
 <li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a></li>
 <li class="chapter" data-level="2" data-path="documentation.html"><a href="documentation.html"><i class="fa fa-check"></i><b>2</b> Documentation</a>
 <ul>
-<li class="chapter" data-level="2.1" data-path="documentation.html"><a href="documentation.html#checking-laboratory-notebooks"><i class="fa fa-check"></i><b>2.1</b> Checking Laboratory Notebooks</a></li>
-<li class="chapter" data-level="2.2" data-path="documentation.html"><a href="documentation.html#readme.txt"><i class="fa fa-check"></i><b>2.2</b> README.txt</a></li>
+<li class="chapter" data-level="2.1" data-path="documentation.html"><a href="documentation.html#lab-notebook"><i class="fa fa-check"></i><b>2.1</b> Checking Laboratory Notebooks</a></li>
+<li class="chapter" data-level="2.2" data-path="documentation.html"><a href="documentation.html#readme-txt"><i class="fa fa-check"></i><b>2.2</b> README.txt</a></li>
 <li class="chapter" data-level="2.3" data-path="documentation.html"><a href="documentation.html#data-dictionary"><i class="fa fa-check"></i><b>2.3</b> Data Dictionary</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="file-organization-and-naming.html"><a href="file-organization-and-naming.html"><i class="fa fa-check"></i><b>3</b> File Organization and Naming</a>
@@ -104,20 +123,21 @@ set in the _output.yml file.</p>" />
 <ul>
 <li class="chapter" data-level="4.1" data-path="data-storage.html"><a href="data-storage.html#backups"><i class="fa fa-check"></i><b>4.1</b> Backups</a></li>
 </ul></li>
-<li class="chapter" data-level="5" data-path="data-management-plans.html"><a href="data-management-plans.html"><i class="fa fa-check"></i><b>5</b> Data Management Plans</a>
+<li class="chapter" data-level="5" data-path="data-management-planning.html"><a href="data-management-planning.html"><i class="fa fa-check"></i><b>5</b> Data Management Planning</a>
 <ul>
-<li class="chapter" data-level="5.1" data-path="data-management-plans.html"><a href="data-management-plans.html#living-data-management-plan"><i class="fa fa-check"></i><b>5.1</b> Living Data Management Plan</a></li>
+<li class="chapter" data-level="5.1" data-path="data-management-planning.html"><a href="data-management-planning.html#living-dmp"><i class="fa fa-check"></i><b>5.1</b> Living Data Management Plan</a></li>
+<li class="chapter" data-level="5.2" data-path="data-management-planning.html"><a href="data-management-planning.html#data-governance"><i class="fa fa-check"></i><b>5.2</b> Data Governance</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="data-sharing.html"><a href="data-sharing.html"><i class="fa fa-check"></i><b>6</b> Data Sharing</a>
 <ul>
-<li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#picking-a-repository"><i class="fa fa-check"></i><b>6.1</b> Picking a Repository</a></li>
-<li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#sharing-data"><i class="fa fa-check"></i><b>6.2</b> Sharing Data</a></li>
+<li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#data-repository"><i class="fa fa-check"></i><b>6.1</b> Picking a Repository</a></li>
+<li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#share-data"><i class="fa fa-check"></i><b>6.2</b> Sharing Data</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="project-wrap-up.html"><a href="project-wrap-up.html"><i class="fa fa-check"></i><b>7</b> Project Wrap Up</a>
 <ul>
-<li class="chapter" data-level="7.1" data-path="project-wrap-up.html"><a href="project-wrap-up.html#project-close-out"><i class="fa fa-check"></i><b>7.1</b> Project Close Out</a></li>
-<li class="chapter" data-level="7.2" data-path="project-wrap-up.html"><a href="project-wrap-up.html#the-archive-folder"><i class="fa fa-check"></i><b>7.2</b> The Archive Folder</a></li>
-<li class="chapter" data-level="7.3" data-path="project-wrap-up.html"><a href="project-wrap-up.html#separation-from-the-institution"><i class="fa fa-check"></i><b>7.3</b> Separation From The Institution</a></li>
+<li class="chapter" data-level="7.1" data-path="project-wrap-up.html"><a href="project-wrap-up.html#future-use"><i class="fa fa-check"></i><b>7.1</b> Prepare Files for Future Use</a></li>
+<li class="chapter" data-level="7.2" data-path="project-wrap-up.html"><a href="project-wrap-up.html#archive-folder"><i class="fa fa-check"></i><b>7.2</b> The Archive Folder</a></li>
+<li class="chapter" data-level="7.3" data-path="project-wrap-up.html"><a href="project-wrap-up.html#separation"><i class="fa fa-check"></i><b>7.3</b> Separation From The Institution</a></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
@@ -142,87 +162,67 @@ set in the _output.yml file.</p>" />
             <section class="normal" id="section-">
 <div id="project-wrap-up" class="section level1 hasAnchor" number="7">
 <h1><span class="header-section-number">Chapter 7</span> Project Wrap Up<a href="project-wrap-up.html#project-wrap-up" class="anchor-section" aria-label="Anchor link to header"></a></h1>
-<div id="project-close-out" class="section level2 hasAnchor" number="7.1">
-<h2><span class="header-section-number">7.1</span> Project Close Out<a href="project-wrap-up.html#project-close-out" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p><strong>Make Decisions</strong></p>
-<p>Determine with the project PI/your collaborators:</p>
-<ul>
-<li>Who is allowed to reuse this data later?</li>
-<li>Who will store the master copy of the data and for how long?</li>
-<li>Will this data be shared publicly?</li>
-<li>Are there security or intellectual property restrictions on the data?</li>
-<li>Who keeps any physical research notebooks?</li>
-</ul>
-<p><strong>Prepare Files for Archiving</strong></p>
+<div id="future-use" class="section level2 hasAnchor" number="7.1">
+<h2><span class="header-section-number">7.1</span> Prepare Files for Future Use<a href="project-wrap-up.html#future-use" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> **</p>
+<p><strong><em>Instructions:</em></strong> **</p>
+<p><em>This exercise has been modified from the “Project Close Out Checklist” <span class="citation"><a href="#ref-briney_project_2020" role="doc-biblioref">K. A. Briney</a> (<a href="#ref-briney_project_2020" role="doc-biblioref">2020b</a>)</span>.</em></p>
+<hr />
+<p><strong>Prepare Data</strong></p>
 <p>Prepare data:</p>
-<ul>
-<li>Convert data to more open/common file formats (e.g. .CSV or .TXT)</li>
-</ul>
-<p>Record general project information in a README file:</p>
-<ul>
-<li>Project title</li>
-<li>Project description</li>
-<li>Dates</li>
-<li>Personnel</li>
-<li>Where files are stored</li>
-<li>File organization and naming conventions</li>
-</ul>
-<p><strong>Share Data</strong></p>
-<p>Identify information necessary to reproduce published results:</p>
-<ul>
-<li>Data</li>
-<li>Code</li>
-<li>Relevant documentation</li>
-</ul>
-<p>See <a href="data-sharing.html#data-sharing">chapter on data sharing</a></p>
+<p>□ Convert data to more open/common file formats (e.g. .CSV or .TXT)</p>
+<p><strong>Record General Project Information in a <a href="documentation.html#readme-txt">README.txt File</a>:</strong></p>
+<p>□ Project title</p>
+<p>□ Project description</p>
+<p>□ Dates</p>
+<p>□ Personnel</p>
+<p>□ Where files are stored</p>
+<p>□ File organization and naming conventions</p>
 </div>
-<div id="the-archive-folder" class="section level2 hasAnchor" number="7.2">
-<h2><span class="header-section-number">7.2</span> The Archive Folder<a href="project-wrap-up.html#the-archive-folder" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Project documentation:</p>
-<ul>
-<li>README file of project information</li>
-</ul>
-<p>Data snapshots:</p>
-<ul>
-<li>Raw data</li>
-<li>Key data analyses</li>
-<li>Final data</li>
-</ul>
-<p>Code:</p>
-<ul>
-<li>Analysis code</li>
-<li>(Record software version, as appropriate)</li>
-</ul>
-<p>Other research documents:</p>
-<ul>
-<li>Protocols</li>
-<li>Survey instruments</li>
-</ul>
-<p>Research notes:</p>
-<ul>
-<li>Scan of research notebook</li>
-<li>Digital notes</li>
-</ul>
-<p>Images:</p>
-<ul>
-<li>Flat files of figures (e.g. .JPG or .TIFF)</li>
-<li>Editable image files (e.g. Photoshop)</li>
-</ul>
-<p>Publications:</p>
-<ul>
-<li>Published article in .PDF format</li>
-<li>Final version of the article in editable document format (e.g. .DOCX)</li>
-<li>Posters</li>
-</ul>
-<p>Administrative documents:</p>
-<ul>
-<li>Grant proposals</li>
-<li>Grant report</li>
-</ul>
+<div id="archive-folder" class="section level2 hasAnchor" number="7.2">
+<h2><span class="header-section-number">7.2</span> The Archive Folder<a href="project-wrap-up.html#archive-folder" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> <em>To save your future-self time spent digging through all of your research files, set aside the most important files into a separate “Archive” folder. Do this at the end of the project while you still remember which files are important and where they are located. The Archive folder should only contain a small subset of the most important documents that are likely to be reused; you may still need to go through all of your files but, in the majority of instances, you will save time by easily finding what you need in the Archive folder.</em></p>
+<p><strong><em>Instructions:</em></strong> <em>This exercise consists of a checklist of the key documents that are likely to be most useful in a research project archive. Create a separate folder within the larger project folder (or in a highly visible place within the storage system) labelled “Archive.” Copy – do not move – the files on this checklist into the Archive folder. Add copies other important research documents, as needed. Remember, the Archive folder does not need to be comprehensive, so focus on the subset of files that are most likely to be reused or referenced in the future.</em></p>
+<p><em>This exercise has been modified from the “Project Close Out Checklist” <span class="citation"><a href="#ref-briney_project_2020" role="doc-biblioref">K. A. Briney</a> (<a href="#ref-briney_project_2020" role="doc-biblioref">2020b</a>)</span>.</em></p>
+<hr />
+<p><strong>Project Documentation</strong></p>
+<p>□ README file of project information</p>
+<p><strong>Data Snapshots</strong></p>
+<p>□ Raw data</p>
+<p>□ Key data analyses</p>
+<p>□ Final data</p>
+<p><strong>Code</strong></p>
+<p>□ Analysis code</p>
+<p>□ Record software version, as appropriate</p>
+<p><strong>Other Research Documents</strong></p>
+<p>□ Protocols</p>
+<p>□ Survey instruments</p>
+<p><strong>Research Notes</strong></p>
+<p>□ Scan of research notebook</p>
+<p>□ Digital notes</p>
+<p><strong>Images</strong></p>
+<p>□ Flat files of figures (e.g. .JPG or .TIFF)</p>
+<p>□ Editable image files (e.g. Photoshop)</p>
+<p><strong>Publications</strong></p>
+<p>□ Published article in .PDF format</p>
+<p>□ Final version of the article in editable document format (e.g. .DOCX)</p>
+<p>□ Posters</p>
+<p><strong>Administrative Documents</strong></p>
+<p>□ Grant proposals</p>
+<p>□ Grant progress reports and final report</p>
 </div>
-<div id="separation-from-the-institution" class="section level2 hasAnchor" number="7.3">
-<h2><span class="header-section-number">7.3</span> Separation From The Institution<a href="project-wrap-up.html#separation-from-the-institution" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="separation" class="section level2 hasAnchor" number="7.3">
+<h2><span class="header-section-number">7.3</span> Separation From The Institution<a href="project-wrap-up.html#separation" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> **</p>
+<p><strong><em>Instructions:</em></strong> **</p>
+<hr />
 
+</div>
+</div>
+<h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-briney_project_2020" class="csl-entry">
+Briney, K. A. (2020b). <em>Project <span>Close</span>-<span>Out</span> <span>Checklist</span> for <span>Research</span> <span>Data</span></em>. <a href="https://resolver.caltech.edu/CaltechAUTHORS:20200519-142758925">https://resolver.caltech.edu/CaltechAUTHORS:20200519-142758925</a>
 </div>
 </div>
             </section>
