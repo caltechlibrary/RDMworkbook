@@ -10,6 +10,6 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 2. Documentation
 3. File Organization and Naming
 4. Storage and Backups
-5. Data Management Plans
+5. Data Management Planning
 6. Data Sharing
 7. Project Wrap Up
