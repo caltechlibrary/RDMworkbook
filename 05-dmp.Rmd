@@ -10,16 +10,58 @@
 
 ## Data Governance {#data-governance}
 
-***Description:*** **
+***Description:*** *It is often helpful to be up front about requirements and permissions around research data. This exercise encourages you to discuss these issues with supervisors and peers to make sure that there are no misunderstandings about who has what rights to use, retain, and share data.*
 
-***Instructions:*** **
+***Instructions:*** *Determine which research data should be discussed. Bring together the Principle Investigator, the researcher collecting the data, and anyone else who works with that data. As a group, answer the questions in the exercise, making sure that everyone agrees on the final decisions. Record the results of the discussion and save them with the project files.*
+
+***Source:*** *This exercise has been adapted from the "Project Close Out Checklist" @briney_project_2020.*
 
 ---
 
-Determine with the project PI/your collaborators:
+What data do these agreements apply to?
 
-* Who is allowed to reuse this data later?
-* Who will store the master copy of the data and for how long?
-* Will this data be shared publicly?
-* Are there security or intellectual property restrictions on the data?
-* Who keeps any physical research notebooks?
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Are there security or intellectual property restrictions on the data?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Who will store the copy of record of the data and for how long?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Are there any data sharing requirements and, if so, what are they?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Who is allowed to reuse the data after the project ends?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Who keeps any physical research notebooks after the project ends?
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
