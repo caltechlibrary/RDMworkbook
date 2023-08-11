@@ -1,10 +1,10 @@
 # Documentation
 
-## Checking Laboratory Notebooks
+## Checking Laboratory Notebooks {#lab-notebook}
 
 
-## README.txt
+## README.txt {#readme-txt}
 
 
-## Data Dictionary
+## Data Dictionary {#data-dictionary}
 

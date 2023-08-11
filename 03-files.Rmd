@@ -1,9 +1,9 @@
 # File Organization and Naming
 
-## File Organization
+## File Organization {#file-organization}
 
 
-## File Naming
+## File Naming {#file-naming}
 
 *File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.*
 
