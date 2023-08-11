@@ -1,5 +1,13 @@
 # Data Management Planning
 
-## Living Data Management Plan
+## Living Data Management Plan {#living-dmp}
 
-## Data Governance
+## Data Governance {#data-governance}
+
+Determine with the project PI/your collaborators:
+
+* Who is allowed to reuse this data later?
+* Who will store the master copy of the data and for how long?
+* Will this data be shared publicly?
+* Are there security or intellectual property restrictions on the data?
+* Who keeps any physical research notebooks?
