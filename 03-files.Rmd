@@ -5,13 +5,15 @@
 
 ## File Naming {#file-naming}
 
-*File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.*
+***Description:*** *File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.*
 
 ![Screenshot of pdf's with consistent file names using the convention FirstAuthorLastName_YEAR_ShortTitle.pdf](images/03_FileNaming.jpg)
 
-*This exercise guides researchers through the process of creating a file naming convention for a group of related files. An example for miscropy files is provided. This exercise may be redone as needed because different groups of files can have different naming conventions.*
+***Instructions:*** *This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.*
 
 *This exercise is based on the "File Naming Convention Worksheet" @briney_file_2020.*
+
+---
 
 **1. What group of files will this naming convention cover?**
 
