@@ -9,7 +9,9 @@
 
 ![Screenshot of pdf's with consistent file names using the convention FirstAuthorLastName_YEAR_ShortTitle.pdf](images/03_FileNaming.jpg)
 
-*This worksheet guides researchers through the process of creating a file naming convention for a group of related files. An example for miscropy files is provided. This worksheet may be redone as needed because different groups of files can have different naming conventions.*
+*This exercise guides researchers through the process of creating a file naming convention for a group of related files. An example for miscropy files is provided. This exercise may be redone as needed because different groups of files can have different naming conventions.*
+
+*This exercise is based on the "File Naming Convention Worksheet" @briney_file_2020.*
 
 **1. What group of files will this naming convention cover?**
 
