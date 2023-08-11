@@ -12,10 +12,7 @@
 
 **Prepare Data**
 
-Prepare data:
-
 &#9633; Convert data to more open/common file formats (e.g. .CSV or .TXT) 
-
 
 **Create a Project-Level README File**
 
