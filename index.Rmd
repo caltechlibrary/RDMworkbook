@@ -9,11 +9,10 @@ csl: apa.csl
 # url: your book url like https://bookdown.org/yihui/bookdown
 # cover-image: path to the social sharing image like images/cover.jpg
 description: |
-  This is a minimal example of using the bookdown package to write a book.
-  The HTML output format for this example is bookdown::gitbook,
-  set in the _output.yml file.
+  The Research Data Management Workbook is made up of a collection of exercises
+  for researchers to improve their data management.
 link-citations: yes
-github-repo: rstudio/bookdown-demo
+github-repo: kbriney/RDMworkbook
 ---
 
 # About this Book {-}
