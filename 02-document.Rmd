@@ -2,9 +2,24 @@
 
 ## Checking Laboratory Notebooks {#lab-notebook}
 
+***Description:*** **
+
+***Instructions:*** **
+
+---
 
 ## README.txt {#readme-txt}
 
+***Description:*** **
+
+***Instructions:*** **
+
+---
 
 ## Data Dictionary {#data-dictionary}
 
+***Description:*** **
+
+***Instructions:*** **
+
+---

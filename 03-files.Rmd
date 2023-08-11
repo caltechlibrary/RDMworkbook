@@ -2,6 +2,11 @@
 
 ## File Organization {#file-organization}
 
+***Description:*** **
+
+***Instructions:*** **
+
+---
 
 ## File Naming {#file-naming}
 

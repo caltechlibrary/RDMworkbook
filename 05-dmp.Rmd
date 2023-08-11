@@ -2,7 +2,19 @@
 
 ## Living Data Management Plan {#living-dmp}
 
+***Description:*** **
+
+***Instructions:*** **
+
+---
+
 ## Data Governance {#data-governance}
+
+***Description:*** **
+
+***Instructions:*** **
+
+---
 
 Determine with the project PI/your collaborators:
 
