@@ -12,11 +12,11 @@
 
 ***Description:*** *File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.*
 
-![Screenshot of pdf's with consistent file names using the convention FirstAuthorLastName_YEAR_ShortTitle.pdf](images/03_FileNaming.jpg)
+![Screenshot of pdf's with consistent file names using the convention FirstAuthorLastName\_YEAR\_ShortTitle.pdf](images/03\_FileNaming.jpg)
 
 ***Instructions:*** *This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.*
 
-***Source:*** *This exercise is based on the "File Naming Convention Worksheet" @briney_file_2020.*
+***Source:*** *This exercise is based on the "File Naming Convention Worksheet" @briney\_file\_2020.*
 
 ---
 
@@ -70,7 +70,7 @@ Think about how you want to sort and search for your files to decide what metada
 
 **5. What characters will you use to separate each piece of metadata in the file name?**
 
-Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (_), and/or capitalize the first letter of each word in the file names.
+Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names.
 
 *Example: I will use underscores to separate metadata and dashes between parts of my sample ID.*
 
@@ -84,7 +84,7 @@ Many computer systems cannot handle spaces in file names. To make file names bot
 
 You can track versions of a file by appending version information to end of the file name. Consider using a version number (e.g. “v01”) or the version date (use ISO 8601 format: YYYYMMDD or YYYY-MM-DD).
 
-*Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g. “_raw”, “_processed”, and “_composite”).*
+*Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g. “\_raw”, “\_processed”, and “\_composite”).*
 
 &nbsp;
 
@@ -96,7 +96,7 @@ You can track versions of a file by appending version information to end of the 
 
 Make sure the convention only uses alphanumeric characters, dashes, and underscores. Ideally, file names will be 32 characters or less.
 
-*Example: My file naming convention is “SA-MPL-EID_YYYYMMDD_###_status.tif” Examples are “P1-MUS-023_20200229_051_raw.tif” and “P2-DRS-285_20191031_062_composite.tif”.*
+*Example: My file naming convention is “SA-MPL-EID\_YYYYMMDD\_###\_status.tif” Examples are “P1-MUS-023\_20200229\_051\_raw.tif” and “P2-DRS-285\_20191031\_062\_composite.tif”.*
 
 &nbsp;
 
