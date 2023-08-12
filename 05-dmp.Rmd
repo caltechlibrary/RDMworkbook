@@ -8,7 +8,7 @@
 
 ---
 
-## Decide on Data Stewardship {#data-governance}
+## Determine Data Stewardship {#data-governance}
 
 ***Description:*** *It is often helpful to be up front about requirements and permissions around research data. This exercise encourages you to discuss these issues with supervisors and peers to make sure that there are no misunderstandings about who has what rights to use, retain, and share data.*
 

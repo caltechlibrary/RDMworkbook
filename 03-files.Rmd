@@ -1,6 +1,6 @@
 # File Organization and Naming
 
-## Implement File Organization {#file-organization}
+## Set Up a File Organization System {#file-organization}
 
 ***Description:*** **
 
