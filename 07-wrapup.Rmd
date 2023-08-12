@@ -21,7 +21,7 @@ Work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
 Store a copy of the README file with the data.
 
 
-## The Archive Folder {#archive-folder}
+## Create an Archive Folder {#archive-folder}
 
 ***Description:*** *To save your future-self time spent digging through all of your research files, set aside the most important files into a separate “Archive” folder. Do this at the end of the project while you still remember which files are important and where they are located. The Archive folder should only contain a small subset of the most important documents that are likely to be reused; you may still need to go through all of your files but, in the majority of instances, you will save time by easily finding what you need in the Archive folder.*
 
@@ -81,7 +81,7 @@ Store a copy of the README file with the data.
 
 &#9633; Grant progress reports and final report
 
-## Separation From The Institution {#separation}
+## Separate from the Institution {#separation}
 
 ***Description:*** **
 

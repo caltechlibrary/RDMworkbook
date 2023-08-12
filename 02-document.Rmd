@@ -4,7 +4,7 @@
 library(tidyverse)
 ```
 
-## Checking Laboratory Notebooks {#lab-notebook}
+## Check a Laboratory Notebook {#lab-notebook}
 
 ***Description:*** **
 
@@ -12,7 +12,7 @@ library(tidyverse)
 
 ---
 
-## Project-Level README.txt {#readme-txt}
+## Write a Project-Level README.txt {#readme-txt}
 
 ***Description:*** *Data files living on a computer often need extra documentation for someone to understand what research they correspond to. In particular, it is useful to record the most basic project information and store it in the top-level folder of each research project. This can be done with a README.txt. The name, "README", indicates that it conveys important information and the file type, TXT, can be opened by many different software programs, making the content maximally accessible. This exercise walks you through the key information needed in a project-level README.txt file. The same information can also be recorded at the front of a physical laboratory notebook.*
 
@@ -70,7 +70,7 @@ library(tidyverse)
 
 &nbsp;
 
-## Data Dictionary {#data-dictionary}
+## Create a Data Dictionary {#data-dictionary}
 
 ***Description:*** *Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.*
 

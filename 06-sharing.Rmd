@@ -1,6 +1,6 @@
 # Data Sharing
 
-## Picking a Repository {#data-repository}
+## Pick a Data Repository {#data-repository}
 
 ***Description:*** **
 
@@ -8,7 +8,7 @@
 
 ---
 
-## Sharing Data {#share-data}
+## Share Data {#share-data}
 
 ***Description:*** **
 
