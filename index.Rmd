@@ -1,5 +1,5 @@
 --- 
-title: "Research Data Management Workbook"
+title: "The Research Data Management Workbook"
 author: "Kristin Briney"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -30,5 +30,7 @@ The workbook is intended as a supplement to existing data management education. 
 This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license.
 
 ## The Author {-}
+
+![Headshot of author, Kristin Briney](images/00_KristinBriney.jpg)
 
 Kristin Briney is the Biology & Biological Engineering Librarian at the California Institute of Technology and author of the books [“Data Management for Researchers”](https://pelagicpublishing.com/products/data-management-for-researchers-briney) (Pelagic Publishing, 2015) and, with Becky Yoose, [“Managing Data for Patron Privacy”](https://www.alastore.ala.org/mdpp) (ALA Editions, 2022). She has a PhD in chemistry and an MLIS, both from the University of Wisconsin-Madison. Her research focuses on research data management, institutional data policy, and patron privacy vis-a-vis library data handling. Kristin is an advocate for the adoption of the international date standard ISO 8601 (YYYY-MM-DD) and likes to spend her free time making data visualizations out of yarn and fabric.
