@@ -16,7 +16,7 @@
 
 ***Instructions:*** *This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.*
 
-***Source:*** *This exercise is based on the "File Naming Convention Worksheet" @briney\_file\_2020.*
+***Source:*** *This exercise is based on the "File Naming Convention Worksheet" [@briney_file_2020].*
 
 ---
 

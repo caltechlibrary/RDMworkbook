@@ -14,7 +14,7 @@
 
 ***Instructions:*** *Determine which research data should be discussed. Bring together the Principle Investigator, the researcher collecting the data, and anyone else who works with that data. As a group, answer the questions in the exercise, making sure that everyone agrees on the final decisions. Record the results of the discussion and save them with the project files.*
 
-***Source:*** *This exercise was adapted from the "Project Close Out Checklist" @briney_project_2020.*
+***Source:*** *This exercise was adapted from the "Project Close Out Checklist" [@briney_project_2020].*
 
 ---
 
