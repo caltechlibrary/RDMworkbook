@@ -7,8 +7,8 @@ file-organization-and-naming
 file-organization
 file-naming
 data-storage
-backups
-data-management-planning
+backup
+data-management
 living-dmp
 data-governance
 data-sharing

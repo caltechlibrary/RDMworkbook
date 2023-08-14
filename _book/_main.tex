@@ -4,9 +4,9 @@
 %
 \documentclass[
 ]{book}
-\title{Research Data Management Workbook}
+\title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-08-11}
+\date{2023-08-14}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -40,7 +40,7 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={Research Data Management Workbook},
+  pdftitle={The Research Data Management Workbook},
   pdfauthor={Kristin Briney},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
@@ -94,19 +94,27 @@
 \section*{Description}\label{description}}
 \addcontentsline{toc}{section}{Description}
 
-The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher. The book is divided into chapters by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its importance, notes on how to do the exercise, and the exercise instructions.
+The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
-The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article by Briney, Coates, and Goben \citet{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citet{briney_data_2015}.
+The book is divided into chapters by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise, and the exercise itself.
+
+The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article ``Foundational Practices of Research Data Management'' by Briney, Coates, and Goben \citet{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citet{briney_data_2015}.
 
 \hypertarget{license}{%
 \section*{License}\label{license}}
 \addcontentsline{toc}{section}{License}
 
-This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license
+This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license.
 
 \hypertarget{the-author}{%
 \section*{The Author}\label{the-author}}
 \addcontentsline{toc}{section}{The Author}
+
+\begin{figure}
+\centering
+\includegraphics{images/00_KristinBriney.jpg}
+\caption{Headshot of author, Kristin Briney}
+\end{figure}
 
 Kristin Briney is the Biology \& Biological Engineering Librarian at the California Institute of Technology and author of the books \href{https://pelagicpublishing.com/products/data-management-for-researchers-briney}{``Data Management for Researchers''} (Pelagic Publishing, 2015) and, with Becky Yoose, \href{https://www.alastore.ala.org/mdpp}{``Managing Data for Patron Privacy''} (ALA Editions, 2022). She has a PhD in chemistry and an MLIS, both from the University of Wisconsin-Madison. Her research focuses on research data management, institutional data policy, and patron privacy vis-a-vis library data handling. Kristin is an advocate for the adoption of the international date standard ISO 8601 (YYYY-MM-DD) and likes to spend her free time making data visualizations out of yarn and fabric.
 
@@ -117,7 +125,7 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 \chapter{Documentation}\label{documentation}}
 
 \hypertarget{lab-notebook}{%
-\section{Checking Laboratory Notebooks}\label{lab-notebook}}
+\section{Evaluate a Laboratory Notebook}\label{lab-notebook}}
 
 \textbf{\emph{Description:}} **
 
@@ -126,28 +134,100 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{readme-txt}{%
-\section{README.txt}\label{readme-txt}}
+\section{Write a Project-Level README.txt}\label{readme-txt}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{Data files living on a computer often need extra documentation for someone to understand what research they correspond to. In particular, it is useful to record the most basic project information and store it in the top-level folder of each research project. This can be done with a README.txt. The name, ``README'', indicates that the file conveys important information and the file type, TXT, can be opened by many different software programs, making the content maximally accessible. This exercise walks you through the key information needed in a project-level README.txt file. The same information can also be recorded at the front of a physical laboratory notebook.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Pick a research project and answer the following questions. Copy all of the text into a TXT file and save it with the name ``README.txt''. Store this file in the top-level of the project folder on your computer, alongside the project files.}
+
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{What is the title of the project?}
+
+~
+
+~
+
+~
+
+\textbf{What is the project description?}
+
+~
+
+~
+
+~
+
+\textbf{What is the time period the project was done over?}
+
+~
+
+~
+
+~
+
+\textbf{Who worked on the project?}
+
+~
+
+~
+
+~
+
+\textbf{Where are the files are stored?}
+
+~
+
+~
+
+~
+
+\textbf{How are files organized? Are any naming conventions used and, if so, what are they (see \protect\hyperlink{file-organization-and-naming}{Chapter 3})?}
+
+~
+
+~
+
+~
 
 \hypertarget{data-dictionary}{%
-\section{Data Dictionary}\label{data-dictionary}}
+\section{Create a Data Dictionary}\label{data-dictionary}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it's useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Fill out the question in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending ``\_dictionary'' on the end of the file name; for example, the data dictionary for the file ``myData.xlsx'' would be ``myData\_dictionary.txt''.}
+
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Leveling Up Data Management'' \citet{briney_leveling_2023}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{tabular}{l|l|l|l}
+\hline
+Question & Variable1 & Variable2 & Variable3\\
+\hline
+Variable name &  &  & \\
+\hline
+Variable description &  &  & \\
+\hline
+Variable units &  &  & \\
+\hline
+Relationship to other variables &  &  & \\
+\hline
+Variable coding values and meanings &  &  & \\
+\hline
+Known issues with the data &  &  & \\
+\hline
+Anything else to know about the data? &  &  & \\
+\hline
+\end{tabular}
 
 \hypertarget{file-organization-and-naming}{%
 \chapter{File Organization and Naming}\label{file-organization-and-naming}}
 
 \hypertarget{file-organization}{%
-\section{File Organization}\label{file-organization}}
+\section{Set Up a File Organization System}\label{file-organization}}
 
 \textbf{\emph{Description:}} **
 
@@ -156,7 +236,7 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{file-naming}{%
-\section{File Naming}\label{file-naming}}
+\section{Create a File Naming Convention}\label{file-naming}}
 
 \textbf{\emph{Description:}} \emph{File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.}
 
@@ -168,7 +248,7 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 
 \textbf{\emph{Instructions:}} \emph{This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.}
 
-\emph{This exercise is based on the ``File Naming Convention Worksheet'' \citet{briney_file_2020}.}
+\textbf{\emph{Source:}} \emph{This exercise is based on the ``File Naming Convention Worksheet'' \citet{briney}\_file\_2020.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -244,7 +324,7 @@ Many computer systems cannot handle spaces in file names. To make file names bot
 
 You can track versions of a file by appending version information to end of the file name. Consider using a version number (e.g.~``v01'') or the version date (use ISO 8601 format: YYYYMMDD or YYYY-MM-DD).
 
-*Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g.~``\_raw'', ``\_processed'', and ``\_composite'').*
+\emph{Example: As each image goes through my analysis workflow, I will append the version type to the end of the file name (e.g.~``\_raw'', ``\_processed'', and ``\_composite'').}
 
 ~
 
@@ -256,7 +336,7 @@ You can track versions of a file by appending version information to end of the 
 
 Make sure the convention only uses alphanumeric characters, dashes, and underscores. Ideally, file names will be 32 characters or less.
 
-*Example: My file naming convention is ``SA-MPL-EID\_YYYYMMDD\_\#\#\#\_status.tif'' Examples are ``P1-MUS-023\_20200229\_051\_raw.tif'' and ``P2-DRS-285\_20191031\_062\_composite.tif''.*
+\emph{Example: My file naming convention is ``SA-MPL-EID\_YYYYMMDD\_\#\#\#\_status.tif'' Examples are ``P1-MUS-023\_20200229\_051\_raw.tif'' and ``P2-DRS-285\_20191031\_062\_composite.tif''.}
 
 ~
 
@@ -275,8 +355,8 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 \hypertarget{data-storage}{%
 \chapter{Data Storage}\label{data-storage}}
 
-\hypertarget{backups}{%
-\section{Backups}\label{backups}}
+\hypertarget{backup}{%
+\section{Back Up the Data}\label{backup}}
 
 \textbf{\emph{Description:}} **
 
@@ -284,11 +364,11 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\hypertarget{data-management-planning}{%
-\chapter{Data Management Planning}\label{data-management-planning}}
+\hypertarget{data-management}{%
+\chapter{Data Management}\label{data-management}}
 
 \hypertarget{living-dmp}{%
-\section{Living Data Management Plan}\label{living-dmp}}
+\section{Write a Living Data Management Plan}\label{living-dmp}}
 
 \textbf{\emph{Description:}} **
 
@@ -297,35 +377,69 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{data-governance}{%
-\section{Data Governance}\label{data-governance}}
+\section{Determine Data Stewardship}\label{data-governance}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{It is often helpful to be up front about requirements and permissions around research data. This exercise encourages you to discuss these issues with supervisors and peers to make sure that there are no misunderstandings about who has what rights to use, retain, and share data.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Determine which research data should be discussed. Bring together the Principle Investigator, the researcher collecting the data, and anyone else who works with that data. As a group, answer the questions in the exercise, making sure that everyone agrees on the final decisions. Record the results of the discussion and save them with the project files.}
+
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-Determine with the project PI/your collaborators:
+\textbf{What data do these agreements apply to?}
 
-\begin{itemize}
-\tightlist
-\item
-  Who is allowed to reuse this data later?
-\item
-  Who will store the master copy of the data and for how long?
-\item
-  Will this data be shared publicly?
-\item
-  Are there security or intellectual property restrictions on the data?
-\item
-  Who keeps any physical research notebooks?
-\end{itemize}
+~
+
+~
+
+~
+
+\textbf{Are there security or intellectual property restrictions on the data and, if so, what are they?}
+
+~
+
+~
+
+~
+
+\textbf{Who will store the copy of record of the data and for how long?}
+
+~
+
+~
+
+~
+
+\textbf{Are there any requirement to share the data and, if so, what are they?}
+
+~
+
+~
+
+~
+
+\textbf{Who is allowed to reuse the data after the project ends? Are there any requirements for reuse?}
+
+~
+
+~
+
+~
+
+\textbf{Who keeps any physical research notebooks after the project ends?}
+
+~
+
+~
+
+~
 
 \hypertarget{data-sharing}{%
 \chapter{Data Sharing}\label{data-sharing}}
 
 \hypertarget{data-repository}{%
-\section{Picking a Repository}\label{data-repository}}
+\section{Pick a Data Repository}\label{data-repository}}
 
 \textbf{\emph{Description:}} **
 
@@ -334,7 +448,7 @@ Determine with the project PI/your collaborators:
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \hypertarget{share-data}{%
-\section{Sharing Data}\label{share-data}}
+\section{Share Data}\label{share-data}}
 
 \textbf{\emph{Description:}} **
 
@@ -352,38 +466,28 @@ Determine with the project PI/your collaborators:
 
 \textbf{\emph{Instructions:}} **
 
-\emph{This exercise has been modified from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \textbf{Prepare Data}
 
-Prepare data:
-
 □ Convert data to more open/common file formats (e.g.~.CSV or .TXT)
 
-\textbf{Record General Project Information in a \protect\hyperlink{readme-txt}{README.txt File}:}
+\textbf{Create a Project-Level README File}
 
-□ Project title
+Work through \protect\hyperlink{readme-txt}{Exercise 2.2: Project-Level README.txt}.
 
-□ Project description
-
-□ Dates
-
-□ Personnel
-
-□ Where files are stored
-
-□ File organization and naming conventions
+Store a copy of the README file with the data.
 
 \hypertarget{archive-folder}{%
-\section{The Archive Folder}\label{archive-folder}}
+\section{Create an Archive Folder}\label{archive-folder}}
 
 \textbf{\emph{Description:}} \emph{To save your future-self time spent digging through all of your research files, set aside the most important files into a separate ``Archive'' folder. Do this at the end of the project while you still remember which files are important and where they are located. The Archive folder should only contain a small subset of the most important documents that are likely to be reused; you may still need to go through all of your files but, in the majority of instances, you will save time by easily finding what you need in the Archive folder.}
 
 \textbf{\emph{Instructions:}} \emph{This exercise consists of a checklist of the key documents that are likely to be most useful in a research project archive. Create a separate folder within the larger project folder (or in a highly visible place within the storage system) labelled ``Archive''. Copy -- do not move -- the files on this checklist into the Archive folder. Add copies other important research documents, as needed. Remember, the Archive folder does not need to be comprehensive, so focus on the subset of files that are most likely to be reused or referenced in the future.}
 
-\emph{This exercise has been modified from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Project Close Out Checklist'' \citet{briney_project_2020}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -438,11 +542,13 @@ Prepare data:
 □ Grant progress reports and final report
 
 \hypertarget{separation}{%
-\section{Separation From The Institution}\label{separation}}
+\section{Separate from the Institution}\label{separation}}
 
 \textbf{\emph{Description:}} **
 
 \textbf{\emph{Instructions:}} **
+
+\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Data Departure Checklist'' \citet{goben_data_2023}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
