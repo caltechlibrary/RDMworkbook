@@ -16,5 +16,6 @@ data-repository
 share-data
 project-wrap-up
 future-use
+file-type
 archive-folder
 separation
