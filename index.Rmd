@@ -19,13 +19,15 @@ github-repo: kbriney/RDMworkbook
 
 ## Description {-}
 
-The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher. The book is divided into chapters by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its importance, notes on how to do the exercise, and the exercise instructions.
+The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
-The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article by Briney, Coates, and Goben @briney_foundational_2020 or read the book “Data Management for Researchers” @briney_data_2015.
+The book is divided into chapters by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise, and the exercise itself.
+
+The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article "Foundational Practices of Research Data Management" by Briney, Coates, and Goben @briney_foundational_2020 or read the book “Data Management for Researchers” @briney_data_2015.
 
 ## License {-}
 
-This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license
+This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license.
 
 ## The Author {-}
 
