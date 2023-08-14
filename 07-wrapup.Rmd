@@ -1,10 +1,10 @@
 # Project Wrap Up
 
-## Prepare Files for Future Use {#future-use}
+## Prepare Data for Future Use {#future-use}
 
-***Description:*** **
+***Description:*** *The end of a project is a good time to prepare data for potential future reuse, as you still know the important details about the data to record and have access to any software used to create the data. This checklist exercise walks you through steps to gather your data into a central place and document the project. Working through the checklist results in project data being in one central location, well documented, and organized and formatted in a way to make future reuse easier.*
 
-***Instructions:*** **
+***Instructions:*** *Gather all of the data from a project and work through the checklist to organize and document the data for future reuse. This exercise refers to several other exercises in the Workbook that should be completed during this process, if they have not been already*
 
 ***Source:*** *This exercise was adapted from the "Project Close Out Checklist" [@briney_project_2020].*
 
@@ -12,13 +12,82 @@
 
 **Prepare Data**
 
-&#9633; Convert data to more open/common file formats (e.g. .CSV or .TXT) 
+&#9633; Move all data into one central project folder; this folder may have sub-folders and should be organized however makes sense for your data.
+
+&#9633; As necessary, copy data into more open/common file formats; see [Exercise 7.2: Convert Data File Types](#file-type).
+
+**Back Up Your Research Notes**
+
+&#9633; If your notes are electronic, save a copy in the project folder
+
+&#9633; If your notes are physical, scan them and save a copy in the project folder.
+
+**Create a Project Archive Folder**
+
+&#9633; Work through [Exercise 7.3: Create an Archive Folder](#archive-folder).
+
+&#9633; Put the Archive folder in the project folder.
 
 **Create a Project-Level README File**
 
-Work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
+&#9633; Work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
 
-Store a copy of the README file with the data.
+&#9633; Store a copy of the README file with the data.
+
+**Save Files in a Stable Location**
+
+&#9633; Save the project folder on a storage system that you will have access to for the next several years.
+
+
+
+## Convert Data File Types {#file-type}
+
+***Description:*** *Data is often stored in a file type that can only be opened by specific, costly software – this is referred to as a “proprietary file type.” You can tell that you have data in a proprietary file type if you lose access to the data when you lose access to the software. When data is in a propreitary file type, it’s always a good idea to copy the data into a more common, open file type as a backup; you may lose a bit of functionality, but it’s better to have a backup than to not have your data at all! This exercise works through identifying possible alternative file types for the data's proprietary file type before instructing you to make a copy of the data in the new file type.*
+
+***Instructions:*** *For any data in a proprietary file type, identify the data and answer the following questions. Once you have picked a more open, common file type, make a copy of the data in that file type but do not delete the original data.*
+
+---
+
+**Is your data stored in a proprietary file type? What file type and how does this limit future data reuse?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Is it possible to convert your data to other file types? If so, list the possible types:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Which of the possible file types are in common use? Which of the possible file types can be opened by multiple software programs?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Of the possible options above, do you have a preference for a specific file type?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Pick one of the more open or common file types and copy your important data files into that file type. Do not delete the original files.**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 
 
 ## Create an Archive Folder {#archive-folder}
@@ -80,6 +149,8 @@ Store a copy of the README file with the data.
 &#9633; Grant proposals
 
 &#9633; Grant progress reports and final report
+
+
 
 ## Separate from the Institution {#separation}
 
