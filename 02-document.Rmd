@@ -14,11 +14,11 @@ library(tidyverse)
 
 ## Write a Project-Level README.txt {#readme-txt}
 
-***Description:*** *Data files living on a computer often need extra documentation for someone to understand what research they correspond to. In particular, it is useful to record the most basic project information and store it in the top-level folder of each research project. This can be done with a README.txt. The name, "README", indicates that it conveys important information and the file type, TXT, can be opened by many different software programs, making the content maximally accessible. This exercise walks you through the key information needed in a project-level README.txt file. The same information can also be recorded at the front of a physical laboratory notebook.*
+***Description:*** *Data files living on a computer often need extra documentation for someone to understand what research they correspond to. In particular, it is useful to record the most basic project information and store it in the top-level folder of each research project. This can be done with a README.txt. The name, "README", indicates that the file conveys important information and the file type, TXT, can be opened by many different software programs, making the content maximally accessible. This exercise walks you through the key information needed in a project-level README.txt file. The same information can also be recorded at the front of a physical laboratory notebook.*
 
 ***Instructions:*** *Pick a research project and answer the following questions. Copy all of the text into a TXT file and save it with the name “README.txt”. Store this file in the top-level of the project folder on your computer, alongside the project files.*
 
-***Source:*** *This exercise has been adapted from the "Project Close Out Checklist" @briney_project_2020.*
+***Source:*** *This exercise was adapted from the "Project Close Out Checklist" @briney_project_2020.*
 
 ---
 
@@ -74,9 +74,9 @@ library(tidyverse)
 
 ***Description:*** *Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.*
 
-***Instructions:*** *Fill out the question in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file but appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
+***Instructions:*** *Fill out the question in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
 
-***Source:*** *This exercise has been adapted from the "Leveling Up Data Management" @briney_leveling_2023.*
+***Source:*** *This exercise was adapted from the "Leveling Up Data Management" @briney_leveling_2023.*
 
 ---
 

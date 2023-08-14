@@ -6,7 +6,7 @@
 
 ***Instructions:*** **
 
-***Source:*** *This exercise has been adapted from the "Project Close Out Checklist" @briney_project_2020.*
+***Source:*** *This exercise was adapted from the "Project Close Out Checklist" @briney_project_2020.*
 
 ---
 
@@ -27,7 +27,7 @@ Store a copy of the README file with the data.
 
 ***Instructions:*** *This exercise consists of a checklist of the key documents that are likely to be most useful in a research project archive. Create a separate folder within the larger project folder (or in a highly visible place within the storage system) labelled “Archive”. Copy – do not move – the files on this checklist into the Archive folder. Add copies other important research documents, as needed. Remember, the Archive folder does not need to be comprehensive, so focus on the subset of files that are most likely to be reused or referenced in the future.*
 
-***Source:*** *This exercise has been adapted from the "Project Close Out Checklist" @briney_project_2020.*
+***Source:*** *This exercise was adapted from the "Project Close Out Checklist" @briney_project_2020.*
 
 ---
 
@@ -87,7 +87,7 @@ Store a copy of the README file with the data.
 
 ***Instructions:*** **
 
-***Source:*** *This exercise has been adapted from the "Data Departure Checklist" @goben_data_2023.*
+***Source:*** *This exercise was adapted from the "Data Departure Checklist" @goben_data_2023.*
 
 ---
 
