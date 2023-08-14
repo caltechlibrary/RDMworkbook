@@ -6,11 +6,53 @@ library(tidyverse)
 
 ## Evaluate a Laboratory Notebook {#lab-notebook}
 
-***Description:*** **
+***Description:*** *The laboratory or research notebook is a fundamental documentation method for many researchers. But for how ubiquitous the lab notebook is, documentation can sometimes be lacking. The ideal laboratory notebook allows someone with similar training as you to be able to follow everything you did in your research. This exercise prompts you to review an old entry within your laboratory notebook to evaluate if your documentation is sufficient for reproducing your work.*
 
-***Instructions:*** **
+***Instructions:*** *You will need a laboratory notebook entry from 6-12 months ago to do this exercise. Once you have the entry, read through it to try to understand what you did on that day. Answer the exercise questions to evaluate the entry and identify any note keeping improvements to make.*
 
 ---
+
+**Date of lab notebook entry being evaluated:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Read the entry and summarize the work you did on that date:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**How easy was it to understand what you did from your notes? Could you reproduce your work solely from the information in your notes?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What worked well with your note keeping?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What would you improve about your note keeping?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**List one change you plan to make to take better research notes:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 ## Write a Project-Level README.txt {#readme-txt}
 
