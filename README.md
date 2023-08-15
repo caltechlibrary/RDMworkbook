@@ -21,6 +21,5 @@ To-do list:
 * Chapter 2, exercise 3 table formatting (data dictionary)
 * Chapter 3, exercise 1 image (file organization)
 * Chapter 4, exercise 1 (backups)
-* Chapter 5, exercise 1 (living DMPs)
 * Chapter 6, exercise 1 (data repositories) and exercise 2 (data sharing)
 * Figure out web hosting
