@@ -96,15 +96,29 @@
 
 The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
-The book is divided into chapters by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise, and the exercise itself.
+The book is divided into chapters, roughly by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise, and the exercise itself.
 
-The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article ``Foundational Practices of Research Data Management'' by Briney, Coates, and Goben \citep{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citep{briney_data_2015}.
+The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article ``Foundational Practices of Research Data Management'' \citep{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citep{briney_data_2015}.
+
+\hypertarget{beta-edition}{%
+\section*{Beta Edition}\label{beta-edition}}
+\addcontentsline{toc}{section}{Beta Edition}
+
+The Research Data Management Workbook is currently in the beta edition, meaning I'm still tweaking the exercises and trying to catch stray typos. I'm more than happy to receive any feedback on the Workbook to improve it. You can message me at briney@caltech.edu.
 
 \hypertarget{license}{%
 \section*{License}\label{license}}
 \addcontentsline{toc}{section}{License}
 
 This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license.
+
+I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me:
+
+\begin{itemize}
+\tightlist
+\item
+  Briney, K. A. (2023). \emph{The Research Data Management Workbook.} Caltech Library.
+\end{itemize}
 
 \hypertarget{the-author}{%
 \section*{The Author}\label{the-author}}
@@ -436,8 +450,17 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 \hypertarget{data-storage}{%
 \chapter{Data Storage}\label{data-storage}}
 
+\hypertarget{storage}{%
+\section{Store and Back Up the Data}\label{storage}}
+
+\textbf{\emph{Description:}} **
+
+\textbf{\emph{Instructions:}} **
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
 \hypertarget{backup}{%
-\section{Back Up the Data}\label{backup}}
+\section{Test Your Backup}\label{backup}}
 
 \textbf{\emph{Description:}} **
 
@@ -449,13 +472,77 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 \chapter{Data Management}\label{data-management}}
 
 \hypertarget{living-dmp}{%
-\section{Write a Living Data Management Plan}\label{living-dmp}}
+\section{Write a Living Data Management Plan (DMP)}\label{living-dmp}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{Many researchers are aware of the two-page data management plan (DMP) for a grant application, but you may not be aware of the more useful type of DMP: a living DMP. This document describes how data will be actively managed during a project and may be updated whenever necessary to reflect current data practices. A living DMP is a useful touchstone for understanding where data lives, how it's labelled, how it moves through the research process, and who will oversee the data management. This exercise guides you through the process of creating a living DMP for your research.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Pick a project and answer the following questions to build your living DMP. This DMP may be changed at any time to improve practices. If you are doing collaborative research, work through this exercise with your collaborators to agree on shared conventions.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Write a short summary of what project this DMP is for:}
+
+~
+
+~
+
+~
+
+\textbf{How will your data be organized? (See \protect\hyperlink{file-organization}{Exercise 3.1: Set Up a File Organization System}.)}
+
+~
+
+~
+
+~
+
+\textbf{What naming convention(s) will you use for your data? (See \protect\hyperlink{file-naming}{Exercise 3.2: Create a File Naming Convention}.)}
+
+~
+
+~
+
+~
+
+\textbf{Where will data be stored? How will data be backed up? (See \protect\hyperlink{storage}{Exercise 4.1: Store and Back Up the Data}.)}
+
+~
+
+~
+
+~
+
+\textbf{How will you document your research? Where will your research notes be stored?}
+
+~
+
+~
+
+~
+
+\textbf{How will data move through the collection and analysis pipelines?}
+
+~
+
+~
+
+~
+
+\textbf{Do you need to do any version control on your files? How will that be done?}
+
+~
+
+~
+
+~
+
+\textbf{As necessary, record any project roles and responsibilities around data management:}
+
+~
+
+~
+
+~
 
 \hypertarget{data-governance}{%
 \section{Determine Data Stewardship}\label{data-governance}}
@@ -563,7 +650,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 □ Move all data into one central project folder; this folder may have sub-folders and should be organized however makes sense for your data.
 
-□ As necessary, copy data into more open/common file formats; see \protect\hyperlink{file-type}{Exercise 7.2: Convert Data File Types}.
+□ As necessary, work through \protect\hyperlink{file-type}{Exercise 7.2: Convert Data File Types} to copy data into more open/common file formats.
 
 \textbf{Back Up Your Research Notes}
 
@@ -579,7 +666,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 \textbf{Create a Project-Level README File}
 
-□ Work through \protect\hyperlink{readme-txt}{Exercise 2.2: Project-Level README.txt}.
+□ If you haven't done so already, work through \protect\hyperlink{readme-txt}{Exercise 2.2: Project-Level README.txt}.
 
 □ Store a copy of the README file with the data.
 
@@ -738,7 +825,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 \textbf{Retain Copies of Data that You Have Permission to Keep}
 
-□ Complete \protect\hyperlink{data-governance}{Exercise 5.2: Determine Data Stewardship} to determine what data you may retain
+□ If you have not done so already, work through \protect\hyperlink{data-governance}{Exercise 5.2: Determine Data Stewardship} to determine what data you may retain
 
 □ Identify and keep pertinent research data from personal devices
 
