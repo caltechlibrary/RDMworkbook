@@ -8,7 +8,7 @@
 
 ---
 
-1. Take a stack of notecards or post-it notes and write the following labels on them, omitting any file types that you do not use in your research:
+1. Take a stack of notecards or post-it notes and write the following labels on one card each, omitting any file types that you do not use in your research:
 	* Raw data
 	* Analyzed data
 	* Code
