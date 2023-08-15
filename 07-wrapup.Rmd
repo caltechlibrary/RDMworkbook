@@ -154,11 +154,68 @@
 
 ## Separate from the Institution {#separation}
 
-***Description:*** **
+***Description:*** *Researchers regularly leave institutions in order to take new jobs. For how common this occurrence is, it represents a critical transition during which data may be lost. This checklist enumerates a number of important steps that researchers can take to ensure that they retain the appropriate data yet leave behind what belongs to the institution.*
 
-***Instructions:*** **
+***Instructions:*** *The researcher leaving the institution should work through this checklist to ensure they keep the proper information while returning what does not belong to them. The researcher and project administrator may also jointly work through the extended version of this exercise, the Data Departure Checklist [@goben_data_2023].*
 
 ***Source:*** *This exercise was adapted from the "Data Departure Checklist" [@goben_data_2023].*
 
 ---
 
+**Return Lab Hardware**
+
+&#9633; Keys
+
+&#9633; Key card
+
+&#9633; Individual computer / workstation
+
+&#9633; Tablet(s)
+
+&#9633; Phone
+
+&#9633; Peripherals (e.g. keyboard, mouse, monitor)
+
+&#9633; Headsets, webcams
+
+&#9633; External drives
+
+&#9633; Other lab equipment (e.g. cameras, recording devices)
+
+**Delete personal information and remove personal devices**
+
+&#9633; Remove personal information from lab devices
+
+&#9633; Remove personal devices from lab
+
+&#9633; Remove personal access to shared accounts (e.g. lab Github, lab repository page, lab website, mailing lists, or social media)
+
+**Retain Copies of Data that You Have Permission to Keep**
+
+&#9633; Complete (Exercise 5.2: Determine Data Stewardship)[#data-governance] to determine what data you may retain
+
+&#9633; Identify and keep pertinent research data on personal devices
+
+&#9633; Identify and keep pertinent research data in storage systems (e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
+
+&#9633; When appropriate, make a copy of research notes
+
+**Update Research Administration Documents, As Necessary**
+
+&#9633; Update/transfer Institutional Review Board
+
+&#9633; Update/transfer IACUC
+
+&#9633; Update/transfer Data Use Agreements (DUA)
+
+&#9633; Update/transfer Material Transfer Agreements (MTA)
+
+&#9633; Update/transfer research grants
+
+**Handle Email**
+
+&#9633; Set out of office, providing forwarding information
+
+&#9633; Forward/backup important emails
+
+&#9633; Check with University Archivist or Records Manager for retention policies (depends on rank)
