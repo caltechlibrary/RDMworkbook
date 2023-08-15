@@ -34,6 +34,14 @@
 
 &nbsp;
 
+**Are there any requirement to publicly share the data and, if so, what are they?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 **Who will store the copy of record of the data and for how long?**
 
 &nbsp;
@@ -42,7 +50,7 @@
 
 &nbsp;
 
-**Are there any requirement to share the data and, if so, what are they?**
+**Who is allowed to keep a copy of the data after the project ends? Which data?**
 
 &nbsp;
 
@@ -50,7 +58,7 @@
 
 &nbsp;
 
-**Who is allowed to reuse the data after the project ends? Are there any requirements for reuse?**
+**Who is allowed to reuse the data after the project ends? Are there any requirements for reuse, such as co-authorship?**
 
 &nbsp;
 
