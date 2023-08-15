@@ -14,7 +14,7 @@
 
 &#9633; Move all data into one central project folder; this folder may have sub-folders and should be organized however makes sense for your data.
 
-&#9633; As necessary, copy data into more open/common file formats; see [Exercise 7.2: Convert Data File Types](#file-type).
+&#9633; As necessary, work through [Exercise 7.2: Convert Data File Types](#file-type) to copy data into more open/common file formats.
 
 **Back Up Your Research Notes**
 
@@ -30,7 +30,7 @@
 
 **Create a Project-Level README File**
 
-&#9633; Work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
+&#9633; If you haven't done so already, work through [Exercise 2.2: Project-Level README.txt](#readme-txt).
 
 &#9633; Store a copy of the README file with the data.
 
@@ -192,7 +192,7 @@
 
 **Retain Copies of Data that You Have Permission to Keep**
 
-&#9633; Complete [Exercise 5.2: Determine Data Stewardship](#data-governance) to determine what data you may retain
+&#9633; If you have not done so already, work through [Exercise 5.2: Determine Data Stewardship](#data-governance) to determine what data you may retain
 
 &#9633; Identify and keep pertinent research data from personal devices
 
