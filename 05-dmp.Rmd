@@ -16,7 +16,7 @@
 
 &nbsp;
 
-**How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).**)
+**How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).)**
 
 &nbsp;
 
@@ -24,7 +24,7 @@
 
 &nbsp;
 
-**What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).**)
+**What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).)**
 
 &nbsp;
 
@@ -32,7 +32,7 @@
 
 &nbsp;
 
-**Where will data be stored? How will data be backed up?**
+**Where will data be stored? How will data be backed up? (See [Exercise 4.1: Store and Back Up the Data](#storage).)**
 
 &nbsp;
 
