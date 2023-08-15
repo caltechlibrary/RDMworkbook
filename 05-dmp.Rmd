@@ -1,12 +1,78 @@
 # Data Management
 
-## Write a Living Data Management Plan {#living-dmp}
+## Write a Living Data Management Plan (DMP) {#living-dmp}
 
-***Description:*** **
+***Description:*** *Many researchers are aware of the two-page data management plan (DMP) for a grant application, but you may not be aware of the more useful type of DMP: a living DMP. This document describes how data will be actively managed during a project and may be updated whenever necessary to reflect current data practices. A living DMP is a useful touchstone for understanding where data lives, how it’s labelled, how it moves through the research process, and who will oversee the data management. This exercise guides you through the process of creating a living DMP for your research.*
 
-***Instructions:*** **
+***Instructions:*** *Pick a project and answer the following questions to build your living DMP. This DMP may be changed at any time to improve practices. If you are doing collaborative research, work through this exercise with your collaborators to agree on shared conventions.*
 
 ---
+
+**Write a short summary of what project this DMP is for:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).**)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).**)
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Where will data be stored? How will data be backed up?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**How will you document your research? Where will your research notes be stored?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**How will data move through the collection and analysis pipelines?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Do you need to do any version control on your files? How will that be done?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**As necessary, record any project roles and responsibilities around data management:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
 
 ## Determine Data Stewardship {#data-governance}
 
