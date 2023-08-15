@@ -13,3 +13,13 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 5. Data Management
 6. Data Sharing
 7. Project Wrap Up
+
+To-do list:
+* Cover image
+* Write introduction chapter
+* Write chapter introductions
+* Chapter 3, exercise 1 image (file organization)
+* Chapter 4, exercise 1 (backups)
+* Chapter 5, exercise 1 (living DMPs)
+* Chapter 6, exercise 1 (data repositories) and exercise 2 (data sharing)
+* Figure out web hosting
