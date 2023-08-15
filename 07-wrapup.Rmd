@@ -192,11 +192,11 @@
 
 **Retain Copies of Data that You Have Permission to Keep**
 
-&#9633; Complete (Exercise 5.2: Determine Data Stewardship)[#data-governance] to determine what data you may retain
+&#9633; Complete [Exercise 5.2: Determine Data Stewardship](#data-governance) to determine what data you may retain
 
-&#9633; Identify and keep pertinent research data on personal devices
+&#9633; Identify and keep pertinent research data from personal devices
 
-&#9633; Identify and keep pertinent research data in storage systems (e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
+&#9633; Identify and keep pertinent research data from storage systems (e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
 
 &#9633; When appropriate, make a copy of research notes
 
