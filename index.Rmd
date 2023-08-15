@@ -6,8 +6,8 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: references.bib
 csl: apa.csl
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+# url: 
+# cover-image: images/cover.jpg
 description: |
   The Research Data Management Workbook is made up of a collection of exercises
   for researchers to improve their data management.
