@@ -106,7 +106,7 @@
 
 **Data Snapshots**
 
-&#9633; Raw data
+&#9633; Important raw data
 
 &#9633; Key data analyses
 
