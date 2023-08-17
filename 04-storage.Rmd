@@ -6,9 +6,9 @@ library(tidyverse)
 
 ## Store and Back Up the Data {#storage}
 
-***Description:*** **
+***Description:*** *Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don’t always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you, either free or paid, as well as options outside of your institution, before determining which is the best set of options for your data.*
 
-***Instructions:*** **
+***Instructions:*** *Fill out the first three tables for storage and backup systems that are: 1) institutional and free; 2) institutional and paid; and 3) outside of your institution. Examine all of the options, evaluating them based on the criteria listed below the first three tables to pick your ideal storage and backup configuration. **Note that this exercise works best for data under 1 TB in size that has no security restrictions.***
 
 ---
 
@@ -75,7 +75,7 @@ knitr::kable(dictionary)
 
 1. You need one storage system that will hold all of your data files, is easy to use, and is managed by someone you trust.
 2. You need at least one backup – preferably two – that will hold all of your data files, is managed by someone you trust, is easy to use, and backs up automatically.
-3. At least one backup should be in a different location than your main storage system.
+3. At least one backup should be in a different location than your main storage system for disaster resiliency.
 4. Balance cost with making sure that storage/backup systems are managed by trustworthy parties and are not difficult to use.
 
 **Pick your storage and backup systems:**
