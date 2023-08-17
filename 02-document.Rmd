@@ -116,9 +116,9 @@ library(tidyverse)
 
 ***Description:*** *Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.*
 
-***Instructions:*** *Fill out the question in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
+***Instructions:*** *Fill out the information in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
 
-***Source:*** *This exercise was adapted from the "Leveling Up Data Management" [@briney_leveling_2023].*
+***Source:*** *This exercise was adapted from "Leveling Up Data Management" [@briney_leveling_2023].*
 
 ---
 
