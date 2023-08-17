@@ -2,11 +2,69 @@
 
 ## Pick a Data Repository {#data-repository}
 
-***Description:*** **
+***Description:*** *It can be difficult to know where to share research data as so many sharing platforms are available. Current guidance is to deposit data in data repository that will give you a DOI. This exercise guides you through the process of picking a data repository, starting with repositories for very specific types of data and defaulting to generalist data repositories.*
 
-***Instructions:*** **
+***Instructions:*** *Identify the data that needs to be shared and work through repository selection from discipline-specific data repositories to more general data repositories. Once you have identified a repository for all of your data, the exercise is over and you do not need to answer any further questions. Note that, depending on data types, you may need to deposit your data into multiple repositories (for example, a discipline-specific repository for one type of data and an institutional data repository for the rest of the data).*
 
 ---
+
+**Identify the data that needs to be shared.**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Is there a known disciplinary data repository for some or all of the data? For example, is there a data repository used by everyone in your research area or required for your data type by your funder?**
+
+If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Review the [list of recommended data repositories from PLOS]( https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
+
+If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Does your institution have a data repository?**
+
+If so, deposit your data there and end the exercise.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Do you have a preferred [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)?**
+
+If so, deposit your data there and end the exercise.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Pick a [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories) and deposit your data.**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+
 
 ## Share Data {#share-data}
 
