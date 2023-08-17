@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-08-15}
+\date{2023-08-17}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -96,15 +96,15 @@
 
 The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
-The book is divided into chapters, roughly by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise, and the exercise itself.
+The book is divided into chapters, roughly by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise (when applicable), and the exercise itself.
 
 The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article ``Foundational Practices of Research Data Management'' \citep{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citep{briney_data_2015}.
 
-\hypertarget{beta-edition}{%
-\section*{Beta Edition}\label{beta-edition}}
-\addcontentsline{toc}{section}{Beta Edition}
+\hypertarget{edition}{%
+\section*{Edition}\label{edition}}
+\addcontentsline{toc}{section}{Edition}
 
-The Research Data Management Workbook is currently in the beta edition, meaning I'm still tweaking the exercises and trying to catch stray typos. I'm more than happy to receive any feedback on the Workbook to improve it. You can message me at briney@caltech.edu.
+The Research Data Management Workbook is currently in its beta edition, meaning I'm still tweaking the exercises and trying to catch stray typos. I'm more than happy to receive any feedback on the Workbook to improve it; you can message me at briney@caltech.edu.
 
 \hypertarget{license}{%
 \section*{License}\label{license}}
@@ -253,9 +253,9 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 
 \textbf{\emph{Description:}} \emph{Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it's useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.}
 
-\textbf{\emph{Instructions:}} \emph{Fill out the question in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending ``\_dictionary'' on the end of the file name; for example, the data dictionary for the file ``myData.xlsx'' would be ``myData\_dictionary.txt''.}
+\textbf{\emph{Instructions:}} \emph{Fill out the information in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending ``\_dictionary'' on the end of the file name; for example, the data dictionary for the file ``myData.xlsx'' would be ``myData\_dictionary.txt''.}
 
-\textbf{\emph{Source:}} \emph{This exercise was adapted from the ``Leveling Up Data Management'' \citep{briney_leveling_2023}.}
+\textbf{\emph{Source:}} \emph{This exercise was adapted from ``Leveling Up Data Management'' \citep{briney_leveling_2023}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -285,9 +285,9 @@ Anything else to know about the data? &  &  & \\
 \hypertarget{file-organization}{%
 \section{Set Up a File Organization System}\label{file-organization}}
 
-\textbf{\emph{Description:}} \emph{Implementing a file organization system is the first step toward creating order for your research data. Well-organized files make it easier to find the data you need without spending lots of time searching your computer. Every researcher organizes their files slightly differently, but the actual organizational system is less important that having a place where all of your files should logically go. This exercise prompts you to brainstorm organizational grouping and hierarchies to come up with an order for managing your research data.}
+\textbf{\emph{Description:}} \emph{Implementing a file organization system is the first step toward creating order for your research data. Well-organized files make it easier to find the data you need without spending lots of time searching your computer. Every researcher organizes their files slightly differently, but the actual organizational system is less important that having a place where all of your files should logically go. This exercise prompts you to brainstorm organizational groupings and hierarchies to come up with an order for managing your research data.}
 
-\textbf{\emph{Instructions:}} \emph{This is a card-sorting exercise, meaning you will need a stack of note cards or post-it notes to do this activity. Follow the instructions to label cards and move them around until you develop your organizational system. There is no one correct way to do this so feel free to play around, add new cards, and move cards however you want! Once you put your new organizational system into place, be sure to always put your files where they're supposed to go.}
+\textbf{\emph{Instructions:}} \emph{This is a card-sorting exercise, meaning you will need a stack of note cards or post-it notes to do this activity, ideally in three different colors. Follow the instructions to label cards and move them around until you develop your organizational system. There is no one correct way to do this so feel free to play around, add new cards, and move cards however you want! Once you put your new organizational system into place, be sure to always put your files where they're supposed to go.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -295,7 +295,7 @@ Anything else to know about the data? &  &  & \\
 \def\labelenumi{\arabic{enumi}.}
 \tightlist
 \item
-  Take a stack of notecards or post-it notes and write the following labels on them, omitting any file types that you do not use in your research:
+  Take a stack of note cards or post-it notes in the first color and write the following labels on one card each, omitting any file types that you do not use in your research:
 
   \begin{itemize}
   \tightlist
@@ -321,11 +321,21 @@ Anything else to know about the data? &  &  & \\
     Research notes
   \end{itemize}
 \item
-  Move cards around and group together files that you want to store together.
+  Move cards around and group together file-type cards that you want to store together. Files that will be stored near each other in a folder hierarchy, but not together, should be placed near each other while file types expected to be stored completely separately should be away from other cards.
 \item
-  Create hierarchies in organization, such as for organizing files by project or by date, by adding new ``folder'' cards and moving existing cards/groups of cards underneath them. Label these new cards as appropriate.
+  Create hierarchies in file organization by adding new ``folder'' cards in one of two types; use different colored cards for each folder type:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Cards in the second color represent a single folder. These should be labeled with the folder name in quotations (e.g.~``Literature'' or ``My publications'').
+  \item
+    Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g.~{[}By date{]} or {[}By project{]}).
+  \end{itemize}
 \item
-  Make copies of any cards, as needed, and adjust placement and hierarchies until you are happy with the organizational system you developed.
+  Move existing file-type cards/groups of file-type cards underneath the new folder cards to show that a file type will be saved in a specific folder or group of folders. Organizational-group folders (cards in the third color) only need to be represented once in the card sorting, as they are assumed to represent multiple folders on a computer.
+\item
+  Make copies of any type of card and add folder levels, as needed. Adjust placement and hierarchies until you are happy with the organizational system you developed.
 \item
   Record your organizational system in your lab notebook or in a \protect\hyperlink{readme-txt}{README.txt}.
 \end{enumerate}
@@ -453,20 +463,142 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 \hypertarget{storage}{%
 \section{Store and Back Up the Data}\label{storage}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don't always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you, either free or paid, as well as options outside of your institution, before determining which is the best set of options for your data.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Fill out the first three tables for storage and backup systems that are: 1) institutional and free; 2) institutional and paid; and 3) outside of your institution. Examine all of the options, evaluating them based on the criteria listed below the first three tables to pick your ideal storage and backup configuration. \textbf{Note that this exercise works best for data under 1 TB in size that has no security restrictions.}}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{What storage or backup systems are already available to you, such as through your institution or workplace, at no cost?}
+
+\begin{tabular}{l|l|l|l}
+\hline
+Question & System1 & System2 & System3\\
+\hline
+System name &  &  & \\
+\hline
+Is it storage or backup? &  &  & \\
+\hline
+What is the hardware type? &  &  & \\
+\hline
+Is the system backed up? &  &  & \\
+\hline
+For backup systems, is backup automatic? &  &  & \\
+\hline
+Is the system local or remote? &  &  & \\
+\hline
+How is there a limit to storage capacity? &  &  & \\
+\hline
+Who manages the system? &  &  & \\
+\hline
+Is it easy or difficult to use? &  &  & \\
+\hline
+\end{tabular}
+
+\textbf{What storage or backup systems are available to you, such as through your institution or workplace, at a cost?}
+
+\begin{tabular}{l|l|l|l}
+\hline
+Question & System1 & System2 & System3\\
+\hline
+System name &  &  & \\
+\hline
+Is it storage or backup? &  &  & \\
+\hline
+What is the cost? &  &  & \\
+\hline
+What is the hardware type? &  &  & \\
+\hline
+Is the system backed up? &  &  & \\
+\hline
+For backup systems, is backup automatic? &  &  & \\
+\hline
+Is the system local or remote? &  &  & \\
+\hline
+How is there a limit to storage capacity? &  &  & \\
+\hline
+Who manages the system? &  &  & \\
+\hline
+Is it easy or difficult to use? &  &  & \\
+\hline
+\end{tabular}
+
+\textbf{Are there other storage or backup systems that you can use? }
+
+\begin{tabular}{l|l|l|l}
+\hline
+Question & System1 & System2 & System3\\
+\hline
+System name &  &  & \\
+\hline
+Is it storage or backup? &  &  & \\
+\hline
+What is the cost? &  &  & \\
+\hline
+What is the hardware type? &  &  & \\
+\hline
+Is the system backed up? &  &  & \\
+\hline
+For backup systems, is backup automatic? &  &  & \\
+\hline
+Is the system local or remote? &  &  & \\
+\hline
+How is there a limit to storage capacity? &  &  & \\
+\hline
+Who manages the system? &  &  & \\
+\hline
+Is it easy or difficult to use? &  &  & \\
+\hline
+\end{tabular}
+
+\textbf{Optimize your storage and backups on the following considerations:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  You need one storage system that will hold all of your data files, is easy to use, and is managed by someone you trust.
+\item
+  You need at least one backup -- preferably two -- that will hold all of your data files, is managed by someone you trust, is easy to use, and backs up automatically.
+\item
+  At least one backup should be in a different location than your main storage system for disaster resiliency.
+\item
+  Balance cost with making sure that storage/backup systems are managed by trustworthy parties and are not difficult to use.
+\end{enumerate}
+
+\textbf{Pick your storage and backup systems:}
+
+\begin{tabular}{l|l|l}
+\hline
+Storage & Backup1 & Backup2\\
+\hline
+\&nbsp; & \&nbsp; & \&nbsp;\\
+\hline
+\end{tabular}
 
 \hypertarget{backup}{%
 \section{Test Your Backup}\label{backup}}
 
-\textbf{\emph{Description:}} **
+\textbf{\emph{Description:}} \emph{Backups are super important for your data, so it's always good to test that your backups are still working. Nothing is worse than losing your data from your primary storage and then realizing that your backup isn't working either. Beyond checking that your backup is working, it's also good to know how to recover your files so that you don't have to learn this for the first time while panicking about lost data. This short exercise walks you through getting a file off your backup to test that it is working and to learn how the data-recovery process works.}
 
-\textbf{\emph{Instructions:}} **
+\textbf{\emph{Instructions:}} \emph{Pick a backup system and a file to recover and work through the steps. The hard part of this exercise is finding instructions for file recovery and recovering the file, which vary by backup system.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Identify where your data is backed up.
+\item
+  Find instructions for recovering data from your backup system.
+\item
+  Pick a data file from your computer.
+\item
+  Follow the instructions from step 2 to get a copy of the data file from step 3 out of your backup system.
+\item
+  If this process didn't work, fix your backup system. If this process did work, congrats your backup is working and you know how to recover your files!
+\end{enumerate}
 
 \hypertarget{data-management}{%
 \chapter{Data Management}\label{data-management}}
@@ -555,7 +687,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\textbf{What data do these agreements apply to?}
+\textbf{What data is being discussed?}
 
 ~
 
@@ -571,7 +703,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 ~
 
-\textbf{Are there any requirement to publicly share the data and, if so, what are they?}
+\textbf{Are there any requirements to publicly share the data and, if so, what are they?}
 
 ~
 
@@ -740,7 +872,7 @@ Make sure the convention only uses alphanumeric characters, dashes, and undersco
 
 \textbf{Data Snapshots}
 
-□ Raw data
+□ Important raw data
 
 □ Key data analyses
 
