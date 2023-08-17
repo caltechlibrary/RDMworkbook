@@ -98,7 +98,7 @@ knitr::kable(dictionary)
 ---
 
 1. Identify where your data is backed up.
-2. Find instructions for recovering your data from your backup system.
+2. Find instructions for recovering data from your backup system.
 3. Pick a data file from your computer.
 4. Follow the instructions from step 2 to get a copy of the data file from step 3 out of your backup system.
 5. If this process didn’t work, fix your backup system. If this process did work, congrats your backup is working and you know how to recover your files!
