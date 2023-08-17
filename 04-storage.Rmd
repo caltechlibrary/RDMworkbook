@@ -91,8 +91,14 @@ knitr::kable(dictionary)
 
 ## Test Your Backup {#backup}
 
-***Description:*** **
+***Description:*** *Backups are super important for your data, so it’s always good to test that your backups are still working. Nothing is worse than losing your data from your primary storage and then realizing that your backup isn’t working either. Beyond checking that your backup is working, it’s also good to know how to recover your files so that you don’t have to learn this for the first time while panicking about lost data. This short exercise walks you through getting a file off your backup to test that it is working and to learn how the data-recovery process works.*
 
-***Instructions:*** **
+***Instructions:*** *Pick a backup system and a file to recover and work through the steps. The hard part of this exercise is finding instructions for file recovery and recovering the file, which vary by backup system.*
 
 ---
+
+1. Identify where your data is backed up.
+2. Find instructions for recovering your data from your backup system.
+3. Pick a data file from your computer.
+4. Follow the instructions from step 2 to get a copy of the data file from step 3 out of your backup system.
+5. If this process didn’t work, fix your backup system. If this process did work, congrats your backup is working and you know how to recover your files!
