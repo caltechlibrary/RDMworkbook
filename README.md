@@ -20,6 +20,6 @@ To-do list:
 * Chapter 1, write the chapter
 * Chapter 2, exercise 3 table formatting (data dictionary)
 * Chapter 3, exercise 1 image (file organization)
-* Chapter 4, exercise 1 (storage) and exercise 2 (backups)
+* Chapter 4, exercise 2 (backups)
 * Chapter 6, exercise 1 (data repositories) and exercise 2 (data sharing)
 * Figure out web hosting
