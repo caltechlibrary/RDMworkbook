@@ -8,7 +8,7 @@
 
 ---
 
-**Identify the data that needs to be shared.**
+**Identify all of the data that needs to be shared.**
 
 &nbsp;
 
