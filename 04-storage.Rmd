@@ -1,5 +1,9 @@
 # Data Storage
 
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
 ## Store and Back Up the Data {#storage}
 
 ***Description:*** **
@@ -7,6 +11,82 @@
 ***Instructions:*** **
 
 ---
+
+**What storage or backup systems are already available to you, such as through your institution or workplace, at no cost?**
+
+``` {r storage-no-cost, echo = FALSE}
+dictionary <- tibble(Question = 
+                       c("System name",
+                         "Is it storage or backup?",
+                         "What is the hardware type?",
+                         "Is the system backed up?",
+                         "For backup systems, is backup automatic?",
+                         "Is the system local or remote?",
+                         "How is there a limit to storage capacity?",
+                         "Who manages the system?",
+                         "Is it easy or difficult to use?"),
+                     System1 = c("", "", "", "", "", "", "", "", ""),
+                     System2 = c("", "", "", "", "", "", "", "", ""),
+                     System3 = c("", "", "", "", "", "", "", "", ""))
+knitr::kable(dictionary)
+```
+
+**What storage or backup systems are available to you, such as through your institution or workplace, at a cost?**
+
+``` {r storage-cost, echo = FALSE}
+dictionary <- tibble(Question = 
+                       c("System name",
+                         "Is it storage or backup?",
+                         "What is the cost?",
+                         "What is the hardware type?",
+                         "Is the system backed up?",
+                         "For backup systems, is backup automatic?",
+                         "Is the system local or remote?",
+                         "How is there a limit to storage capacity?",
+                         "Who manages the system?",
+                         "Is it easy or difficult to use?"),
+                     System1 = c("", "", "", "", "", "", "", "", "", ""),
+                     System2 = c("", "", "", "", "", "", "", "", "", ""),
+                     System3 = c("", "", "", "", "", "", "", "", "", ""))
+knitr::kable(dictionary)
+```
+
+**Are there other storage or backup systems that you can use? **
+
+``` {r storage-other, echo = FALSE}
+dictionary <- tibble(Question = 
+                       c("System name",
+                         "Is it storage or backup?",
+                         "What is the cost?",
+                         "What is the hardware type?",
+                         "Is the system backed up?",
+                         "For backup systems, is backup automatic?",
+                         "Is the system local or remote?",
+                         "How is there a limit to storage capacity?",
+                         "Who manages the system?",
+                         "Is it easy or difficult to use?"),
+                     System1 = c("", "", "", "", "", "", "", "", "", ""),
+                     System2 = c("", "", "", "", "", "", "", "", "", ""),
+                     System3 = c("", "", "", "", "", "", "", "", "", ""))
+knitr::kable(dictionary)
+```
+
+**Optimize your storage and backups on the following considerations:**
+
+1. You need one storage system that will hold all of your data files, is easy to use, and is managed by someone you trust.
+2. You need at least one backup – preferably two – that will hold all of your data files, is managed by someone you trust, is easy to use, and backs up automatically.
+3. At least one backup should be in a different location than your main storage system.
+4. Balance cost with making sure that storage/backup systems are managed by trustworthy parties and are not difficult to use.
+
+**Pick your storage and backup systems:**
+
+``` {r storage-backup, echo = FALSE}
+dictionary <- tibble(Storage = c("&nbsp;"),
+                     Backup1 = c("&nbsp;"),
+                     Backup2 = c("&nbsp;"))
+knitr::kable(dictionary)
+```
+
 
 
 ## Test Your Backup {#backup}
