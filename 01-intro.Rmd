@@ -1,3 +1,46 @@
 # Introduction
 
+```{r setup1, include=FALSE}
+library(tidyverse)
+```
 
+## What is Research Data Management? {#what-rdm}
+
+Research data management is a set of collective practices and decisions that make it easier for you, your collaborators, and your future self to easily find, understand, and use your research data. These practices cover the entire lifecycle of research data, from its collection and analysis through sharing and reuse. There is no one magical data management practice to rule them all. Rather, data management consists of a number of small activities that make it easier to deal with your data. Research is hard enough as it is without having to fight with your files, so the goal of data management is for you to maximize your time doing research instead of wasting time with file handling.
+
+## Why do Research Data Management? {#why-rdm}
+
+Most researchers have spent time, at some point in their careers, digging through their computer to find a specific file that can’t be located. It’s incredibly frustrating and a waste of time and resources, especially if you end up recollecting missing data. The good news is that it is possible to avoid this situation entirely by strategically managing your data better.
+
+Done well, research data management means:
+
+* always understanding what your data is and how you collected it even if the data is a year old
+* always finding the file you need quickly
+* never losing your data even if your hard drive crashes
+* knowing what rights and responsibilities you have over your data
+* knowing how and where to share your data to comply with your funder’s data sharing policy
+* being able to pick up and easily reuse data from a past project
+
+If all of those things sound like something you would like to implement in your research, you are reading the right book!
+
+## How to Use this Book to Manage Your Research Data Better {#how-rdm}
+
+The “Research Data Management Workbook” is focused entirely on the “how” of data management. The Workbook consists of a series of worksheets, checklists, and procedures to set up new data management practices, check existing practices, and make good decisions about your data. You will find exercises covering all the ideals listed in the [“Why Do Research Data Management?” section](#why-rdm) above, allowing you to streamline the your use of research data.
+
+The Workbook is not a comprehensive set of exercises for everything under the umbrella of data management. Instead, the Workbook centers on activities that are structured, reproducible, and apply to many researchers. The strength and weakness of data management is that many of its practices are customizable to individual research workflows. Each exercise in the Workbook, therefore, is built on best principles while allowing for customization to suit local needs.
+
+You may go through exercises in the Workbook collectively or individually as you chose. Do note that some exercises require completing one or more other exercises in the book, so it’s best to have the whole workbook on hand just in case. Finally, for the exercises that have been formatted as worksheets, I recommend printing them out and writing your answers in the space provided.
+
+## Further Resources on Research Data Management {#more-rdm}
+
+“The Research Data Management Workbook” does not comprehensively explain data management and therefore works best for those with some foundational data management knowledge or in tandem with other educational resources on research data management.
+
+My best recommendation is to use the Workbook as the exercise book for my first book, “Data Management for Researchers” [@briney_data_2015]. The following table lays out how chapters in the Workbook match with chapters in “Data Management for Researchers,” allowing you to look up more information on any topic covered by the Workbook:
+
+``` {r storage-backup, echo = FALSE}
+dictionary <- tibble("Research Data Management Workbook" = c("chapter 2", "chapter 3", "chapter 4", 
+                                                             "chapter 5", "chapter 6", "chapter 7"),
+                     "Data Management for Researchers" = c("chapter 4", "chapter 5", "chapter 8",
+                                                           "chapter 3", "chapter 10", "chapter 9"))
+knitr::kable(dictionary)
+```
