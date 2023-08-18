@@ -27,7 +27,9 @@ dictionary <- tibble(Question =
                          "How is there a limit to storage capacity?",
                          "Who manages the system?",
                          "Is it easy or difficult to use?"),
-                     "System 1" = c("", "", "", "", "", "", "", "", ""),
+                     "System 1" = c("<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>"),
                      "System 2" = c("", "", "", "", "", "", "", "", ""),
                      "System 3" = c("", "", "", "", "", "", "", "", ""))
 knitr::kable(dictionary)
@@ -47,7 +49,10 @@ dictionary <- tibble(Question =
                          "How is there a limit to storage capacity?",
                          "Who manages the system?",
                          "Is it easy or difficult to use?"),
-                     "System 1" = c("", "", "", "", "", "", "", "", "", ""),
+                     "System 1" = c("<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>"),
                      "System 2" = c("", "", "", "", "", "", "", "", "", ""),
                      "System 3" = c("", "", "", "", "", "", "", "", "", ""))
 knitr::kable(dictionary)
@@ -67,7 +72,10 @@ dictionary <- tibble(Question =
                          "How is there a limit to storage capacity?",
                          "Who manages the system?",
                          "Is it easy or difficult to use?"),
-                     "System 1" = c("", "", "", "", "", "", "", "", "", ""),
+                     "System 1" = c("<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>", "<br><br><br>", "<br><br><br>",
+                                    "<br><br><br>"),
                      "System 2" = c("", "", "", "", "", "", "", "", "", ""),
                      "System 3" = c("", "", "", "", "", "", "", "", "", ""))
 knitr::kable(dictionary)
@@ -83,9 +91,9 @@ knitr::kable(dictionary)
 **Pick your storage and backup systems:**
 
 ``` {r storage-backup, echo = FALSE}
-dictionary <- tibble(Storage = c("&nbsp;"),
-                     "Backup 1" = c("&nbsp;"),
-                     "Backup 2" = c("&nbsp;"))
+dictionary <- tibble(Storage = c(""),
+                     "Backup 1" = c("<br><br><br>"),
+                     "Backup 2" = c(""))
 knitr::kable(dictionary)
 ```
 
