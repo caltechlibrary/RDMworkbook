@@ -18,5 +18,5 @@ To-do list:
 * Cover image
 * Chapter 3, exercise 1 image (file organization)
 * Examples in exercises?
-* Fix pdf issues with line breaks and with check boxes
+* Fix pdf issues with table line breaks and boxes in checklists
 * Figure out web hosting
