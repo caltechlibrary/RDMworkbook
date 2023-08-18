@@ -19,11 +19,11 @@ github-repo: kbriney/RDMworkbook
 
 ## Description {-}
 
-The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
+The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The Workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
 The book is divided into chapters, roughly by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise (when applicable), and the exercise itself.
 
-The workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article "Foundational Practices of Research Data Management" [@briney_foundational_2020] or read the book “Data Management for Researchers” [@briney_data_2015].
+The Workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article "Foundational Practices of Research Data Management" [@briney_foundational_2020] or read the book “Data Management for Researchers” [@briney_data_2015].
 
 ## Edition {-}
 
