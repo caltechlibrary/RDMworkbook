@@ -16,7 +16,6 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 
 To-do list:
 * Cover image
-* Write chapter introductions
 * Chapter 1, write the chapter
 * Chapter 2, exercise 3 table formatting (data dictionary)
 * Chapter 3, exercise 1 image (file organization)
