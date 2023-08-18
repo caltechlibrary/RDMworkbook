@@ -1,8 +1,8 @@
 # Project Wrap Up
 
-The end of a project is a key time to perform data management activities so you can set yourself up for future data reuse. This is because you still remember all of the important details about your data and can make good decisions about preparing it for the future. This chapter has three exercises to work through for project wrap up: a worksheet on converting data to more open file types; a checklist for populating a project Archive folder; and a checklist for preparing data for reuse, which leverages the previous two exercises.
+The end of a project is a key time to perform data management activities in order to set yourself up for future data reuse. This is because you still remember all of the important details about your data and can make good decisions about preparing it for the future. This chapter has three exercises to work through for project wrap up: a worksheet on converting data to more open file types; a checklist for populating a project Archive folder; and a checklist for preparing data for reuse, which leverages the previous two exercises.
 
-This chapter also covers project wrap up in the form of separating from your institution. This checklist exercise for the departing researcher is important to work through so that critical data does not get lost in the transition and to ensure that everyone understands what files the departing researcher may take with them. A fuller version of this checklist, intended for both the departing personnel and a project administrator to work through together, is also available [@goben_data_2023].
+This chapter also covers project wrap up in the form of separating from your institution. This checklist exercise for the departing researcher is important to work through so that critical data does not get lost in the transition. A fuller version of this checklist, intended for both the departing personnel and a project administrator to work through together, is also available [@goben_data_2023].
 
 ## Prepare Data for Future Use {#future-use}
 

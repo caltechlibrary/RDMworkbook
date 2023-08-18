@@ -1,6 +1,6 @@
 # Data Sharing
 
-Sharing data that underlies research has become a common expectation within scholarly research. However, the landscape of data repositories is still uneven and many researchers are still learning best practices for data sharing. To help in this area, this chapter offers of two exercises: a decision tree-inspired worksheet for picking the best data repository for your data; and checklist for working through the process of actually sharing data in a data repository.
+Sharing data that underlies research has become a common expectation within scholarly research. However, the landscape of data repositories is still uneven and many researchers are still learning best practices for data sharing. To help in this area, this chapter offers of two exercises: a decision tree-inspired worksheet for picking the best data repository for your data; and checklist for working through the process of sharing data in a data repository.
 
 ## Pick a Data Repository {#data-repository}
 
