@@ -80,7 +80,7 @@ If so, deposit your data there and end the exercise.
 
 &#9633; Perform quality control on the data files.
 
-&#9633; Convert data to open file types, as appropriate; see [Exercise 7.2: Convert Data File Types](#file-type).
+&#9633; Convert data in proprietary file types to open file types, as appropriate; see [Exercise 7.2: Convert Data File Types](#file-type).
 
 &#9633; Determine if data will be shared in one group or as several deposits. If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each group of shared files.
 
