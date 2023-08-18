@@ -133,8 +133,7 @@ dictionary <- tibble(Question =
                          "Variable coding values and meanings",
                          "Known issues with the data",
                          "Anything else to know about the data?"),
-                     "Variable 1" = c("<br><br><br>", "<br><br><br>", "<br><br><br>",
-                                      "<br><br><br>", "<br><br><br>", "<br><br><br>", "<br><br><br>"),
+                     "Variable 1" = c("", "", "", "", "", "", ""),
                      "Variable 2" = c("", "", "", "", "", "", ""),
                      "Variable 3" = c("", "", "", "", "", "", ""))
 knitr::kable(dictionary)
