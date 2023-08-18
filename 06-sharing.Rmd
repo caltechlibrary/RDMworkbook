@@ -2,7 +2,7 @@
 
 ## Pick a Data Repository {#data-repository}
 
-***Description:*** *It can be difficult to know where to share research data as so many sharing platforms are available. Current guidance is to deposit data in data repository that will give you a DOI. This exercise guides you through the process of picking a data repository, starting with repositories for very specific types of data and defaulting to generalist data repositories.*
+***Description:*** *It can be difficult to know where to share research data as so many sharing platforms are available. Current guidance is to deposit data in data repository that will give you a DOI. This exercise guides you through the process of picking a data repository, starting with repositories for very specific types of data and defaulting to generalist data repositories. Note that some repositories charge fees for deposit, most often for large data (500 GB or larger).*
 
 ***Instructions:*** *Identify the data that needs to be shared and work through repository selection from discipline-specific data repositories to more general data repositories. Once you have identified a repository for all of your data, the exercise is over and you do not need to answer any further questions. Note that, depending on data types, you may need to deposit your data into multiple repositories (for example, a discipline-specific repository for one type of data and an institutional data repository for the rest of the data).*
 
@@ -28,7 +28,7 @@ If so, deposit some or all of your data there. End the exercise if the repositor
 
 **Review the [list of recommended data repositories from PLOS]( https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
 
-If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
+If so, deposit some or all of your data there. End the exercise if you have shared all of your data or keep going if there is still some data left to deposit.
 
 &nbsp;
 
@@ -68,8 +68,41 @@ If so, deposit your data there and end the exercise.
 
 ## Share Data {#share-data}
 
-***Description:*** **
+***Description:*** *Data sharing is becoming common and expected by funding agencies and journals. While the process of depositing data into a data repository will vary between repositories, there are some common actions that should be taken to prepare data for sharing. This exercise walks you through these standard requirements for sharing data.*
 
-***Instructions:*** **
+***Instructions:*** *This checklist enumerates the necessary steps and decisions to deposit data supporting a research artcile into a data repository. Identify the data to be shared and work through the list. Note that, if data will be shared as multiple deposits or in multiple repositories, the checklist should be worked separately for each group of data.*
 
 ---
+
+**Data selection**
+
+&#9633; Select data that reproduces published results.
+
+&#9633; Perform quality control on the data files.
+
+&#9633; Convert data to open file types, as appropriate; see [Exercise 7.2: Convert Data File Types](#file-type).
+
+&#9633; Determine if data will be shared in one group or as several deposits. If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each group of shared files.
+
+**Data documentation**
+
+&#9633; Document any spreadsheet data with a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)). The data dictionary should be shared with the other files.
+
+&#9633; Write a brief description of each data file, including any data dictionaries, and what it contains. Save this information in a README.txt file and share it with the other files.
+
+&#9633; Write a brief description of the overall data to be used during deposit process.
+
+**Sharing information (metadata)**
+
+&#9633; Give the dataset a title. Default is “Data from: [name of the article]”.
+
+&#9633; Determine who will be listed as authors of the data and in what order; this may be different than the authors of the article.
+
+&#9633; Chose a license for reuse. Default is CC0 [@creative_commons_wiki_cc0_2014].
+
+**Deposit data**
+
+&#9633; Pick a repository using [Exercise 6.1: Pick a Data Repository](#data-repository)
+
+&#9633; Deposit the data and documentation files, and fill in metadata as determined above.
+
