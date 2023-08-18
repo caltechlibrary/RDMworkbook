@@ -70,7 +70,7 @@ If so, deposit your data there and end the exercise.
 
 ***Description:*** *Data sharing is becoming common and expected by funding agencies and journals. While the process of depositing data into a data repository will vary between repositories, there are some common actions that should be taken to prepare data for sharing. This exercise walks you through these standard requirements for sharing data.*
 
-***Instructions:*** *This checklist enumerates the necessary steps and decisions to deposit data supporting a research artcile into a data repository. Identify the data to be shared and work through the list. Note that, if data will be shared as multiple deposits or in multiple repositories, the checklist should be worked separately for each group of data.*
+***Instructions:*** *This checklist enumerates the necessary steps and decisions to deposit data supporting a research article into a data repository. Identify the data to be shared and work through the list. Note that, if data will be shared as multiple deposits or in multiple repositories, the checklist should be worked separately for each group of data.*
 
 ---
 
