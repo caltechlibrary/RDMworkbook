@@ -37,7 +37,7 @@ You may go through exercises in the Workbook collectively or individually as you
 
 My best recommendation is to use the Workbook as the exercise book for my first book, “Data Management for Researchers” [@briney_data_2015]. The following table lays out how chapters in the Workbook match with chapters in “Data Management for Researchers,” allowing you to look up more information on any topic covered by the Workbook:
 
-``` {r storage-backup, echo = FALSE}
+``` {r chapter-crosswalk, echo = FALSE}
 dictionary <- tibble("Research Data Management Workbook" = c("chapter 2", "chapter 3", "chapter 4", 
                                                              "chapter 5", "chapter 6", "chapter 7"),
                      "Data Management for Researchers" = c("chapter 4", "chapter 5", "chapter 8",
