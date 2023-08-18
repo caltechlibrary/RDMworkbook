@@ -182,7 +182,7 @@
 
 &#9633; Other lab equipment (e.g. cameras, recording devices)
 
-**Delete personal information and remove personal devices**
+**Delete Personal Information and Remove Personal Devices**
 
 &#9633; Remove personal information from lab devices
 
