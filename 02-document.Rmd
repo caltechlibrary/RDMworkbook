@@ -4,6 +4,8 @@
 library(tidyverse)
 ```
 
+Documentation has sometimes been called “a love letter to your future self” as it helps you remember important details about your research data. The great thing about research documentation is that it’s not limited to a laboratory or research notebook, though notebooks are still very important! This chapter introduces two types of useful documentation – a project-level README.txt and a data dictionary – and offers worksheets for writing both. The chapter also included a worksheet to evaluate an older entry in your laboratory notebook to ensure your documentation is of sufficient quality.
+
 ## Evaluate a Laboratory Notebook {#lab-notebook}
 
 ***Description:*** *The laboratory or research notebook is a fundamental documentation method for many researchers. But for how ubiquitous the lab notebook is, documentation can sometimes be lacking. The ideal laboratory notebook allows someone with similar training as you to be able to follow everything you did in your research. This exercise prompts you to review an old entry within your laboratory notebook to evaluate if your documentation is sufficient for reproducing your work.*
