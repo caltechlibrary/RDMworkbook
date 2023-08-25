@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-08-18}
+\date{2023-08-25}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -325,25 +325,141 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\begin{tabular}{l|l|l|l}
-\hline
-Question & Variable 1 & Variable 2 & Variable 3\\
-\hline
-Variable name &  &  & \\
-\hline
-Variable description &  &  & \\
-\hline
-Variable units &  &  & \\
-\hline
-Relationship to other variables &  &  & \\
-\hline
-Variable coding values and meanings &  &  & \\
-\hline
-Known issues with the data &  &  & \\
-\hline
-Anything else to know about the data? &  &  & \\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Question
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Variable 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Variable 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Variable 3
+\end{minipage} \\
+\midrule
+\endhead
+Variable name
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Variable description
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Variable units
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Relationship to
+other variables
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Variable coding
+values and meanings
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Known issues with
+the data
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Anything else to
+know about the data?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+\bottomrule
+\end{longtable}
 
 \hypertarget{file-organization-and-naming}{%
 \chapter{File Organization and Naming}\label{file-organization-and-naming}}
@@ -541,85 +657,551 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 \textbf{What storage or backup systems are already available to you, such as through your institution or workplace, at no cost?}
 
-\begin{tabular}{l|l|l|l}
-\hline
-Question & System 1 & System 2 & System 3\\
-\hline
-System name &  &  & \\
-\hline
-Is it storage or backup? &  &  & \\
-\hline
-What is the hardware type? &  &  & \\
-\hline
-Is the system backed up? &  &  & \\
-\hline
-For backup systems, is backup automatic? &  &  & \\
-\hline
-Is the system local or remote? &  &  & \\
-\hline
-How is there a limit to storage capacity? &  &  & \\
-\hline
-Who manages the system? &  &  & \\
-\hline
-Is it easy or difficult to use? &  &  & \\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Question
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 3
+\end{minipage} \\
+\midrule
+\endhead
+System name
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it storage or
+backup?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+What is the hardware
+type?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system
+backed up?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+For backup systems,
+is backup automatic?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system local
+or remote?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is there a limit
+to storage capacity?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Who manages the
+system?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it easy or
+difficult to use?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+\bottomrule
+\end{longtable}
 
 \textbf{What storage or backup systems are available to you, such as through your institution or workplace, at a cost?}
 
-\begin{tabular}{l|l|l|l}
-\hline
-Question & System 1 & System 2 & System 3\\
-\hline
-System name &  &  & \\
-\hline
-Is it storage or backup? &  &  & \\
-\hline
-What is the cost? &  &  & \\
-\hline
-What is the hardware type? &  &  & \\
-\hline
-Is the system backed up? &  &  & \\
-\hline
-For backup systems, is backup automatic? &  &  & \\
-\hline
-Is the system local or remote? &  &  & \\
-\hline
-How is there a limit to storage capacity? &  &  & \\
-\hline
-Who manages the system? &  &  & \\
-\hline
-Is it easy or difficult to use? &  &  & \\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Question
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 3
+\end{minipage} \\
+\midrule
+\endhead
+System name
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it storage or
+backup?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+What is the cost?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+What is the hardware
+type?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system
+backed up?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+For backup systems,
+is backup automatic?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system local
+or remote?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is there a limit
+to storage capacity?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Who manages the
+system?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it easy or
+difficult to use?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+\bottomrule
+\end{longtable}
 
 \textbf{Are there other storage or backup systems that you can use? }
 
-\begin{tabular}{l|l|l|l}
-\hline
-Question & System 1 & System 2 & System 3\\
-\hline
-System name &  &  & \\
-\hline
-Is it storage or backup? &  &  & \\
-\hline
-What is the cost? &  &  & \\
-\hline
-What is the hardware type? &  &  & \\
-\hline
-Is the system backed up? &  &  & \\
-\hline
-For backup systems, is backup automatic? &  &  & \\
-\hline
-Is the system local or remote? &  &  & \\
-\hline
-How is there a limit to storage capacity? &  &  & \\
-\hline
-Who manages the system? &  &  & \\
-\hline
-Is it easy or difficult to use? &  &  & \\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Question
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 2
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+System 3
+\end{minipage} \\
+\midrule
+\endhead
+System name
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it storage or
+backup?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+What is the cost?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+What is the hardware
+type?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system
+backed up?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+For backup systems,
+is backup automatic?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is the system local
+or remote?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is there a limit
+to storage capacity?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Who manages the
+system?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+Is it easy or
+difficult to use?
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ & ~ \\
+\bottomrule
+\end{longtable}
 
 \textbf{Optimize your storage and backups on the following considerations:}
 
@@ -638,13 +1220,34 @@ Is it easy or difficult to use? &  &  & \\
 
 \textbf{Pick your storage and backup systems:}
 
-\begin{tabular}{l|l|l}
-\hline
-Storage & Backup 1 & Backup 2\\
-\hline
- &  & \\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.31}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.31}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Storage
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Backup 1
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Backup 2
+\end{minipage} \\
+\midrule
+\endhead
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~
+~~~ & ~ & ~ \\
+\bottomrule
+\end{longtable}
 
 \hypertarget{backup}{%
 \section{Test Your Backup}\label{backup}}
