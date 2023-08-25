@@ -1,9 +1,5 @@
 # Documentation
 
-```{r setup2, include=FALSE}
-library(tidyverse)
-```
-
 Documentation has sometimes been called “a love letter to your future self” as it helps you remember important details about your research data. The great thing about research documentation is that it’s not limited to a laboratory or research notebook, though notebooks are still very important! This chapter introduces two types of useful documentation – a project-level README.txt and a data dictionary – and offers worksheets for writing both. The chapter also includes a worksheet to evaluate an older entry in your laboratory notebook to ensure your documentation is of sufficient quality.
 
 ## Evaluate a Laboratory Notebook {#lab-notebook}
@@ -124,17 +120,46 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 ---
 
-``` {r dictionary-table, echo = FALSE}
-dictionary <- tibble(Question = 
-                       c("Variable name",
-                         "Variable description",
-                         "Variable units",
-                         "Relationship to other variables",
-                         "Variable coding values and meanings",
-                         "Known issues with the data",
-                         "Anything else to know about the data?"),
-                     "Variable 1" = c("", "", "", "", "", "", ""),
-                     "Variable 2" = c("", "", "", "", "", "", ""),
-                     "Variable 3" = c("", "", "", "", "", "", ""))
-knitr::kable(dictionary)
-```
+------------------------------------------------------------------
+Question                Variable 1    Variable 2    Variable 3
+--------------------    ------------  ------------  ------------
+Variable name           &nbsp;        &nbsp;        &nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+Variable description    &nbsp;        &nbsp;        &nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+Variable units          &nbsp;        &nbsp;        &nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+Relationship to         &nbsp;        &nbsp;        &nbsp;
+other variables
+
+Variable coding         &nbsp;        &nbsp;        &nbsp;
+values and meanings
+
+Known issues with       &nbsp;        &nbsp;        &nbsp;
+the data
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+Anything else to        &nbsp;        &nbsp;        &nbsp;
+know about the data?
+--------------------    ------------  ------------  ------------
