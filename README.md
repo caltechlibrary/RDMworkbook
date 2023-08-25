@@ -18,5 +18,4 @@ To-do list:
 * Cover image
 * Chapter 3, exercise 1 image (file organization)
 * Examples in exercises?
-* Fix pdf issues with boxes in checklists
 * Figure out web hosting
