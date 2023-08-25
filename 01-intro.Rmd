@@ -25,7 +25,7 @@ If all of those things sound like something you would like to implement in your 
 
 ## How to Use this Book to Manage Your Research Data Better {#how-rdm}
 
-The “Research Data Management Workbook” is focused entirely on the “how” of data management. The Workbook consists of a series of worksheets, checklists, and procedures to set up new data management practices, check existing practices, and make good decisions about your data. You will find exercises covering all the ideals listed in the [“Why Do Research Data Management?” section](#why-rdm) above, allowing you to streamline the your use of research data.
+The Research Data Management Workbook is focused entirely on the “how” of data management. The Workbook consists of a series of worksheets, checklists, and procedures to set up new data management practices, check existing practices, and make good decisions about your data. You will find exercises covering all the ideals listed in the [“Why Do Research Data Management?” section](#why-rdm) above, allowing you to streamline your use of research data.
 
 The Workbook is not a complete set of exercises for everything under the umbrella of data management. Instead, the Workbook centers on activities that are structured, reproducible, and apply to many researchers. The strength and weakness of data management is that many of its practices are customizable to individual research workflows. Each exercise in the Workbook, therefore, is built on best principles while allowing for customization to suit local needs.
 
