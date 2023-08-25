@@ -18,4 +18,5 @@ To-do list:
 * Cover image
 * Chapter 3, exercise 1 image (file organization)
 * Examples in exercises?
+* Accessibility review
 * Figure out web hosting
