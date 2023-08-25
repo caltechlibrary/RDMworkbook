@@ -7,7 +7,7 @@ documentclass: book
 bibliography: references.bib
 csl: apa.csl
 # url: 
-# cover-image: images/cover.jpg
+cover-image: images/cover.jpg
 description: |
   The Research Data Management Workbook is made up of a collection of exercises
   for researchers to improve their data management.
