@@ -144,6 +144,8 @@ Variable name           &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 Variable description    &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -164,8 +166,12 @@ Variable description    &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 
 Variable units          &nbsp;        &nbsp;        &nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
