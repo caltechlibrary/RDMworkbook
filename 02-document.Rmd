@@ -20,7 +20,15 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 &nbsp;
 
-**How easy was it to understand what you did from your notes? Could you reproduce your work solely from the information in your notes?**
+**How easy was it to understand the work you did from your notes?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Could you reproduce your work based on the information in your notes? If not, what extra information do you need?**
 
 &nbsp;
 
@@ -36,7 +44,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 &nbsp;
 
-**What would you improve about your note keeping?**
+**What should you improve about your note keeping?**
 
 &nbsp;
 
@@ -44,7 +52,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 &nbsp;
 
-**List one change you plan to make to take better research notes:**
+**List one change you will implement to take better research notes:**
 
 &nbsp;
 
