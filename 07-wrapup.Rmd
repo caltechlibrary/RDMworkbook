@@ -166,6 +166,24 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 ---
 
+**Retain Copies of Data that You Have Permission to Keep**
+
+\_\_ If you have not done so already, work through [Exercise 5.2: Determine Data Stewardship](#data-governance) to determine what data you may retain
+
+\_\_ Identify and keep pertinent research data from personal devices
+
+\_\_ Identify and keep pertinent research data from storage systems (e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
+
+\_\_ When appropriate, make a copy of research notes
+
+**Delete Personal Information and Remove Personal Devices**
+
+\_\_ Remove personal information from lab devices
+
+\_\_ Remove personal devices from lab
+
+\_\_ Remove personal access to shared accounts (e.g. lab Github, lab repository page, lab website, mailing lists, or social media)
+
 **Return Lab Hardware**
 
 \_\_ Keys
@@ -185,24 +203,6 @@ This chapter also covers project wrap up in the form of separating from your ins
 \_\_ External drives
 
 \_\_ Other lab equipment (e.g. cameras, recording devices)
-
-**Delete Personal Information and Remove Personal Devices**
-
-\_\_ Remove personal information from lab devices
-
-\_\_ Remove personal devices from lab
-
-\_\_ Remove personal access to shared accounts (e.g. lab Github, lab repository page, lab website, mailing lists, or social media)
-
-**Retain Copies of Data that You Have Permission to Keep**
-
-\_\_ If you have not done so already, work through [Exercise 5.2: Determine Data Stewardship](#data-governance) to determine what data you may retain
-
-\_\_ Identify and keep pertinent research data from personal devices
-
-\_\_ Identify and keep pertinent research data from storage systems (e.g. AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
-
-\_\_ When appropriate, make a copy of research notes
 
 **Update Research Administration Documents, As Necessary**
 
