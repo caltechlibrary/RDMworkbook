@@ -15,7 +15,7 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 7. Project Wrap Up
 
 To-do list:
-* Chapter 3, exercise 1 image (file organization)
+* Edit exercises
 * Examples in exercises?
 * Accessibility review
 * Figure out web hosting
