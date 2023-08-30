@@ -27,9 +27,9 @@ Good file organization and naming are foundational data management practices, as
 3. Create hierarchies in file organization by adding new "folder" cards in one of two types; use different colored cards for each folder type:
 	* Cards in the second color represent a single folder. These should be labeled with the folder name in quotations (e.g. "Literature" or "My publications").
 	* Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g. [By date] or [By project]).
-4. Move existing file-type cards/groups of file-type cards underneath the new folder cards to show that a file type will be saved in a specific folder or group of folders. Organizational-group folders (cards in the third color) only need to be represented once in the card sorting, as they are assumed to represent multiple folders on a computer.
+4. Move existing file-type cards/groups of file-type cards underneath the new folder cards to show the hierarchy of how a file type will be saved in a specific folder or group of folders. Organizational-group folders (cards in the third color) only need to be represented once in the card sorting, as they are assumed to represent multiple folders on a computer.
 5. Make copies of any type of card and add folder levels, as needed. Adjust placement and hierarchies until you are happy with the organizational system you developed.
-6. Record your organizational system in your lab notebook or in a [README.txt](#readme-txt).
+6. Record your organizational system in your lab notebook and/or a [README.txt](#readme-txt).
 
 ## Create a File Naming Convention {#file-naming}
 
