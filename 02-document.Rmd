@@ -104,7 +104,23 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 &nbsp;
 
+**How and where is the project documented?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 **How are files organized? Are any naming conventions used and, if so, what are they (see [Chapter 3](#file-organization-and-naming))?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What else does someone need to know to understand these files?**
 
 &nbsp;
 
