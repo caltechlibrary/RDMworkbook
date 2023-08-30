@@ -70,15 +70,9 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 ---
 
-**What is the title of the project?**
+**Project documented by this README.txt:** \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**What is the project description?**
+**Write a brief project description:**
 
 &nbsp;
 
@@ -102,7 +96,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 &nbsp;
 
-**Where are the files are stored?**
+**Where are the data, code, and other files are stored?**
 
 &nbsp;
 
