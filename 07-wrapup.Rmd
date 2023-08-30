@@ -130,7 +130,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Research Notes**
 
-\_\_ Scan of research notebook
+\_\_ Scans of research notebook
 
 \_\_ Digital notes
 
@@ -138,15 +138,15 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \_\_ Flat files of figures (e.g. .JPG or .TIFF)
 
-\_\_ Editable image files (e.g. Photoshop)
+\_\_ Editable image files (e.g. .XLSX or .PSD)
 
 **Publications**
 
-\_\_ Published article in .PDF format
+\_\_ Published articles in .PDF format
 
-\_\_ Final version of the article in editable document format (e.g. .DOCX)
+\_\_ Accepted version of articles in editable document format (e.g. .DOCX)
 
-\_\_ Posters
+\_\_ Poster files
 
 **Administrative Documents**
 
@@ -186,19 +186,11 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Return Lab Hardware**
 
-\_\_ Keys
-
-\_\_ Key card
-
 \_\_ Individual computer / workstation
 
 \_\_ Tablet(s)
 
-\_\_ Phone
-
 \_\_ Peripherals (e.g. keyboard, mouse, monitor)
-
-\_\_ Headsets, webcams
 
 \_\_ External drives
 
