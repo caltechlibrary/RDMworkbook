@@ -10,23 +10,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 ---
 
-**Write a short summary of what project this DMP is for:**
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).)**
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).)**
+**Write a short summary of the project this DMP is for:**
 
 &nbsp;
 
@@ -50,6 +34,22 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
+**How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).)**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).)**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 **How will data move through the collection and analysis pipelines?**
 
 &nbsp;
@@ -66,7 +66,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
-**As necessary, record any project roles and responsibilities around data management:**
+**Record any project roles and responsibilities around data management:**
 
 &nbsp;
 
@@ -74,6 +74,13 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
+**Record any other details on how data will be managed:**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
 
 
 ## Determine Data Stewardship {#data-governance}
@@ -86,6 +93,14 @@ While this entire workbook covers data management activities, it’s often usefu
 
 ---
 
+**Who is participating in this discussion?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
 **What data is being discussed?**
 
 &nbsp;
@@ -94,7 +109,15 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
-**Are there security or intellectual property restrictions on the data and, if so, what are they?**
+**Are there security or privacy restrictions on the data and, if so, what are they?**
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Are there intellectual property limitations on the data and, if so, what are they?**
 
 &nbsp;
 
@@ -126,7 +149,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
-**Who is allowed to reuse the data after the project ends? Are there any requirements for reuse, such as co-authorship?**
+**Who is allowed to reuse the data after the project ends? Which data? Are there any requirements for reuse, such as co-authorship?**
 
 &nbsp;
 
