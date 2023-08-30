@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-08-25}
+\date{2023-08-30}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -184,23 +184,27 @@ You may go through exercises in the Workbook collectively or individually as you
 
 My best recommendation is to use the Workbook as the exercise book for my first book, ``Data Management for Researchers'' \citep{briney_data_2015}. The following table lays out how chapters in the Workbook match with chapters in ``Data Management for Researchers,'' allowing you to look up more information on any topic covered by the Workbook:
 
-\begin{tabular}{l|l}
-\hline
-Research Data Management Workbook & Data Management for Researchers\\
-\hline
-Chapter 2 & Chapter 4\\
-\hline
-Chapter 3 & Chapter 5\\
-\hline
-Chapter 4 & Chapter 8\\
-\hline
-Chapter 5 & Chapter 3\\
-\hline
-Chapter 6 & Chapter 10\\
-\hline
-Chapter 7 & Chapter 9\\
-\hline
-\end{tabular}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.29}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Research Data
+Management Workbook
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Data Management
+for Researchers
+\end{minipage} \\
+\midrule
+\endhead
+Chapter 2 & Chapter 4 \\
+Chapter 3 & Chapter 5 \\
+Chapter 4 & Chapter 8 \\
+Chapter 5 & Chapter 3 \\
+Chapter 6 & Chapter 10 \\
+Chapter 7 & Chapter 9 \\
+\bottomrule
+\end{longtable}
 
 \hypertarget{documentation}{%
 \chapter{Documentation}\label{documentation}}
@@ -226,7 +230,15 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 ~
 
-\textbf{How easy was it to understand what you did from your notes? Could you reproduce your work solely from the information in your notes?}
+\textbf{How easy was it to understand the work you did from your notes?}
+
+~
+
+~
+
+~
+
+\textbf{Could you reproduce your work based on the information in your notes? If not, what extra information do you need?}
 
 ~
 
@@ -242,7 +254,7 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 ~
 
-\textbf{What would you improve about your note keeping?}
+\textbf{What should you improve about your note keeping?}
 
 ~
 
@@ -250,7 +262,7 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 ~
 
-\textbf{List one change you plan to make to take better research notes:}
+\textbf{List one change you will implement to take better research notes:}
 
 ~
 
@@ -269,15 +281,9 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\textbf{What is the title of the project?}
+\textbf{Project documented by this README.txt:} \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-~
-
-~
-
-~
-
-\textbf{What is the project description?}
+\textbf{Write a brief project description:}
 
 ~
 
@@ -301,7 +307,7 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 ~
 
-\textbf{Where are the files are stored?}
+\textbf{Where are the data, code, and other files are stored?}
 
 ~
 
@@ -492,6 +498,12 @@ Good file organization and naming are foundational data management practices, as
 
 \textbf{\emph{Description:}} \emph{Implementing a file organization system is the first step toward creating order for your research data. Well-organized files make it easier to find the data you need without spending lots of time searching your computer. Every researcher organizes their files slightly differently, but the actual organizational system is less important that having a place where all of your files should logically go. This exercise prompts you to brainstorm organizational groupings and hierarchies to come up with an order for managing your research data.}
 
+\begin{figure}
+\centering
+\includegraphics{images/03_CardSorting.jpg}
+\caption{Example of organizational exercise. Image is of blue (group folder), pink (single folder), and yellow (data type) sticky notes, each with its own label, organized hierarchically on a wooden desktop.}
+\end{figure}
+
 \textbf{\emph{Instructions:}} \emph{This is a card-sorting exercise, meaning you will need a stack of note cards or post-it notes to do this activity, ideally in three different colors. Follow the instructions to label cards and move them around until you develop your organizational system. There is no one correct way to do this so feel free to play around, add new cards, and move cards however you want! Once you put your new organizational system into place, be sure to always put your files where they're supposed to go.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
@@ -517,7 +529,7 @@ Good file organization and naming are foundational data management practices, as
   \item
     Figures
   \item
-    Your publications
+    My publications
   \item
     Literature PDFs
   \item
@@ -1779,6 +1791,24 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\textbf{Retain Copies of Data that You Have Permission to Keep}
+
+\_\_ If you have not done so already, work through \protect\hyperlink{data-governance}{Exercise 5.2: Determine Data Stewardship} to determine what data you may retain
+
+\_\_ Identify and keep pertinent research data from personal devices
+
+\_\_ Identify and keep pertinent research data from storage systems (e.g.~AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
+
+\_\_ When appropriate, make a copy of research notes
+
+\textbf{Delete Personal Information and Remove Personal Devices}
+
+\_\_ Remove personal information from lab devices
+
+\_\_ Remove personal devices from lab
+
+\_\_ Remove personal access to shared accounts (e.g.~lab Github, lab repository page, lab website, mailing lists, or social media)
+
 \textbf{Return Lab Hardware}
 
 \_\_ Keys
@@ -1798,24 +1828,6 @@ This chapter also covers project wrap up in the form of separating from your ins
 \_\_ External drives
 
 \_\_ Other lab equipment (e.g.~cameras, recording devices)
-
-\textbf{Delete Personal Information and Remove Personal Devices}
-
-\_\_ Remove personal information from lab devices
-
-\_\_ Remove personal devices from lab
-
-\_\_ Remove personal access to shared accounts (e.g.~lab Github, lab repository page, lab website, mailing lists, or social media)
-
-\textbf{Retain Copies of Data that You Have Permission to Keep}
-
-\_\_ If you have not done so already, work through \protect\hyperlink{data-governance}{Exercise 5.2: Determine Data Stewardship} to determine what data you may retain
-
-\_\_ Identify and keep pertinent research data from personal devices
-
-\_\_ Identify and keep pertinent research data from storage systems (e.g.~AWS/Azure, Box, campus HPC, Dropbox, Electronic Lab Notebook, Globus, Google Drive, lab/department/college servers, Microsoft OneDrive, Microsoft Sharepoint, or shared collaborator drives)
-
-\_\_ When appropriate, make a copy of research notes
 
 \textbf{Update Research Administration Documents, As Necessary}
 
