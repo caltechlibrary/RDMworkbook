@@ -16,7 +16,6 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 
 To-do list:
 * Edit exercises in chapter 4
-* Workflow figure for exercise 6.1 (repositories)
 * Examples in exercises?
 * Accessibility review
 * Figure out web hosting
