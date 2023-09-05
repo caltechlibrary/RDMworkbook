@@ -54,6 +54,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Is your data stored in a proprietary file type? What file type and how does this limit future data reuse?**
 
+*Example: Data is stored in a .CZI file format, which is a proprietary Zeiss image format for microscopes. These files do not open in other software.*
+
 &nbsp;
 
 &nbsp;
@@ -61,6 +63,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 &nbsp;
 
 **Is it possible to convert your data to other file types? If so, list the possible types:**
+
+*Example: I can use the Bio-Formats tool to convert .CZI files to: .AVI, .CH5, .DCM/.DICOM, .EPS/.EPSI/.PS, .ICS/.IDS, .JPG, .JP2/.J2K/.JPF, .MOV, .OME.TIFF/.OME.TIF, .OME/.OME.XML, .PNG, .TIFF/.TIF.*
 
 &nbsp;
 
@@ -70,6 +74,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Which of the possible file types are in common use? Which of the possible file types can be opened by multiple software programs?**
 
+*Example: JPG, PNG, and TIFF are all image formats in common use. OME-TIFF is a common image format within microscopy; most software will read the TIFF portion of the file but only some software will read the extra OME metadata. Common movie file types are AVI and MOV.*
+
 &nbsp;
 
 &nbsp;
@@ -78,6 +84,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Of the possible options above, do you have a preference for a specific file type?**
 
+*Example: I prefer an image file over a movie file. TIFF is best because it doesn't lose resolution due to compression and can store all of the 4-dimensional image layers. OME-TIFF gives all of the benefits of TIFF but with added metadata.*
+
 &nbsp;
 
 &nbsp;
@@ -85,6 +93,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 &nbsp;
 
 **Pick one of the more open or common file types and copy your important data files into that file type. Do not delete the original files.**
+
+*Example: I will convert my data to OME-TIFF files.*
 
 &nbsp;
 
