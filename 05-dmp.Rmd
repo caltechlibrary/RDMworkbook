@@ -95,6 +95,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Who is participating in this discussion?**
 
+*Example: This discussion includes the graduate student who collected the data, the project Principle Investigator (PI), and the laboratory manager.*
+
 &nbsp;
 
 &nbsp;
@@ -102,6 +104,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **What data is being discussed?**
+
+*Example: This discussion covers all of the data collected by the graduate student during their time at the university.*
 
 &nbsp;
 
@@ -111,6 +115,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Are there security or privacy restrictions on the data and, if so, what are they?**
 
+*Example: Some of the research data includes human subjects data. This data must be held securely with limited data sharing, as outlined in the IRB protocols.*
+
 &nbsp;
 
 &nbsp;
@@ -118,6 +124,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **Are there intellectual property limitations on the data and, if so, what are they?**
+
+*Example: There are no intellectual property concerns for the data.*
 
 &nbsp;
 
@@ -127,6 +135,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Are there any requirements to publicly share the data and, if so, what are they?**
 
+*Example: This research was funded by the NIH, which requires data sharing. The laboratory plans to share all data reproducing published results with the exception of the human subjects data.*
+
 &nbsp;
 
 &nbsp;
@@ -134,6 +144,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **Who will store the copy of record of the data and for how long?**
+
+*Example: The project PI will retain the copy of record of the data for at least 3 years after the end of the grant award, with an ideal 10 year retention period.*
 
 &nbsp;
 
@@ -143,6 +155,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Who is allowed to keep a copy of the data after the project ends? Which data?**
 
+*Example: The graduate student may keep a copy of all data except the human subjects data after they leave the university.*
+
 &nbsp;
 
 &nbsp;
@@ -151,6 +165,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Who is allowed to reuse the data after the project ends? Which data? Are there any requirements for reuse, such as co-authorship?**
 
+*Example: The graduate student may reuse and publish with the data collected during their time at the university but must offer co-authorship of any papers using the data to the project PI and any relevant lab members.*
+
 &nbsp;
 
 &nbsp;
@@ -158,6 +174,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **Who keeps any physical research notebooks after the project ends?**
+
+*Example: The PI will keep all physical laboratory notebooks but the graduate student may make copies to retain for their personal records.*
 
 &nbsp;
 
