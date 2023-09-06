@@ -12,6 +12,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Write a short summary of the project this DMP is for:**
 
+*Example: This project uses mass spectrometry to identify isotopic composition of soil samples.*
+
 &nbsp;
 
 &nbsp;
@@ -19,6 +21,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **Where will data be stored? How will data be backed up? (See [Exercise 4.1: Store and Back Up the Data](#storage).)**
+
+*Example: The data is generated on the mass spectrometer then copied to a shared lab server. The server is backed up by departmental IT.*
 
 &nbsp;
 
@@ -28,6 +32,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **How will you document your research? Where will your research notes be stored?**
 
+*Example: Data collection and analysis is primarily documented in a laboratory notebook, organized by date. README.txt files add documentation to the digital files as needed.*
+
 &nbsp;
 
 &nbsp;
@@ -35,6 +41,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **How will your data be organized? (See [Exercise 3.1: Set Up a File Organization System](#file-organization).)**
+
+*Example: Each researcher has their own folder on the shared server. Data within my folder is organized in folders by sample site with subfolders labeled by sample ID. Sample ID consists of: two-letter sample site code, three-digit sample number, and date of sample collection formatted as YYYYMMDD (e.g. "MA006-20230901" and "CB012-20100512").*
 
 &nbsp;
 
@@ -44,13 +52,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **What naming convention(s) will you use for your data? (See [Exercise 3.2: Create a File Naming Convention](#file-naming).)**
 
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**How will data move through the collection and analysis pipelines?**
+*Example: Files will be named with the sample ID, type of measurement, and stage in the analysis process; these pieces of information will be separated by underscores. Examples: "MA006-20230901_TIMS_raw" and "CB012-20100512_SIMS_analyzed".*
 
 &nbsp;
 
@@ -60,6 +62,18 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Do you need to do any version control on your files? How will that be done?**
 
+*Example: Version control will be very simple through file naming, appending analysis information onto the end of file names to keep track of which version of the file it is.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**How will data move through the collection and analysis pipelines?**
+
+*Example: Once data is collected on the mass spectrometer, I will copy it to the correct folder on the shared server for analysis. Data will stay in its sample ID-labeled folder as it gets analyzed, with different file names to annotate analysis stage. Data that will be published will be copied into separate folders, organized by article.*
+
 &nbsp;
 
 &nbsp;
@@ -68,6 +82,8 @@ While this entire workbook covers data management activities, it’s often usefu
 
 **Record any project roles and responsibilities around data management:**
 
+*Example: It is each researcher's responsibility to ensure that data moves through the analysis pipeline and is labeled correctly. The lab manager will ensure that the shared server stays organized and will periodically check that backups are working.*
+
 &nbsp;
 
 &nbsp;
@@ -75,6 +91,8 @@ While this entire workbook covers data management activities, it’s often usefu
 &nbsp;
 
 **Record any other details on how data will be managed:**
+
+*Example: Copies of this DMP will live in my top-level folder on the lab server so that others can find and use my data as needed.*
 
 &nbsp;
 
