@@ -54,7 +54,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Is your data stored in a proprietary file type? What file type and how does this limit future data reuse?**
 
-*Example: Data is stored in a .CZI file format, which is a proprietary Zeiss image format for microscopes. These files do not open in other software.*
+*Example: Data is stored in a .CZI file format, which is a proprietary Zeiss microscope image format. These files do not open in other software.*
 
 &nbsp;
 
@@ -64,7 +64,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 **Is it possible to convert your data to other file types? If so, list the possible types:**
 
-*Example: I can use the Bio-Formats tool to convert .CZI files to: .AVI, .CH5, .DCM/.DICOM, .EPS/.EPSI/.PS, .ICS/.IDS, .JPG, .JP2/.J2K/.JPF, .MOV, .OME.TIFF/.OME.TIF, .OME/.OME.XML, .PNG, .TIFF/.TIF.*
+*Example: I can use the Bio-Formats tool to convert .CZI files to: .AVI, .CH5, .DCM/.DICOM, .EPS/.EPSI/.PS, .ICS/.IDS, .JPG, .JP2/.J2K/.JPF, .MOV, .OME.TIFF/.OME.TIF, .OME/.OME.XML, .PNG, or .TIFF/.TIF.*
 
 &nbsp;
 
