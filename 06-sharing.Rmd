@@ -14,6 +14,8 @@ Sharing data that underlies research has become a common expectation within scho
 
 **Identify all of the data that needs to be shared.**
 
+*Example: My data to be shared includes: 1) genetic data for Drosophila; and 2) microscope images of flies.*
+
 &nbsp;
 
 &nbsp;
@@ -24,15 +26,19 @@ Sharing data that underlies research has become a common expectation within scho
 
 If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
 
-&nbsp;
+*Example: The database [FlyBase](http://flybase.org/) is used for Drosophila genes and genomes. My genetic data will be shared there.*
 
 &nbsp;
 
 &nbsp;
 
-**Review the [list of recommended data repositories from PLOS]( https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
+&nbsp;
+
+**Review the [list of recommended data repositories from PLOS](https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
 
 If so, deposit some or all of your data there. End the exercise if you have shared all of your data or keep going if there is still some data left to deposit.
+
+*Example: There isn't a logical disciplinary data repository for microscope images of flies.*
 
 &nbsp;
 
@@ -44,6 +50,8 @@ If so, deposit some or all of your data there. End the exercise if you have shar
 
 If so, deposit the remainder of your data there and end the exercise.
 
+*Example: The California Institute of Technology has the data repository [CaltechDATA](https://data.caltech.edu/). I will deposit my microscope images in CaltechDATA.*
+
 &nbsp;
 
 &nbsp;
@@ -54,6 +62,8 @@ If so, deposit the remainder of your data there and end the exercise.
 
 If so, deposit the remainder of your data there and end the exercise.
 
+*Example: (All data has been shared already.)*
+
 &nbsp;
 
 &nbsp;
@@ -61,6 +71,8 @@ If so, deposit the remainder of your data there and end the exercise.
 &nbsp;
 
 **Pick a [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories) and deposit the remainder of your data.**
+
+*Example: (All data has been shared already.)*
 
 &nbsp;
 
