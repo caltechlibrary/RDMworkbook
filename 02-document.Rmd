@@ -132,16 +132,56 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 ***Description:*** *Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.*
 
-***Instructions:*** *Fill out the information in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
+***Instructions:*** *Pick one spreadsheet variable and record its information in the corresponding rows of the table. Repeat this process for the remaining variables in the spreadsheet. Copy all information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending "\_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData\_dictionary.txt”.*
 
 ***Source:*** *This exercise was adapted from "Leveling Up Data Management" [@briney_leveling_2023].*
 
 ---
 
 ------------------------------------------------------------------
-Question                Variable 1    Variable 2    Variable 3
---------------------    ------------  ------------  ------------
-Variable name           &nbsp;        &nbsp;        &nbsp;
+Question                Example
+--------------------    ------------------------------------------
+Variable name           *site*
+
+Variable description    *Two-letter abbreviation describing the
+                        name of the overall site where the sample
+                        was collected.*
+
+Variable units          *N/A*
+
+Relationship to         *Partner to variable "sampleNum", which 
+other variables         together define the sample ID (site name + 
+                        sample number at that site). Related to 
+                        variables "latitude" and "longitude", 
+                        which record exact coordinate location 
+                        and are more specific than the larger 
+                        site code.*
+
+Variable coding         *Coding values and meanings:
+values and meanings     BL = Badlands NP; 
+	                      DV = Death Valley NP; 
+	                      GT = Grand Teton NP; 
+	                      JT = Joshua Tree NP; 
+	                      ZN = Zion NP*
+
+
+Known issues with       *Some Badlands samples were collected 
+the data                outsideof the park boundaries; see latitude  
+                        and longitude variables for specific 
+                        locations.*
+
+Anything else to        *Older data (pre-2013) used one-letter 
+know about the data?    abbreviations for site code but this was 
+                        updated for clarity and ease of 
+                        identification.*
+--------------------    ------------------------------------------
+
+&nbsp;
+
+------------------------------------------------------------------
+Question                Variable
+--------------------    ------------------------------------------
+Variable name           &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -169,7 +209,7 @@ Variable name           &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Variable description    &nbsp;        &nbsp;        &nbsp;
+Variable description    &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -195,7 +235,7 @@ Variable description    &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Variable units          &nbsp;        &nbsp;        &nbsp;
+Variable units          &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -223,7 +263,7 @@ Variable units          &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Relationship to         &nbsp;        &nbsp;        &nbsp;
+Relationship to         &nbsp;
 other variables
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -237,7 +277,7 @@ other variables
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Variable coding         &nbsp;        &nbsp;        &nbsp;
+Variable coding         &nbsp;
 values and meanings
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -251,7 +291,7 @@ values and meanings
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Known issues with       &nbsp;        &nbsp;        &nbsp;
+Known issues with       &nbsp;
 the data
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -268,7 +308,7 @@ the data
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Anything else to        &nbsp;        &nbsp;        &nbsp;
+Anything else to        &nbsp;
 know about the data?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -281,4 +321,4 @@ know about the data?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
---------------------    ------------  ------------  ------------
+--------------------    ------------------------------------------
