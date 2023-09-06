@@ -74,6 +74,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **Write a brief project description:**
 
+*Example: The Data Doubles project was a 4-year, IMLS-funded research project examining student perceptions of privacy in library learning analytics.*
+
 &nbsp;
 
 &nbsp;
@@ -81,6 +83,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 &nbsp;
 
 **What is the time period the project was done over?**
+
+*Example: The project was conducted between summer 2018 and summer 2022.*
 
 &nbsp;
 
@@ -90,6 +94,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **Who worked on the project?**
 
+*Example: Eight researchers from eight different instutions worked on the project, including: KMLJ, AA, KB, AG, MP, MR, DS, and MS.*
+
 &nbsp;
 
 &nbsp;
@@ -97,6 +103,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 &nbsp;
 
 **Where are the data, code, and other files are stored?**
+
+*Example: Research files are stored on Google Drive, with the exception that participant data is stored in IU-hosted Box. Survey data is also in Qualtrics. Code is on GitHub. The shared literature library is in Zotero.*
 
 &nbsp;
 
@@ -106,6 +114,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **How and where is the project documented?**
 
+*Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data from sub-projects are in their respective DataDoubles/Phase[X] folders. See the data management plans for each sub-project for more details.*
+
 &nbsp;
 
 &nbsp;
@@ -113,6 +123,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 &nbsp;
 
 **How are files organized? Are any naming conventions used and, if so, what are they (see [Chapter 3](#file-organization-and-naming))?**
+
+*Example: File organization and naming differ by sub-project. Please see the data management plans in each DataDoubles/Phase[X] folder for more details.*
 
 &nbsp;
 
@@ -122,11 +134,16 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **What else does someone need to know to understand these files?**
 
-&nbsp;
+*Example: Additional documentation on the project and public research files are available on OSF.*
 
 &nbsp;
 
 &nbsp;
+
+&nbsp;
+
+
+
 
 ## Create a Data Dictionary {#data-dictionary}
 
