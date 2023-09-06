@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-08-31}
+\date{2023-09-06}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -285,6 +285,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{Write a brief project description:}
 
+\emph{Example: The Data Doubles project was a 4-year, IMLS-funded research project examining student perceptions of privacy in library learning analytics.}
+
 ~
 
 ~
@@ -292,6 +294,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 ~
 
 \textbf{What is the time period the project was done over?}
+
+\emph{Example: The project was conducted between summer 2018 and summer 2022.}
 
 ~
 
@@ -301,6 +305,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{Who worked on the project?}
 
+\emph{Example: Eight researchers from eight different instutions worked on the project, including: KMLJ, AA, KB, AG, MP, MR, DS, and MS.}
+
 ~
 
 ~
@@ -308,6 +314,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 ~
 
 \textbf{Where are the data, code, and other files are stored?}
+
+\emph{Example: Research files are stored on Google Drive, with the exception that participant data is stored in IU-hosted Box. Survey data is also in Qualtrics. Code is on GitHub. The shared literature library is in Zotero.}
 
 ~
 
@@ -317,6 +325,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{How and where is the project documented?}
 
+\emph{Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data from sub-projects are in their respective DataDoubles/Phase{[}X{]} folders. See the data management plans for each sub-project for more details.}
+
 ~
 
 ~
@@ -325,6 +335,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{How are files organized? Are any naming conventions used and, if so, what are they (see \protect\hyperlink{file-organization-and-naming}{Chapter 3})?}
 
+\emph{Example: File organization and naming differ by sub-project. Please see the data management plans in each DataDoubles/Phase{[}X{]} folder for more details.}
+
 ~
 
 ~
@@ -332,6 +344,8 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 ~
 
 \textbf{What else does someone need to know to understand these files?}
+
+\emph{Example: Additional documentation on the project and public research files are available on OSF.}
 
 ~
 
@@ -344,26 +358,66 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{\emph{Description:}} \emph{Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it's useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.}
 
-\textbf{\emph{Instructions:}} \emph{Fill out the information in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending ``\_dictionary'' on the end of the file name; for example, the data dictionary for the file ``myData.xlsx'' would be ``myData\_dictionary.txt''.}
+\textbf{\emph{Instructions:}} \emph{Pick one spreadsheet variable and record its information in the corresponding rows of the table. Repeat this process for the remaining variables in the spreadsheet. Copy all information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending ``\_dictionary'' on the end of the file name; for example, the data dictionary for the file ``myData.xlsx'' would be ``myData\_dictionary.txt''.}
 
 \textbf{\emph{Source:}} \emph{This exercise was adapted from ``Leveling Up Data Management'' \citep{briney_leveling_2023}.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.19}}@{}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
 \toprule
 \begin{minipage}[b]{\linewidth}\raggedright
 Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Variable 1
+Example
+\end{minipage} \\
+\midrule
+\endhead
+Variable name & \emph{site} \\
+Variable description & \emph{Two-letter abbreviation describing the
+name of the overall site where the sample
+was collected.} \\
+Variable units & \emph{N/A} \\
+Relationship to
+other variables & \emph{Partner to variable ``sampleNum'', which
+together define the sample ID (site name +
+sample number at that site). Related to
+variables ``latitude'' and ``longitude'',
+which record exact coordinate location
+and are more specific than the larger
+site code.} \\
+Variable coding
+values and meanings & \emph{Coding values and meanings:
+BL = Badlands NP;
+DV = Death Valley NP;
+GT = Grand Teton NP;
+JT = Joshua Tree NP;
+ZN = Zion NP} \\
+Known issues with
+the data & \emph{Some Badlands samples were collected
+outsideof the park boundaries; see latitude
+and longitude variables for specific
+locations.} \\
+Anything else to
+know about the data? & \emph{Older data (pre-2013) used one-letter
+abbreviations for site code but this was
+updated for clarity and ease of
+identification.} \\
+\bottomrule
+\end{longtable}
+
+~
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
+\toprule
+\begin{minipage}[b]{\linewidth}\raggedright
+Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Variable 2
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-Variable 3
+Variable
 \end{minipage} \\
 \midrule
 \endhead
@@ -393,7 +447,7 @@ Variable name
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Variable description
 ~~~
 ~~~
@@ -418,7 +472,7 @@ Variable description
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Variable units
 ~~~
 ~~~
@@ -445,7 +499,7 @@ Variable units
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Relationship to
 other variables
 ~~~
@@ -458,7 +512,7 @@ other variables
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Variable coding
 values and meanings
 ~~~
@@ -471,7 +525,7 @@ values and meanings
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Known issues with
 the data
 ~~~
@@ -487,7 +541,7 @@ the data
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 Anything else to
 know about the data?
 ~~~
@@ -500,7 +554,7 @@ know about the data?
 ~~~
 ~~~
 ~~~
-~~~ & ~ & ~ & ~ \\
+~~~ & ~ \\
 \bottomrule
 \end{longtable}
 
@@ -1727,6 +1781,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \textbf{Is your data stored in a proprietary file type? What file type and how does this limit future data reuse?}
 
+\emph{Example: Data is stored in a .CZI file format, which is a proprietary Zeiss microscope image format. These files do not open in other software.}
+
 ~
 
 ~
@@ -1734,6 +1790,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 ~
 
 \textbf{Is it possible to convert your data to other file types? If so, list the possible types:}
+
+\emph{Example: I can use the Bio-Formats tool to convert .CZI files to: .AVI, .CH5, .DCM/.DICOM, .EPS/.EPSI/.PS, .ICS/.IDS, .JPG, .JP2/.J2K/.JPF, .MOV, .OME.TIFF/.OME.TIF, .OME/.OME.XML, .PNG, or .TIFF/.TIF.}
 
 ~
 
@@ -1743,6 +1801,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \textbf{Which of the possible file types are in common use? Which of the possible file types can be opened by multiple software programs?}
 
+\emph{Example: JPG, PNG, and TIFF are all image formats in common use. OME-TIFF is a common image format within microscopy; most software will read the TIFF portion of the file but only some software will read the extra OME metadata. Common movie file types are AVI and MOV.}
+
 ~
 
 ~
@@ -1751,6 +1811,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \textbf{Of the possible options above, do you have a preference for a specific file type?}
 
+\emph{Example: I prefer an image file over a movie file. TIFF is best because it doesn't lose resolution due to compression and can store all of the 4-dimensional image layers. OME-TIFF gives all of the benefits of TIFF but with added metadata.}
+
 ~
 
 ~
@@ -1758,6 +1820,8 @@ This chapter also covers project wrap up in the form of separating from your ins
 ~
 
 \textbf{Pick one of the more open or common file types and copy your important data files into that file type. Do not delete the original files.}
+
+\emph{Example: I will convert my data to OME-TIFF files.}
 
 ~
 

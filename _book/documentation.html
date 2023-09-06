@@ -26,7 +26,7 @@ for researchers to improve their data management.</p>" />
 <meta name="author" content="Kristin Briney" />
 
 
-<meta name="date" content="2023-08-31" />
+<meta name="date" content="2023-09-06" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -211,30 +211,37 @@ div.csl-indent {
 <hr />
 <p><strong>Project documented by this README.txt:</strong> ____________________</p>
 <p><strong>Write a brief project description:</strong></p>
+<p><em>Example: The Data Doubles project was a 4-year, IMLS-funded research project examining student perceptions of privacy in library learning analytics.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>What is the time period the project was done over?</strong></p>
+<p><em>Example: The project was conducted between summer 2018 and summer 2022.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>Who worked on the project?</strong></p>
+<p><em>Example: Eight researchers from eight different instutions worked on the project, including: KMLJ, AA, KB, AG, MP, MR, DS, and MS.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>Where are the data, code, and other files are stored?</strong></p>
+<p><em>Example: Research files are stored on Google Drive, with the exception that participant data is stored in IU-hosted Box. Survey data is also in Qualtrics. Code is on GitHub. The shared literature library is in Zotero.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>How and where is the project documented?</strong></p>
+<p><em>Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data from sub-projects are in their respective DataDoubles/Phase[X] folders. See the data management plans for each sub-project for more details.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>How are files organized? Are any naming conventions used and, if so, what are they (see <a href="file-organization-and-naming.html#file-organization-and-naming">Chapter 3</a>)?</strong></p>
+<p><em>Example: File organization and naming differ by sub-project. Please see the data management plans in each DataDoubles/Phase[X] folder for more details.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
 <p><strong>What else does someone need to know to understand these files?</strong></p>
+<p><em>Example: Additional documentation on the project and public research files are available on OSF.</em></p>
 <p> </p>
 <p> </p>
 <p> </p>
@@ -242,22 +249,84 @@ div.csl-indent {
 <div id="data-dictionary" class="section level2 hasAnchor" number="2.3">
 <h2><span class="header-section-number">2.3</span> Create a Data Dictionary<a href="documentation.html#data-dictionary" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong><em>Description:</em></strong> <em>Ideally, a spreadsheet is formatted with a row of variable names at the top, followed by rows of data going down. This makes easy for data to be used in any data analysis software (interoperability is a good thing) but makes it impossible to document a spreadsheet within the file itself. For this reason, it’s useful to create a data dictionary to describe the spreadsheet so that others can interpret the data. This exercise walks you through the major information you should record for each variable in the spreadsheet, adding up to a complete dictionary to accompany the spreadsheet file.</em></p>
-<p><strong><em>Instructions:</em></strong> <em>Fill out the information in each row for each variable in the spreadsheet; note that you will likely have more variables than columns in this table. Copy this information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending “_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData_dictionary.txt.”</em></p>
+<p><strong><em>Instructions:</em></strong> <em>Pick one spreadsheet variable and record its information in the corresponding rows of the table. Repeat this process for the remaining variables in the spreadsheet. Copy all information into a text document and save it next to the spreadsheet. It is useful to save the data dictionary with the same root name as its data file by appending “_dictionary” on the end of the file name; for example, the data dictionary for the file “myData.xlsx” would be “myData_dictionary.txt.”</em></p>
 <p><strong><em>Source:</em></strong> <em>This exercise was adapted from “Leveling Up Data Management” <span class="citation">(<a href="#ref-briney_leveling_2023" role="doc-biblioref">K. A. Briney, 2023</a>)</span>.</em></p>
 <hr />
-<table style="width:92%;">
+<table style="width:93%;">
 <colgroup>
 <col width="33%" />
-<col width="19%" />
-<col width="19%" />
-<col width="19%" />
+<col width="59%" />
 </colgroup>
 <thead>
 <tr class="header">
 <th align="left">Question</th>
-<th align="left">Variable 1</th>
-<th align="left">Variable 2</th>
-<th align="left">Variable 3</th>
+<th align="left">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Variable name</td>
+<td align="left"><em>site</em></td>
+</tr>
+<tr class="even">
+<td align="left">Variable description</td>
+<td align="left"><em>Two-letter abbreviation describing the
+name of the overall site where the sample
+was collected.</em></td>
+</tr>
+<tr class="odd">
+<td align="left">Variable units</td>
+<td align="left"><em>N/A</em></td>
+</tr>
+<tr class="even">
+<td align="left">Relationship to
+other variables</td>
+<td align="left"><em>Partner to variable “sampleNum,” which
+together define the sample ID (site name +
+sample number at that site). Related to
+variables “latitude” and “longitude,”
+which record exact coordinate location
+and are more specific than the larger
+site code.</em></td>
+</tr>
+<tr class="odd">
+<td align="left">Variable coding
+values and meanings</td>
+<td align="left"><em>Coding values and meanings:
+BL = Badlands NP;
+DV = Death Valley NP;
+GT = Grand Teton NP;
+JT = Joshua Tree NP;
+ZN = Zion NP</em></td>
+</tr>
+<tr class="even">
+<td align="left">Known issues with
+the data</td>
+<td align="left"><em>Some Badlands samples were collected
+outsideof the park boundaries; see latitude
+and longitude variables for specific
+locations.</em></td>
+</tr>
+<tr class="odd">
+<td align="left">Anything else to
+know about the data?</td>
+<td align="left"><em>Older data (pre-2013) used one-letter
+abbreviations for site code but this was
+updated for clarity and ease of
+identification.</em></td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<table style="width:93%;">
+<colgroup>
+<col width="33%" />
+<col width="59%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="left">Question</th>
+<th align="left">Variable</th>
 </tr>
 </thead>
 <tbody>
@@ -290,8 +359,6 @@ div.csl-indent {
    
    </td>
 <td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
 </tr>
 <tr class="even">
 <td align="left">Variable description
@@ -319,8 +386,6 @@ div.csl-indent {
    
    
    </td>
-<td align="left"> </td>
-<td align="left"> </td>
 <td align="left"> </td>
 </tr>
 <tr class="odd">
@@ -352,8 +417,6 @@ div.csl-indent {
    
    </td>
 <td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
 </tr>
 <tr class="even">
 <td align="left">Relationship to
@@ -370,8 +433,6 @@ other variables
    
    </td>
 <td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
 </tr>
 <tr class="odd">
 <td align="left">Variable coding
@@ -387,8 +448,6 @@ values and meanings
    
    
    </td>
-<td align="left"> </td>
-<td align="left"> </td>
 <td align="left"> </td>
 </tr>
 <tr class="even">
@@ -409,8 +468,6 @@ the data
    
    </td>
 <td align="left"> </td>
-<td align="left"> </td>
-<td align="left"> </td>
 </tr>
 <tr class="odd">
 <td align="left">Anything else to
@@ -426,8 +483,6 @@ know about the data?
    
    
    </td>
-<td align="left"> </td>
-<td align="left"> </td>
 <td align="left"> </td>
 </tr>
 </tbody>
