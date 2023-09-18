@@ -4,18 +4,87 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 ## Store and Back Up the Data {#storage}
 
-***Description:*** *Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don’t always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you, either free or paid, as well as options outside of your institution, before determining which is the best set of options for your data.*
+***Description:*** *Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don’t always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you before determining which is the best set of options for your data.*
 
-***Instructions:*** *Fill out the first three tables for storage and backup systems that are: 1) institutional and free; 2) institutional and paid; and 3) outside of your institution. Examine all of the options, evaluating them based on the criteria listed below the first three tables to pick your ideal storage and backup configuration. **Note that this exercise works best for data under 1 TB in size that has no security restrictions.***
+***Instructions:*** *Answer the questions and then fill out the table of information about each possible storage and backup systems. Examine all of the options, evaluating them based on the criteria listed below. Then select primary storage and backup systems and, optionally, an alternate backup.***
 
 ---
 
-**What storage or backup systems are already available to you, such as through your institution or workplace, at no cost?**
+**What it the estimated total data storage volume you’ll need over the next five years?**
+
+*Example: I estimate that I will generate 100 GB of data over the next five years of my project.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Does your data require meeting any specific security standards?**
+
+*Example: My data will include some human-subjects data, so my storage system must be HIPAA compliant.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What storage and backup systems are available to you, such as through your institution, workplace, or elsewhere?**
+
+*Example: I have the following systems available to me: my computer, a Time Machine backup, a departmental server, institutional Google Drive, and Dropbox.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Fill out the information in the table for *each* storage and backup system you are considering:**
 
 ------------------------------------------------------------------
-Question                System 1      System 2      System 3
---------------------    ------------  ------------  ------------
-System name             &nbsp;        &nbsp;        &nbsp;
+Question                Example
+--------------------    ------------------------------------------
+System name             *Departmental server*
+
+Is it storage or        *Storage*
+backup?
+
+What is the cost?       *No cost for 10GB and under.
+                        Cost is $5 per 10 GB per year after that.*
+
+What is the hardware    *Server, exact hardware type unknown.*
+type?
+
+Is the system           *No backup.*
+backed up?
+
+For backup systems,     *N/A*
+is backup automatic?
+
+What level of           *Storage is password protected.*
+security does the 
+system provide?
+
+Is the system local     *System is local.*
+or remote?
+
+Is there a limit        *Storage limit is 500GB per research 
+to storage capacity?    group.*
+
+Who manages the         *Departmental IT manages the server.*
+system?
+
+Is it easy or           *Very easy to use once set up.*
+difficult to use?
+--------------------    ------------------------------------------
+
+&nbsp;
+
+------------------------------------------------------------------
+Question                System
+--------------------    ------------------------------------------
+System name             &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -43,7 +112,7 @@ System name             &nbsp;        &nbsp;        &nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Is it storage or        &nbsp;        &nbsp;        &nbsp;
+Is it storage or        &nbsp;
 backup?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -68,7 +137,33 @@ backup?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-What is the hardware    &nbsp;        &nbsp;        &nbsp;
+What is the cost?       &nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+What is the hardware    &nbsp;
 type?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -85,7 +180,7 @@ type?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Is the system           &nbsp;        &nbsp;        &nbsp;
+Is the system           &nbsp;
 backed up?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -102,7 +197,7 @@ backed up?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-For backup systems,     &nbsp;        &nbsp;        &nbsp;
+For backup systems,     &nbsp;
 is backup automatic?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -119,7 +214,25 @@ is backup automatic?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Is the system local     &nbsp;        &nbsp;        &nbsp;
+What level of           &nbsp;
+security does the 
+system provide?
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
+
+Is the system local     &nbsp;
 or remote?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -136,7 +249,7 @@ or remote?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Is there a limit        &nbsp;        &nbsp;        &nbsp;
+Is there a limit        &nbsp;
 to storage capacity?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -150,7 +263,7 @@ to storage capacity?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Who manages the         &nbsp;        &nbsp;        &nbsp;
+Who manages the         &nbsp;
 system?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -167,7 +280,7 @@ system?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 
-Is it easy or           &nbsp;        &nbsp;        &nbsp;
+Is it easy or           &nbsp;
 difficult to use?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
@@ -183,422 +296,39 @@ difficult to use?
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;
---------------------    ------------  ------------  ------------
+--------------------    ------------------------------------------
 
-**What storage or backup systems are available to you, such as through your institution or workplace, at a cost?**
-
-------------------------------------------------------------------
-Question                System 1      System 2      System 3
---------------------    ------------  ------------  ------------
-System name             &nbsp;        &nbsp;        &nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is it storage or        &nbsp;        &nbsp;        &nbsp;
-backup?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-What is the cost?       &nbsp;        &nbsp;        &nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-What is the hardware    &nbsp;        &nbsp;        &nbsp;
-type?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is the system           &nbsp;        &nbsp;        &nbsp;
-backed up?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-For backup systems,     &nbsp;        &nbsp;        &nbsp;
-is backup automatic?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is the system local     &nbsp;        &nbsp;        &nbsp;
-or remote?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is there a limit        &nbsp;        &nbsp;        &nbsp;
-to storage capacity?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Who manages the         &nbsp;        &nbsp;        &nbsp;
-system?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is it easy or           &nbsp;        &nbsp;        &nbsp;
-difficult to use?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
---------------------    ------------  ------------  ------------
-
-**Are there other storage or backup systems that you can use? **
-
-------------------------------------------------------------------
-Question                System 1      System 2      System 3
---------------------    ------------  ------------  ------------
-System name             &nbsp;        &nbsp;        &nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is it storage or        &nbsp;        &nbsp;        &nbsp;
-backup?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-What is the cost?       &nbsp;        &nbsp;        &nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-What is the hardware    &nbsp;        &nbsp;        &nbsp;
-type?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is the system           &nbsp;        &nbsp;        &nbsp;
-backed up?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-For backup systems,     &nbsp;        &nbsp;        &nbsp;
-is backup automatic?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is the system local     &nbsp;        &nbsp;        &nbsp;
-or remote?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is there a limit        &nbsp;        &nbsp;        &nbsp;
-to storage capacity?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Who manages the         &nbsp;        &nbsp;        &nbsp;
-system?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-
-Is it easy or           &nbsp;        &nbsp;        &nbsp;
-difficult to use?
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
---------------------    ------------  ------------  ------------
 
 **Optimize your storage and backups on the following considerations:**
 
-1. You need one storage system that will hold all of your data files, is easy to use, and is managed by someone you trust.
-2. You need at least one backup – preferably two – that will hold all of your data files, is managed by someone you trust, is easy to use, and backs up automatically.
-3. At least one backup should be in a different location than your main storage system for disaster resiliency.
-4. Balance cost with making sure that storage/backup systems are managed by trustworthy parties and are not difficult to use.
+1. You need a primary storage system that:
+    - will hold all of your data files,
+    - meets your needed level of security.
+2. You need one backup that:
+    - will hold all of your data files,
+    - meets your needed level of security,
+    - is reliable/managed by someone you trust,
+    - is easy to use,
+    - backs up automatically.
+4. At least one backup should be in a different location than your main storage system for disaster resiliency. If your main backup is nearby your primary storage and/or if your primary storage system is not reliable, you need a second backup that: 
+    - will hold all of your files,
+    - meets your needed level of security,
+    - is reliable/managed by someone you trust.
 
 **Pick your storage and backup systems:**
 
+------------------------------------------------------------------
+Example Storage         Example Backup 1      [Example Backup 2]
+--------------------    --------------------  --------------------
+*My computer, with      *HIPAA-compliant      *[none]*
+added security          institutional
+restrictions*           Google Drive*
+--------------------    --------------------  --------------------
+
+&nbsp;
 
 ------------------------------------------------------------------
-Storage                 Backup 1              Backup 2      
+Storage                 Backup 1              [Backup 2]
 --------------------    --------------------  --------------------
 &nbsp;&nbsp;&nbsp;      &nbsp;                &nbsp;
 &nbsp;&nbsp;&nbsp;
