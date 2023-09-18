@@ -17,4 +17,4 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 To-do list:
 * Acknowledgements?
 * Figure out web hosting
-* Upload to CaltechAUTHORS (change to version 1 in index file)
+* Upload to CaltechAUTHORS

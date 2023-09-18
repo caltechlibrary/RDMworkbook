@@ -27,7 +27,7 @@ The Workbook is intended as a supplement to existing data management education. 
 
 ## Edition {-}
 
-The Research Data Management Workbook is currently in its beta edition, meaning I’m still tweaking the exercises and trying to catch stray typos. I’m more than happy to receive any feedback on the Workbook to improve it; you can message me at briney\@caltech.edu.
+This is the first edition of the Research Data Management Workbook. I’m happy to receive any feedback on the Workbook to improve it for the next edition; you can message me at briney\@caltech.edu.
 
 ## License {-}
 
