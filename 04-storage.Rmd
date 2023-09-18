@@ -10,7 +10,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 ---
 
-**What it the estimated total data storage volume you’ll need over the next five years?**
+**What is the estimated total data storage you will need over the next five years?**
 
 *Example: I estimate that I will generate 100 GB of data over the next five years of my project.*
 
@@ -20,7 +20,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 &nbsp;
 
-**Does your data require meeting any specific security standards?**
+**Does your data require meeting any specific security standards? If so, what level of security?**
 
 *Example: My data will include some human-subjects data, so my storage system must be HIPAA compliant.*
 
