@@ -317,40 +317,14 @@ difficult to use?
 
 **Pick your storage and backup systems:**
 
-------------------------------------------------------------------
-Example Storage         Example Backup 1      [Example Backup 2]
---------------------    --------------------  --------------------
-*My computer, with      *HIPAA-compliant      *[none]*
-added security          institutional
-restrictions*           Google Drive*
---------------------    --------------------  --------------------
+*Example: My primary storage will be my computer with added security restrictions. I will use the institutional Google Drive, which is HIPAA-compliant, as my backup. I will not use a second backup because my first backup is remote.*
 
 &nbsp;
 
-------------------------------------------------------------------
-Storage                 Backup 1              [Backup 2]
---------------------    --------------------  --------------------
-&nbsp;&nbsp;&nbsp;      &nbsp;                &nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp;
---------------------    ------------  ------------  ------------
+&nbsp;
+
+&nbsp;
+
 
 
 
