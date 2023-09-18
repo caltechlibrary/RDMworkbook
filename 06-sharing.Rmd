@@ -12,7 +12,7 @@ Sharing data that underlies research has become a common expectation within scho
 
 ---
 
-**Identify all of the data that needs to be shared.**
+**1. Identify all of the data that needs to be shared.**
 
 *Example: My data to be shared includes: 1) genetic data for Drosophila; and 2) microscope images of flies.*
 
@@ -22,9 +22,9 @@ Sharing data that underlies research has become a common expectation within scho
 
 &nbsp;
 
-**Is there a known disciplinary data repository for some or all of the data? For example, is there a data repository used by everyone in your research area or required for your data type by your funding agency?**
+**2. Is there a known disciplinary data repository for some or all of the data? For example, is there a data repository used by everyone in your research area or required for your data type by your funding agency?**
 
-If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
+If so, deposit some or all of your data there. Go to step 7 if the repository will accept all of your data or go to the next question if there is still some data left to deposit.
 
 *Example: The database [FlyBase](http://flybase.org/) is used for Drosophila genes and genomes. My genetic data will be shared there.*
 
@@ -34,9 +34,9 @@ If so, deposit some or all of your data there. End the exercise if the repositor
 
 &nbsp;
 
-**Review the [list of recommended data repositories from PLOS](https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
+**3. Review the [list of recommended data repositories from PLOS](https://journals.plos.org/plosone/s/recommended-repositories). Is there a logical disciplinary data repository for some or all of your data?**
 
-If so, deposit some or all of your data there. End the exercise if you have shared all of your data or keep going if there is still some data left to deposit.
+If so, deposit some or all of your data there. Go to step 7 if you have shared all of your data or go to the next question if there is still some data left to deposit.
 
 *Example: There isn't a logical disciplinary data repository for microscope images of flies.*
 
@@ -46,23 +46,11 @@ If so, deposit some or all of your data there. End the exercise if you have shar
 
 &nbsp;
 
-**Does your institution have a data repository?**
+**4. Does your institution have a data repository?**
 
-If so, deposit the remainder of your data there and end the exercise.
+If so, deposit the remainder of your data there and go to step 7.
 
-*Example: The California Institute of Technology has the data repository [CaltechDATA](https://data.caltech.edu/). I will deposit my microscope images in CaltechDATA.*
-
-&nbsp;
-
-&nbsp;
-
-&nbsp;
-
-**Do you have a preferred [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)?**
-
-If so, deposit the remainder of your data there and end the exercise.
-
-*Example: (All data has been shared already.)*
+*Example: The California Institute of Technology hosts the data repository [CaltechDATA](https://data.caltech.edu/). I will deposit my microscope images in CaltechDATA.*
 
 &nbsp;
 
@@ -70,9 +58,35 @@ If so, deposit the remainder of your data there and end the exercise.
 
 &nbsp;
 
-**Pick a [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories) and deposit the remainder of your data.**
+**5. Do you have a preferred [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories)?**
 
-*Example: (All data has been shared already.)*
+If so, deposit the remainder of your data there and go to step 7.
+
+*Example: [All data has been shared already.]*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**6. Pick a [generalist data repository](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories) and deposit the remainder of your data.**
+
+Deposit your data and go to step 7.
+
+*Example: [All data has been shared already.]*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**7. Confirm that the repository/repositories issued a permanent identifier, ideally a DOI, for each data deposit.**
+
+DOIs make data more FAIR [@wilkinson_fair_2016]. If you did not receive a permanent link, such as a DOI, during deposit, return to step 2 and pick a different data repository for your data.
+
+*Example: CaltechDATA provides DOIs for all deposits. FlyBase provides stable links to data reports using FlyBase ID numbers.*
 
 &nbsp;
 
@@ -134,6 +148,6 @@ If so, deposit the remainder of your data there and end the exercise.
 
 **Share Data**
 
-\_\_ Share data with its DOI.
+\_\_ Share data with its DOI or other permanent link.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
