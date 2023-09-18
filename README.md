@@ -15,6 +15,6 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 7. Project Wrap Up
 
 To-do list:
-* Edit exercises in chapter 4
+* Acknowledgements?
 * Figure out web hosting
 * Upload to CaltechAUTHORS (change to version 1 in index file)
