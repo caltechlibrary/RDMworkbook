@@ -1,7 +1,5 @@
 # Acknowledgements {-}
 
-## Thank You {-}
-
 This book came to me at a moment when I was looking for a new big project. I was washing my hands and BAM! the idea for this book erupted in my head, fully formed like Athena from the head of Zeus. Prior to writing the Workbook, I had created several data management handouts and worksheets to use in lectures and workshops. My big idea was to expand my worksheet offerings to cover the entire data management lifecycle. Basically, I wanted a workbook of activities to pull from for any data management lesson I taught. The result is this Workbook.
 
 Books are never truly written by only one person. While I did the majority of the labor for this Workbook, it would not have been as helpful, accurate, or complete without the assistance of several people.
