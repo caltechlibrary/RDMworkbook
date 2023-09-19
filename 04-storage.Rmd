@@ -22,7 +22,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 **Does your data require meeting any specific security standards? If so, what level of security?**
 
-*Example: My data will include some human-subjects data, so my storage systems must have restrictions on access but it's not medical data so they don't have to be HIPAA compliant.*
+*Example: My data will include some human subjects data, so my storage systems must have restrictions on access but it's not medical data so they don't have to be HIPAA compliant.*
 
 &nbsp;
 
