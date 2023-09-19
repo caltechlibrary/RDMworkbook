@@ -26,16 +26,16 @@ Good file organization and naming are foundational data management practices, as
 2. Move cards around and group together file-type cards that you want to store together. Files that will be stored near each other in a folder hierarchy, but not together, should be placed near each other while file types expected to be stored completely separately should be away from other cards.
 3. Create hierarchies in file organization by adding new "folder" cards in one of two types; use different colored cards for each folder type:
 	* Cards in the second color represent a single folder. These should be labeled with the folder name in quotations (e.g. "Literature" or "My publications").
-	* Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g. [By date] or [By project]).
+	* Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g. [By date] or [By project]). Note: folders organized by date should, in real life, be labelled using the convention YYYYMMDD or YYYY-MM-DD to facilitate chronological sorting.
 4. Move existing file-type cards/groups of file-type cards underneath the new folder cards to show the hierarchy of how a file type will be saved in a specific folder or group of folders. Organizational-group folders (cards in the third color) only need to be represented once in the card sorting, as they are assumed to represent multiple folders on a computer.
 5. Make copies of any type of card and add folder levels, as needed. Adjust placement and hierarchies until you are happy with the organizational system you developed.
 6. Record your organizational system in your lab notebook and/or a [README.txt](#readme-txt).
 
 ## Create a File Naming Convention {#file-naming}
 
-***Description:*** *File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.*
+***Description:*** *File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart. This exercise guides researchers through the process of creating a file naming convention for a group of related files.*
 
-***Instructions:*** *This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.*
+***Instructions:*** *Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.*
 
 ***Source:*** *This exercise is based on the "File Naming Convention Worksheet" [@briney_file_2020].*
 
@@ -93,7 +93,7 @@ Think about how you want to sort and search for your files to decide what metada
 
 **5. What characters will you use to separate each piece of metadata in the file name?**
 
-Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names.
+Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names. A good convention is to use underscores to separate unrelated pieces of metadata and dashes to separate related pieces of metadata for parsing and readability.
 
 *Example: I will use underscores to separate metadata and dashes between parts of my sample ID.*
 
