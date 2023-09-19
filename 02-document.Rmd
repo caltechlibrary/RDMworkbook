@@ -114,7 +114,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **How and where is the project documented?**
 
-*Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data from sub-projects are in their respective DataDoubles/Phase[X] folders. See the data management plans for each sub-project for more details.*
+*Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data are in the DataDoubles/Research folder.*
 
 &nbsp;
 
@@ -124,7 +124,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 
 **How are files organized? Are any naming conventions used and, if so, what are they (see [Chapter 3](#file-organization-and-naming))?**
 
-*Example: File organization and naming differ by sub-project. Please see the data management plans in each DataDoubles/Phase[X] folder for more details.*
+*Example: All data is in the DataDoubles/Data folder, with subfolders labelled by interview theme code. Each site has its own folder within the project folder for individual site files. Interview data files are named with: interview theme, site, interview ID, interview date, and data type/analysis stage (e.g. "PRO_BL03_20180222_Audio.mp3" and "AWA_MK01_20180222_Notes.pdf"). Please see the living data management plan for complete set of codes and more details.*
 
 &nbsp;
 
