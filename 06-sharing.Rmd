@@ -124,9 +124,9 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 **Sharing Information (Metadata)**
 
-\_\_ Give the data set a title. Default title is “Data from: [name of the article]”.
+\_\_ Give the dataset a title. Default title is “Data from: [name of the article]”.
 
-\_\_ Write a brief description of the data set to be used as the abstract/description.
+\_\_ Write a brief description of the dataset to be used as the abstract/description.
 
 \_\_ Write down keywords/subject terms for the data.
 
