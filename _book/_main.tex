@@ -107,7 +107,7 @@ The Workbook is intended as a supplement to existing data management education. 
 \section*{Edition}\label{edition}}
 \addcontentsline{toc}{section}{Edition}
 
-The Research Data Management Workbook is currently in its beta edition, meaning I'm still tweaking the exercises and trying to catch stray typos. I'm more than happy to receive any feedback on the Workbook to improve it; you can message me at briney@caltech.edu.
+This is the first edition of the Research Data Management Workbook. I'm happy to receive any feedback on the Workbook to improve it for the next edition; you can message me at briney@caltech.edu.
 
 \hypertarget{license}{%
 \section*{License}\label{license}}
@@ -1349,7 +1349,7 @@ Sharing data that underlies research has become a common expectation within scho
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
-\textbf{Identify all of the data that needs to be shared.}
+\textbf{1. Identify all of the data that needs to be shared.}
 
 \emph{Example: My data to be shared includes: 1) genetic data for Drosophila; and 2) microscope images of flies.}
 
@@ -1359,9 +1359,9 @@ Sharing data that underlies research has become a common expectation within scho
 
 ~
 
-\textbf{Is there a known disciplinary data repository for some or all of the data? For example, is there a data repository used by everyone in your research area or required for your data type by your funding agency?}
+\textbf{2. Is there a known disciplinary data repository for some or all of the data? For example, is there a data repository used by everyone in your research area or required for your data type by your funding agency?}
 
-If so, deposit some or all of your data there. End the exercise if the repository will accept all of your data or keep going if there is still some data left to deposit.
+If so, deposit some or all of your data there. Go to step 7 if the repository will accept all of your data or go to the next question if there is still some data left to deposit.
 
 \emph{Example: The database \href{http://flybase.org/}{FlyBase} is used for Drosophila genes and genomes. My genetic data will be shared there.}
 
@@ -1371,9 +1371,9 @@ If so, deposit some or all of your data there. End the exercise if the repositor
 
 ~
 
-\textbf{Review the \href{https://journals.plos.org/plosone/s/recommended-repositories}{list of recommended data repositories from PLOS}. Is there a logical disciplinary data repository for some or all of your data?}
+\textbf{3. Review the \href{https://journals.plos.org/plosone/s/recommended-repositories}{list of recommended data repositories from PLOS}. Is there a logical disciplinary data repository for some or all of your data?}
 
-If so, deposit some or all of your data there. End the exercise if you have shared all of your data or keep going if there is still some data left to deposit.
+If so, deposit some or all of your data there. Go to step 7 if you have shared all of your data or go to the next question if there is still some data left to deposit.
 
 \emph{Example: There isn't a logical disciplinary data repository for microscope images of flies.}
 
@@ -1383,23 +1383,11 @@ If so, deposit some or all of your data there. End the exercise if you have shar
 
 ~
 
-\textbf{Does your institution have a data repository?}
+\textbf{4. Does your institution have a data repository?}
 
-If so, deposit the remainder of your data there and end the exercise.
+If so, deposit the remainder of your data there and go to step 7.
 
-\emph{Example: The California Institute of Technology has the data repository \href{https://data.caltech.edu/}{CaltechDATA}. I will deposit my microscope images in CaltechDATA.}
-
-~
-
-~
-
-~
-
-\textbf{Do you have a preferred \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository}?}
-
-If so, deposit the remainder of your data there and end the exercise.
-
-\emph{Example: (All data has been shared already.)}
+\emph{Example: The California Institute of Technology hosts the data repository \href{https://data.caltech.edu/}{CaltechDATA}. I will deposit my microscope images in CaltechDATA.}
 
 ~
 
@@ -1407,9 +1395,35 @@ If so, deposit the remainder of your data there and end the exercise.
 
 ~
 
-\textbf{Pick a \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository} and deposit the remainder of your data.}
+\textbf{5. Do you have a preferred \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository}?}
 
-\emph{Example: (All data has been shared already.)}
+If so, deposit the remainder of your data there and go to step 7.
+
+\emph{Example: {[}All data has been shared already.{]}}
+
+~
+
+~
+
+~
+
+\textbf{6. Pick a \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository} and deposit the remainder of your data.}
+
+Deposit your data and go to step 7.
+
+\emph{Example: {[}All data has been shared already.{]}}
+
+~
+
+~
+
+~
+
+\textbf{7. Confirm that the repository/repositories issued a permanent identifier, ideally a DOI, for each data deposit.}
+
+DOIs make data more FAIR \citep{wilkinson_fair_2016}. If you did not receive a permanent link, such as a DOI, during deposit, return to step 2 and pick a different data repository for your data.
+
+\emph{Example: CaltechDATA provides DOIs for all deposits. FlyBase provides stable links to data reports using FlyBase ID numbers.}
 
 ~
 
@@ -1434,7 +1448,9 @@ If so, deposit the remainder of your data there and end the exercise.
 
 \_\_ Convert data in proprietary file types to open file types, as appropriate (see \protect\hyperlink{file-type}{Exercise 7.2: Convert Data File Types}).
 
-\_\_ Determine if data will be shared in one group or as several deposits. If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each group of shared files.
+\_\_ Determine if data should be shared under one citation or as several citations. (Group data as makes most sense for citation and reuse. Options can include: sharing as one large group, grouping files by data type, giving large data files their own citations, etc. Each citation represents a unique deposit into a data repository.)
+
+\_\_ If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each citation/group of files.
 
 \textbf{Data Documentation}
 
@@ -1448,19 +1464,27 @@ If so, deposit the remainder of your data there and end the exercise.
 
 \_\_ Write a brief description of the data set to be used as the abstract/description.
 
+\_\_ Write down keywords/subject terms for the data.
+
 \_\_ Determine who will be listed as authors of the data and in what order; this may be different than the authors of the article.
 
-\_\_ Chose a license for reuse. Default license is CC0 (for more information on CC0, see \citep{creative_commons_wiki_cc0_2014}).
+\_\_ Identify author ORCID numbers for submission (note: this is best practice but not all data repositories have integrated ORCID yet).
+
+\_\_ Record all funding information that applies to the dataset.
+
+\_\_ Chose a license for reuse rights. Default license is CC0 (for more information on CC0, see \citep{creative_commons_wiki_cc0_2014}).
 
 \textbf{Deposit Data}
 
-\_\_ Pick a data repository for the shared data (see \protect\hyperlink{data-repository}{Exercise 6.1: Pick a Data Repository}).
+\_\_ Pick a data repository/data repositories for the shared data (see \protect\hyperlink{data-repository}{Exercise 6.1: Pick a Data Repository}).
 
 \_\_ Deposit the data and documentation files into the data repository, and fill in metadata as determined above.
 
+\_\_ If you are depositing a large number of datasets, contact repository administrators about potentially using an Application Programming Interface (API) to skip manual entry of duplicate metadata.
+
 \textbf{Share Data}
 
-\_\_ Share data with its DOI.
+\_\_ Share data with its DOI or, as applicable, other permanent link.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
 
