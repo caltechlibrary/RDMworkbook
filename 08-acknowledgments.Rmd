@@ -6,6 +6,6 @@ Books are never truly written by only one person. While I did the majority of th
 
 First, thank you to several people at Caltech Library for assistance with this book. Thank you Donna Wrublewski for being on board with this big idea and supporting it. Big thanks to Tom Morrell for critical feedback on the beta edition of this book, particularly on the storage exercise which was really terrible before his feedback. Thank you to George Porter for helping to get the Workbook online into CaltechAUTHORS, even though we were not quite finished migrating that giant repository to its new platform.
 
-Thank you to Abigail Goben and Dorothea Salo for always being encouraging when I come to them with the idea for a new book, no matter the idea. Abigail was one of the first people I discussed the idea for this book with, which helped cement this big idea in my head. Dorothea read and provided feedback and editing, which was greatly appreciated.
+Thank you to Abigail Goben and Dorothea Salo for always being encouraging when I come to them with the idea for a new book, no matter the idea. Abigail was one of the first people I discussed the idea for this book with, which helped cement the big idea in my head. Dorothea read and provided feedback and editing, which was greatly appreciated.
 
 Finally, thank you to Andy for being calm when I had the idea for yet another book. It helped that this book was much shorter than my last two. And thank you to Hank and Willa for cuddles, questions, and all of our adventures that keep me grounded.
