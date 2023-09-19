@@ -6,7 +6,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 ***Description:*** *Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don’t always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you before determining which is the best set of options for your data.*
 
-***Instructions:*** *Answer the questions and then fill out the table of information about each possible storage and backup systems. Examine all of the options, evaluating them based on the criteria listed below. Then select primary storage and backup systems and, optionally, an alternate backup.***
+***Instructions:*** *Answer the questions and then fill out the table of information about each possible storage and backup systems. Examine all of the options, evaluating them based on the criteria listed below. Then select primary storage and backup systems and, optionally, an alternate backup.*
 
 ---
 
