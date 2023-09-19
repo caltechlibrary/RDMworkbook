@@ -48,7 +48,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 ***Description:*** *Data is often stored in a file type that can only be opened by specific, costly software – this is referred to as a “proprietary file type.” You can tell that you have data in a proprietary file type if you lose access to the data when you lose access to the software. When data is in a proprietary file type, it’s always a good idea to copy the data into a more common, open file type as a backup; you may lose a bit of functionality, but it’s better to have a backup than to not have your data at all! This exercise works through identifying possible alternative file types for the data's proprietary file type before instructing you to make a copy of the data in the new file type.*
 
-***Instructions:*** *For any data in a proprietary file type, identify the data and answer the following questions. Once you have picked a more open, common file type, make a copy of the data in that file type but do not delete the original data.*
+***Instructions:*** *For any data in a proprietary file type, identify the data and answer the following questions. Once you have picked a more open, common file type, make a copy of the data in that file type but do not delete the original data. (Keeping a copy in the original file format means that, while you access to the necessary software, your data has full functionality. If you lose access to the software, you'll still have your data in some format, which is better than not having your data at all.)*
 
 ---
 
@@ -124,7 +124,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \_\_ Key data analyses
 
-\_\_ Final data
+\_\_ Final published data
 
 **Code**
 
