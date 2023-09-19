@@ -148,6 +148,6 @@ DOIs make data more FAIR [@wilkinson_fair_2016]. If you did not receive a perman
 
 **Share Data**
 
-\_\_ Share data with its DOI or other permanent link.
+\_\_ Share data with its DOI or, as applicable, other permanent link.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
