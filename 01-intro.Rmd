@@ -2,7 +2,7 @@
 
 ## What is Research Data Management? {#what-rdm}
 
-Research data management is a set of collective practices and decisions that make it easier for you, your collaborators, and your future self to easily find, understand, and use your research data. These practices cover the entire lifecycle of research data, from its collection and analysis through sharing and reuse. There is no one magical data management practice to rule them all. Rather, data management consists of a number of small activities that make it easier to deal with your data. Research is hard enough as it is without having to fight with your files, so the goal of data management is for you to maximize your time doing research instead of wasting time with file handling.
+Research data management is a set of collective practices and decisions that make it easier for you, your collaborators, and your future self to find, understand, and use your research data. These practices cover the entire lifecycle of research data, from its collection and analysis through sharing and reuse. There is no one magical data management practice to rule them all. Rather, data management consists of a number of small activities that make dealing with your data a better experience. Research is hard enough as it is without having to fight with your files, so the goal of data management is for you to maximize your time doing research instead of spending extra time with file handling.
 
 ## Why do Research Data Management? {#why-rdm}
 
