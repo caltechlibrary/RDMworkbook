@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2023-09-18}
+\date{2023-09-19}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -99,7 +99,7 @@
 
 The Research Data Management Workbook is made up of a collection of exercises for researchers to improve their data management. The Workbook contains exercises across the data lifecycle, though the range of activities is not comprehensive. Instead, exercises focus on discrete practices within data management that are structured and can be reproduced by any researcher.
 
-The book is divided into chapters, roughly by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise (when applicable), and the exercise itself.
+The book is divided into chapters, loosely by phases of the data lifecycle, with one or more exercises in each chapter. Every exercise comes with a description of its value within data management, instructions on how to do the exercise, original source of the exercise (when applicable), and the exercise itself.
 
 The Workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article ``Foundational Practices of Research Data Management'' \citep{briney_foundational_2020} or read the book ``Data Management for Researchers'' \citep{briney_data_2015}.
 
@@ -141,7 +141,7 @@ Kristin Briney is the Biology \& Biological Engineering Librarian at the Califor
 \hypertarget{what-rdm}{%
 \section{What is Research Data Management?}\label{what-rdm}}
 
-Research data management is a set of collective practices and decisions that make it easier for you, your collaborators, and your future self to easily find, understand, and use your research data. These practices cover the entire lifecycle of research data, from its collection and analysis through sharing and reuse. There is no one magical data management practice to rule them all. Rather, data management consists of a number of small activities that make it easier to deal with your data. Research is hard enough as it is without having to fight with your files, so the goal of data management is for you to maximize your time doing research instead of wasting time with file handling.
+Research data management is a set of collective practices and decisions that make it easier for you, your collaborators, and your future self to find, understand, and use your research data. These practices cover the entire lifecycle of research data, from its collection and analysis through sharing and reuse. There is no one magical data management practice to rule them all. Rather, data management consists of a number of small activities that make dealing with your data a better experience. Research is hard enough as it is without having to fight with your files, so the goal of data management is for you to maximize your time doing research instead of spending extra time with file handling.
 
 \hypertarget{why-rdm}{%
 \section{Why do Research Data Management?}\label{why-rdm}}
@@ -325,7 +325,7 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{How and where is the project documented?}
 
-\emph{Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data from sub-projects are in their respective DataDoubles/Phase{[}X{]} folders. See the data management plans for each sub-project for more details.}
+\emph{Example: Documentation for the project is in Google Drive. Notes on team decisions from meetings are in the DataDoubles/Meetings folder. Notes on data are in the DataDoubles/Research folder.}
 
 ~
 
@@ -335,7 +335,7 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 
 \textbf{How are files organized? Are any naming conventions used and, if so, what are they (see \protect\hyperlink{file-organization-and-naming}{Chapter 3})?}
 
-\emph{Example: File organization and naming differ by sub-project. Please see the data management plans in each DataDoubles/Phase{[}X{]} folder for more details.}
+\emph{Example: All data is in the DataDoubles/Data folder, with subfolders labelled by interview theme code. Each site has its own folder within the project folder for individual site files. Interview data files are named with: interview theme, site, interview ID, interview date, and data type/analysis stage (e.g.~``PRO\_BL03\_20180222\_Audio.mp3'' and ``AWA\_MK01\_20180222\_Notes.pdf''). Please see the living data management plan for complete set of codes and more details.}
 
 ~
 
@@ -617,7 +617,7 @@ Good file organization and naming are foundational data management practices, as
   \item
     Cards in the second color represent a single folder. These should be labeled with the folder name in quotations (e.g.~``Literature'' or ``My publications'').
   \item
-    Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g.~{[}By date{]} or {[}By project{]}).
+    Cards in the third color represent a group of folders, such as for folders organized by date or by project. Use only one card to represent the organizational pattern that will be repeated. These cards should be labeled with the organizational system in square brackets (e.g.~{[}By date{]} or {[}By project{]}). Note: folders organized by date should, in real life, be labelled using the convention YYYYMMDD or YYYY-MM-DD to facilitate chronological sorting.
   \end{itemize}
 \item
   Move existing file-type cards/groups of file-type cards underneath the new folder cards to show the hierarchy of how a file type will be saved in a specific folder or group of folders. Organizational-group folders (cards in the third color) only need to be represented once in the card sorting, as they are assumed to represent multiple folders on a computer.
@@ -630,9 +630,9 @@ Good file organization and naming are foundational data management practices, as
 \hypertarget{file-naming}{%
 \section{Create a File Naming Convention}\label{file-naming}}
 
-\textbf{\emph{Description:}} \emph{File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart.}
+\textbf{\emph{Description:}} \emph{File naming conventions are a simple way to add order to your files and help to find them later. Rich and descriptive file names make it easier to search for files, understand at a glance what they contain, and tell related files apart. This exercise guides researchers through the process of creating a file naming convention for a group of related files.}
 
-\textbf{\emph{Instructions:}} \emph{This exercise guides researchers through the process of creating a file naming convention for a group of related files. Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.}
+\textbf{\emph{Instructions:}} \emph{Fill in each section for a group of related files following the instructions; an example for microscopy files is provided. This exercise may be redone as needed, as different groups of files require different naming conventions.}
 
 \textbf{\emph{Source:}} \emph{This exercise is based on the ``File Naming Convention Worksheet'' \citep{briney_file_2020}.}
 
@@ -702,7 +702,7 @@ Think about how you want to sort and search for your files to decide what metada
 
 \textbf{5. What characters will you use to separate each piece of metadata in the file name?}
 
-Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names.
+Many computer systems cannot handle spaces in file names. To make file names both computer- and human-readable, use dashes (-), underscores (\_), and/or capitalize the first letter of each word in the file names. A good convention is to use underscores to separate unrelated pieces of metadata and dashes to separate related pieces of metadata for parsing and readability.
 
 \emph{Example: I will use underscores to separate metadata and dashes between parts of my sample ID.}
 
@@ -754,7 +754,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 \textbf{\emph{Description:}} \emph{Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don't always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you before determining which is the best set of options for your data.}
 
-\textbf{\emph{Instructions:}} \emph{Answer the questions and then fill out the table of information about each possible storage and backup systems. Examine all of the options, evaluating them based on the criteria listed below. Then select primary storage and backup systems and, optionally, an alternate backup.}**
+\textbf{\emph{Instructions:}} \emph{Answer the questions and then fill out the table of information about each possible storage and backup systems. Examine all of the options, evaluating them based on the criteria listed below. Then select primary storage and backup systems and, optionally, an alternate backup.}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -770,7 +770,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 \textbf{Does your data require meeting any specific security standards? If so, what level of security?}
 
-\emph{Example: My data will include some human-subjects data, so my storage system must be HIPAA compliant.}
+\emph{Example: My data will include some human subjects data, so my storage systems must have restrictions on access but it's not medical data so they don't have to be HIPAA compliant.}
 
 ~
 
@@ -780,7 +780,7 @@ All research data needs to be stored and backed up, but it can be frustrating to
 
 \textbf{What storage and backup systems are available to you, such as through your institution, workplace, or elsewhere?}
 
-\emph{Example: I have the following systems available to me: my computer, a Time Machine backup, a departmental server, institutional Google Drive, and Dropbox.}
+\emph{Example: I have the following systems available to me: my computer, a Time Machine backup, a departmental server, institution-licensed Box account, and Google Drive.}
 
 ~
 
@@ -1092,7 +1092,7 @@ difficult to use?
 
 \textbf{Pick your storage and backup systems:}
 
-\emph{Example: My primary storage will be my computer with added security restrictions. I will use the institutional Google Drive, which is HIPAA-compliant, as my backup. I will not use a second backup because my first backup is remote.}
+\emph{Example: My primary storage will be my computer with added security restrictions. I will use Time Machine as my first automatic backup and institutional Box, which is controlled access, as my second backup because it is remote.}
 
 ~
 
@@ -1337,9 +1337,9 @@ Sharing data that underlies research has become a common expectation within scho
 \hypertarget{data-repository}{%
 \section{Pick a Data Repository}\label{data-repository}}
 
-\textbf{\emph{Description:}} \emph{It can be difficult to know where to share research data as so many sharing platforms are available. Current guidance is to deposit data in data repository that will give you a DOI. This exercise guides you through the process of picking a data repository, starting with repositories for very specific types of data and defaulting to generalist data repositories. Note that some repositories charge fees for deposit, most often for large data (500 GB or larger).}
+\textbf{\emph{Description:}} \emph{It can be difficult to know where to share research data as so many sharing platforms are available. Current guidance is to deposit data in data repository that will give you a DOI or similar permanent identifier. This exercise guides you through the process of picking a data repository, starting with repositories for very specific types of data and defaulting to generalist data repositories. Note that some repositories charge fees for deposit, most often for large data (500 GB or larger).}
 
-\textbf{\emph{Instructions:}} \emph{Identify the data that needs to be shared and work through repository selection from discipline-specific data repositories to more general data repositories. Once you have identified a repository for all of your data, the exercise is over and you do not need to answer any further questions. Note that, depending on data types, you may need to deposit your data into multiple repositories (for example, a discipline-specific repository for one type of data and an institutional data repository for the rest of the data).}
+\textbf{\emph{Instructions:}} \emph{Identify the data that needs to be shared and work through repository selection from discipline-specific data repositories to more general data repositories. Once you have identified a repository for all of your data, deposit the data and record the corresponding permanent identifiers. Note that, depending on data types, you may need to deposit your data into multiple repositories (for example, a discipline-specific repository for one type of data and an institutional data repository for the rest of the data).}
 
 \begin{figure}
 \centering
@@ -1371,7 +1371,7 @@ If so, deposit some or all of your data there. Go to step 7 if the repository wi
 
 ~
 
-\textbf{3. Review the \href{https://journals.plos.org/plosone/s/recommended-repositories}{list of recommended data repositories from PLOS}. Is there a logical disciplinary data repository for some or all of your data?}
+\textbf{3. Review the \href{https://journals.plos.org/plosone/s/recommended-repositories}{list of recommended data repositories from PLOS} \citep{plos_one_recommended_2023}. Is there a logical disciplinary data repository for some or all of your data?}
 
 If so, deposit some or all of your data there. Go to step 7 if you have shared all of your data or go to the next question if there is still some data left to deposit.
 
@@ -1395,7 +1395,7 @@ If so, deposit the remainder of your data there and go to step 7.
 
 ~
 
-\textbf{5. Do you have a preferred \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository}?}
+\textbf{5. Do you have a preferred \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository} \citep{nih_generalist_2023}?}
 
 If so, deposit the remainder of your data there and go to step 7.
 
@@ -1407,7 +1407,7 @@ If so, deposit the remainder of your data there and go to step 7.
 
 ~
 
-\textbf{6. Pick a \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository} and deposit the remainder of your data.}
+\textbf{6. Pick a \href{https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories}{generalist data repository} \citep{nih_generalist_2023} and deposit the remainder of your data.}
 
 Deposit your data and go to step 7.
 
@@ -1460,9 +1460,9 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \textbf{Sharing Information (Metadata)}
 
-\_\_ Give the data set a title. Default title is ``Data from: {[}name of the article{]}''.
+\_\_ Give the dataset a title. Default title is ``Data from: {[}name of the article{]}''.
 
-\_\_ Write a brief description of the data set to be used as the abstract/description.
+\_\_ Write a brief description of the dataset to be used as the abstract/description.
 
 \_\_ Write down keywords/subject terms for the data.
 
@@ -1539,7 +1539,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \textbf{\emph{Description:}} \emph{Data is often stored in a file type that can only be opened by specific, costly software -- this is referred to as a ``proprietary file type.'' You can tell that you have data in a proprietary file type if you lose access to the data when you lose access to the software. When data is in a proprietary file type, it's always a good idea to copy the data into a more common, open file type as a backup; you may lose a bit of functionality, but it's better to have a backup than to not have your data at all! This exercise works through identifying possible alternative file types for the data's proprietary file type before instructing you to make a copy of the data in the new file type.}
 
-\textbf{\emph{Instructions:}} \emph{For any data in a proprietary file type, identify the data and answer the following questions. Once you have picked a more open, common file type, make a copy of the data in that file type but do not delete the original data.}
+\textbf{\emph{Instructions:}} \emph{For any data in a proprietary file type, identify the data and answer the following questions. Once you have picked a more open, common file type, make a copy of the data in that file type but do not delete the original data. (Keeping a copy in the original file format means that, while you access to the necessary software, your data has full functionality. If you lose access to the software, you'll still have your data in some format, which is better than not having your data at all.)}
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
@@ -1614,7 +1614,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \_\_ Key data analyses
 
-\_\_ Final data
+\_\_ Final published data
 
 \textbf{Code}
 
@@ -1714,6 +1714,20 @@ This chapter also covers project wrap up in the form of separating from your ins
 \_\_ Forward/backup important emails
 
 \_\_ Check with University Archivist or Records Manager for retention policies (depends on rank)
+
+\hypertarget{acknowledgements}{%
+\chapter*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+This book came to me at a moment when I was looking for a new big project. I was washing my hands and BAM! the idea for this book erupted in my head, fully formed like Athena from the head of Zeus. Prior to writing the Workbook, I had created several data management handouts and worksheets to use in lectures and workshops. My big idea was to expand my worksheet offerings to cover the entire data management lifecycle. Basically, I wanted a workbook of activities to pull from for any data management lesson I taught. The result is this Workbook.
+
+Books are never truly written by only one person. While I did the majority of the labor for this Workbook, it would not have been as helpful, accurate, or complete without the assistance of several people.
+
+First, thank you to several people at Caltech Library for assistance with this book. Thank you Donna Wrublewski for being on board with this big idea and supporting it. Big thanks to Tom Morrell for critical feedback on the beta edition of this book, particularly on the storage exercise which was really terrible before his feedback. Thank you to George Porter for helping to get the Workbook online into CaltechAUTHORS, even though we were not quite finished migrating that giant repository to its new platform.
+
+Thank you to Abigail Goben and Dorothea Salo for always being encouraging when I come to them with the idea for a new book, no matter the idea. Abigail was one of the first people I discussed the idea for this book with, which helped cement the big idea in my head. Dorothea read and provided feedback and editing, which was greatly appreciated.
+
+Finally, thank you to Andy for being calm when I had the idea for yet another book. It helped that this book was much shorter than my last two. And thank you to Hank and Willa for cuddles, questions, and all of our adventures that keep me grounded.
 
   \bibliography{references.bib}
 
