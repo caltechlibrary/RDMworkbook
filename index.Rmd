@@ -6,13 +6,13 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: references.bib
 csl: apa.csl
-# url: 
+url: https://library.caltech.edu/RDMworkbook
 cover-image: images/cover.jpg
 description: |
   The Research Data Management Workbook is made up of a collection of exercises
   for researchers to improve their data management.
 link-citations: yes
-github-repo: kbriney/RDMworkbook
+github-repo: caltechlibrary/RDMworkbook
 ---
 
 # About this Book {-}
