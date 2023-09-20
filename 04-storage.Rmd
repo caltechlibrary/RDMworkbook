@@ -2,7 +2,7 @@
 
 All research data needs to be stored and backed up, but it can be frustrating to pick these systems and ensure that they are working correctly. This chapter consists of two exercises: a worksheet to document available storage and backup options and decide between them; and a procedure for testing that a backup system is working.
 
-## Store and Back Up the Data {#storage}
+## Pick Storage and Backup Systems {#storage}
 
 ***Description:*** *Research data needs to be stored and backed up reliably so that important data is not lost. But storage is commonly a challenge, as institutions don’t always offer uniform options for storage and backup. This exercise prompts you to examine the storage and backup systems available to you before determining which is the best set of options for your data.*
 

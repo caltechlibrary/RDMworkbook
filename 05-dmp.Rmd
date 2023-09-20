@@ -20,7 +20,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
-**Where will data be stored? How will data be backed up? (See [Exercise 4.1: Store and Back Up the Data](#storage).)**
+**Where will data be stored? How will data be backed up? (See [Exercise 4.1: Pick Storage and Backup Systems](#storage).)**
 
 *Example: The data is generated on the mass spectrometer then copied to a shared lab server. The server is backed up by departmental IT.*
 
