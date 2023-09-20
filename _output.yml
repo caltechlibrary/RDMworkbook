@@ -6,7 +6,7 @@ bookdown::gitbook:
         <li><a href="./">The Research Data Management Workbook</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/kbriney/RDMworkbook/edit/main/%s
+    edit: https://github.com/caltechlibrary/RDMworkbook/edit/main/%s
     download: ["pdf", "epub"]
 bookdown::pdf_book:
   includes:
