@@ -4,10 +4,6 @@
 %
 \documentclass[
 ]{book}
-\title{The Research Data Management Workbook}
-\author{Kristin Briney}
-\date{2023-09-20}
-
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
 \usepackage{iftex}
@@ -37,14 +33,6 @@
   \KOMAoptions{parskip=half}}
 \makeatother
 \usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
-\hypersetup{
-  pdftitle={The Research Data Management Workbook},
-  pdfauthor={Kristin Briney},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
 \usepackage{longtable,booktabs,array}
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
@@ -79,6 +67,18 @@
 \fi
 \usepackage[]{natbib}
 \bibliographystyle{plainnat}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={The Research Data Management Workbook},
+  pdfauthor={Kristin Briney},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{The Research Data Management Workbook}
+\author{Kristin Briney}
+\date{2023-09-21}
 
 \begin{document}
 \maketitle
@@ -185,9 +185,9 @@ You may go through exercises in the Workbook collectively or individually as you
 My best recommendation is to use the Workbook as the exercise book for my first book, ``Data Management for Researchers'' \citep{briney_data_2015}. The following table lays out how chapters in the Workbook match with chapters in ``Data Management for Researchers,'' allowing you to look up more information on any topic covered by the Workbook:
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.29}}@{}}
-\toprule
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2917}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Research Data
 Management Workbook
@@ -195,7 +195,7 @@ Management Workbook
 Data Management
 for Researchers
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Chapter 2 & Chapter 4 \\
 Chapter 3 & Chapter 5 \\
@@ -203,7 +203,7 @@ Chapter 4 & Chapter 8 \\
 Chapter 5 & Chapter 3 \\
 Chapter 6 & Chapter 10 \\
 Chapter 7 & Chapter 9 \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{documentation}{%
@@ -365,15 +365,15 @@ Documentation has sometimes been called ``a love letter to your future self'' as
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
-\toprule
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5972}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Example
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Variable name & \emph{site} \\
 Variable description & \emph{Two-letter abbreviation describing the
@@ -405,21 +405,21 @@ know about the data? & \emph{Older data (pre-2013) used one-letter
 abbreviations for site code but this was
 updated for clarity and ease of
 identification.} \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 ~
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
-\toprule
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5972}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Variable
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 Variable name
 ~~~
@@ -555,7 +555,7 @@ know about the data?
 ~~~
 ~~~
 ~~~ & ~ \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \hypertarget{file-organization-and-naming}{%
@@ -791,15 +791,15 @@ All research data needs to be stored and backed up, but it can be frustrating to
 \textbf{Fill out the information in the table for \emph{each} storage and backup system you are considering:}
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
-\toprule
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5972}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 Example
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 System name & \emph{Departmental server} \\
 Is it storage or
@@ -824,21 +824,21 @@ Who manages the
 system? & \emph{Departmental IT manages the server.} \\
 Is it easy or
 difficult to use? & \emph{Very easy to use once set up.} \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 ~
 
 \begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.33}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.60}}@{}}
-\toprule
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.3333}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5972}}@{}}
+\toprule()
 \begin{minipage}[b]{\linewidth}\raggedright
 Question
 \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
 System
 \end{minipage} \\
-\midrule
+\midrule()
 \endhead
 System name
 ~~~
@@ -1042,7 +1042,7 @@ difficult to use?
 ~~~
 ~~~
 ~~~ & ~ \\
-\bottomrule
+\bottomrule()
 \end{longtable}
 
 \textbf{Optimize your storage and backups on the following considerations:}

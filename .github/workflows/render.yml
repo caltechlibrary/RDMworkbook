@@ -1,0 +1,31 @@
+name: Render RDM Workbook
+
+on:
+  push:
+    branches: main
+
+jobs:
+  render:
+    name: Render All Book Versions
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: r-lib/actions/setup-r@v2
+      - uses: r-lib/actions/setup-pandoc@v2
+      - uses: r-lib/actions/setup-tinytex@v2
+      - name: Install bookdown
+        run: Rscript -e 'install.packages("bookdown")'
+      - name: Render Book
+        run: |
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::gitbook")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::pdf_book")'
+          Rscript -e 'bookdown::render_book("index.Rmd", "bookdown::epub_book")'
+      - name: Configure Git identity
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+      - name: Commit Book Updates
+        run: |
+          git add _book/*
+          git commit -m 'rebuild book' || echo "no changes to commit"
+          git push origin || echo "no changes to commit"
