@@ -29,9 +29,9 @@ The Workbook is intended as a supplement to existing data management education. 
 
 This is edition 1.0 of The Research Data Management Workbook.
 
-ISBN (PDF): 
+ISBN (PDF): 978-1-60049-015-6
 
-ISBN (EPUB): 
+ISBN (EPUB): 978-1-60049-014-9
 
 I’m happy to receive any feedback on the Workbook to improve it for the next edition; you can message me at briney\@caltech.edu.
 
@@ -41,7 +41,7 @@ This book is available under a Creative Commons Attribution-NonCommercial (CC BY
 
 I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me:
 
-* Briney, K. (2023). *The Research Data Management Workbook.* Caltech Library. [https://doi.org/](https://doi.org/)
+* Briney, K. (2023). *The Research Data Management Workbook.* Caltech Library. [https://doi.org/10.7907111/72k82-bv782](https://doi.org/10.7907111/72k82-bv782)
 
 ## The Author {-}
 
