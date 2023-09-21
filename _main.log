@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.18)  20 SEP 2023 16:33
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2023.8.18)  21 SEP 2023 15:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -707,7 +707,10 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 \tf@toc=\write4
 \openout4 = `_main.toc'.
 
-[4] [5
+[4]
+Underfull \vbox (badness 1286) has occurred while \output is active []
+
+[5
 
 ]
 File: images/00_KristinBriney.jpg Graphic file (type bmp)
@@ -721,32 +724,32 @@ Chapter 1.
 ]
 Chapter 2.
 
-Overfull \hbox (23.97505pt too wide) in paragraph at lines 223--224
+Overfull \hbox (23.97505pt too wide) in paragraph at lines 229--230
 []\TU/lmr/bx/n/10 Date of lab notebook entry being evaluated: \TU/lmr/m/n/10 ____________________ 
  []
 
 [11] [12]
-Overfull \hbox (21.43839pt too wide) in paragraph at lines 284--285
+Overfull \hbox (21.43839pt too wide) in paragraph at lines 290--291
 []\TU/lmr/bx/n/10 Project documented by this README.txt: \TU/lmr/m/n/10 ____________________ 
  []
 
 [13]
-Underfull \hbox (badness 1127) in paragraph at lines 338--339
+Underfull \hbox (badness 1127) in paragraph at lines 344--345
 []\TU/lmr/m/it/10 Example: All data is in the DataDoubles/Data folder, with subfolders
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 338--339
+Underfull \hbox (badness 2368) in paragraph at lines 344--345
 \TU/lmr/m/it/10 the project folder for individual site files. Interview data files are
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 338--339
+Underfull \hbox (badness 1231) in paragraph at lines 344--345
 \TU/lmr/m/it/10 named with: interview theme, site, interview ID, interview date, and
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 338--339
+Underfull \hbox (badness 3547) in paragraph at lines 344--345
 \TU/lmr/m/it/10 data type/analysis stage (e.g. “PRO_BL03_20180222_Audio.mp3” and
  []
 
@@ -760,12 +763,12 @@ File: images/03_CardSorting.jpg Graphic file (type bmp)
 File: images/03_FileNaming.jpg Graphic file (type bmp)
 <images/03_FileNaming.jpg>
 [19] [20] [21]
-Overfull \hbox (42.04002pt too wide) in paragraph at lines 731--732
+Overfull \hbox (42.04002pt too wide) in paragraph at lines 737--738
 []\TU/lmr/m/it/10 Example: My file naming convention is “SA-MPL-EID_YYYYMMDD_###_status.tif”
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 731--732
+Underfull \hbox (badness 10000) in paragraph at lines 737--738
 \TU/lmr/m/it/10 Examples are “P1-MUS-023_20200229_051_raw.tif” and “P2-DRS-
  []
 
@@ -778,12 +781,12 @@ Chapter 4.
 ]
 Chapter 5.
 
-Underfull \hbox (badness 1337) in paragraph at lines 1133--1133
+Underfull \hbox (badness 1337) in paragraph at lines 1139--1139
 []\TU/lmr/bx/n/14.4 Write a Living Data Management Plan
  []
 
 [29]
-Underfull \hbox (badness 1248) in paragraph at lines 1183--1184
+Underfull \hbox (badness 1248) in paragraph at lines 1189--1190
 \TU/lmr/m/it/10 arated by underscores. Examples: “MA006-20230901_TIMS_raw” and
  []
 
@@ -792,22 +795,22 @@ Chapter 6.
 File: images/06_Repository.jpg Graphic file (type bmp)
 <images/06_Repository.jpg>
 
-LaTeX Warning: Float too large for page by 24.51428pt on input line 1348.
+LaTeX Warning: Float too large for page by 24.51428pt on input line 1354.
 
 [35
 
 ] [36] [37]
-Underfull \hbox (badness 1067) in paragraph at lines 1426--1427
+Underfull \hbox (badness 1067) in paragraph at lines 1432--1433
 []\TU/lmr/m/it/10 Example: CaltechDATA provides DOIs for all deposits; my permanent
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1426--1427
+Underfull \hbox (badness 1603) in paragraph at lines 1432--1433
 \TU/lmr/m/it/10 identifier is doi.org/10.22002/XXXXXXXXXXX. FlyBase provides stable
  []
 
 [38]
-Underfull \hbox (badness 2181) in paragraph at lines 1465--1466
+Underfull \hbox (badness 2181) in paragraph at lines 1471--1472
 []\TU/lmr/m/n/10 __ Write a brief description of the dataset to be used as the ab-
  []
 
@@ -816,7 +819,7 @@ Chapter 7.
 [41
 
 ] [42] [43] [44] [45]
-Underfull \hbox (badness 3803) in paragraph at lines 1674--1675
+Underfull \hbox (badness 3803) in paragraph at lines 1680--1681
 []\TU/lmr/m/n/10 __ Identify and keep pertinent research data from storage systems
  []
 
