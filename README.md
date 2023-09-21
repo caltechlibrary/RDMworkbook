@@ -16,4 +16,5 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 
 To-do list:
 * Get a DOI and add it to the citation in the License section of the index
+* Get an ISSN
 * Upload to CaltechAUTHORS
