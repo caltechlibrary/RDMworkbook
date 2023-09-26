@@ -41,7 +41,7 @@ This book is available under a Creative Commons Attribution-NonCommercial (CC BY
 
 I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me:
 
-* Briney, K. (2023). *The Research Data Management Workbook.* Caltech Library. [https://doi.org/10.7907111/72k82-bv782](https://doi.org/10.7907111/72k82-bv782)
+* Briney, K. (2023). *The Research Data Management Workbook.* Caltech Library. [https://doi.org/10.7907/z6czh-7zx60](https://doi.org/10.7907/z6czh-7zx60)
 
 ## The Author {-}
 
