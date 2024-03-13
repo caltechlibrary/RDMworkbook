@@ -2,6 +2,8 @@
 
 While this entire workbook covers data management activities, it’s often useful to take a step back and document the data management decisions that have been made. This chapter provides exercises in documenting data management in two areas: a worksheet for writing a living data management plan (which builds on exercises from previous chapters); and a worksheet for discussing roles and responsibilities around data management with your research collaborators.
 
+\newpage
+
 ## Write a Living Data Management Plan (DMP) {#living-dmp}
 
 ***Description:*** *Many researchers are aware of the two-page data management plan (DMP) for a grant application, but you may not be aware of the more useful type of DMP: a living DMP. This document describes how data will be actively managed during a project and may be updated whenever necessary to reflect current data practices. A living DMP is a useful touchstone for understanding where data lives, how it’s labelled, how it moves through the research process, and who will oversee the data management. This exercise guides you through the process of creating a living DMP for your research.*
@@ -100,6 +102,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
+\newpage
 
 ## Determine Data Stewardship {#data-governance}
 

@@ -1,6 +1,13 @@
+---
+output:
+  word_document: default
+  html_document: default
+---
 # Documentation
 
 Documentation has sometimes been called “a love letter to your future self” as it helps you remember important details about your research data. The great thing about research documentation is that it’s not limited to a laboratory or research notebook, though notebooks are still very important! This chapter introduces two types of useful documentation – a project-level README.txt and a data dictionary – and offers worksheets for writing both. The chapter also includes a worksheet to evaluate an older entry in your laboratory notebook to ensure your documentation is of sufficient quality.
+
+\newpage
 
 ## Evaluate a Laboratory Notebook {#lab-notebook}
 
@@ -59,6 +66,8 @@ Documentation has sometimes been called “a love letter to your future self” 
 &nbsp;
 
 &nbsp;
+
+\newpage
 
 ## Write a Project-Level README.txt {#readme-txt}
 
@@ -143,7 +152,7 @@ Documentation has sometimes been called “a love letter to your future self” 
 &nbsp;
 
 
-
+\newpage
 
 ## Create a Data Dictionary {#data-dictionary}
 
