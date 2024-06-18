@@ -153,3 +153,71 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 \_\_ Share data with its DOI or, as applicable, other permanent identifier.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
+
+\newpage
+
+## Make Spreadsheets Accessible and Reusable {#accessible-spreadsheets}
+
+***Description:*** *Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet's reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.*
+
+***Instructions:*** *For a given spreadsheet, work through the actions on this checklist to make that data more accessible and reusable. This is best done when the data is finalized and/or prior to sharing the data either publicly or with colleagues. It is recommended to also share data in its original form, but your data will be more FAIR [@wilkinson_fair_2016] when an accessible version is made available alongside the original.*
+
+***Further Resources:***
+
+* [@broman_data_2018]
+* [@oxford_accessibility_2023]
+* [@wickham_tidy_2014]
+
+---
+
+\_\_ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.
+
+\_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information [@wickham_tidy_2014]. 
+
+\_\_ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable: 
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use short but meaningful names;
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use full words or readable abbreviations (e.g. "number" or "num" instead of "n") in variable names;
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use only alphanumeric characters in variable names;
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Remove spaces from variable names;
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).
+
+\_\_ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)
+
+\_\_ Convert any dates to YYYY-MM-DD format. (To work around Excel's weird date formatting you can separate year, month, and day into three separate variables.)
+
+\_\_ Ensure that spreadsheet cells contain only one data point. If there is more than one data point per cell, divide columns into multiple variables as appropriate.
+
+\_\_ Remove formatting such as font, text alignment, highlighting, and merged cells. Any information represented by such formatting should be recorded as data under new variable.
+
+\_\_ Fill in empty cells:
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Input any missing data values;
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use "NA" (or the preferred null value for your analysis software) for any cells that do not have recorded values.
+
+\_\_ Perform quality control on the data, removing:
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Errors,
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Inconsistencies,
+
+&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Accidental spaces.
+
+\_\_ Enclose any cells containing commas inside of double quotes (e.g. "text, example"). 
+
+\_\_ Remove charts. Charts may be shared separately with corresponding alt text.
+
+\_\_ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to “paste as values”, then deleting the original column.)
+
+\_\_ Use any built-in validation or accessibility checkers provided by your software.
+
+\_\_ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.
+
+\_\_ Create an accompanying data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)).
+
+\_\_ Share the accessible CSV file(s), the original dataset, and the data dictionary.
