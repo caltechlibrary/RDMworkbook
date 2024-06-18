@@ -156,6 +156,140 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 \newpage
 
+## Write a README File for Shared Data {#readme-sharing}
+
+***Description:*** *A README file can make the difference between not understanding a shared dataset and actually being able to reuse the data. A README file for shared data goes beyond basic information listed in a data repository by explaining what is in each file, how files relate to each other, and anything else someone needs to know to use a dataset. While you may not be required to include a README file when depositing data into a data repository, including a README file is almost always recommended.*
+
+***Instructions:*** *Fill out the worksheet for the collection data being shared. Each group of files being deposited into a repository should have an accompanying README file. Note that some data repositories that collect a specific type of data do not accept README files and instead ask for detailed information about the data during the deposit process.*
+
+---
+
+**Record the title of the dataset:**
+
+*Example: Data from "Measuring data rot: an analysis of the continued availability of shared data from a single university"*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**List the dataset authors, identifying the corresponding author(s) and providing their contact information:**
+
+*Example: Kristin Briney (briney@caltech.edu)*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Briefly summarize the project these data files are from:**
+
+*Example: This data is from a study of 2,000+ links to shared data from Caltech-authored publications. The links were web-scraped to test for the continued availability of the data.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**If applicable, list any publications supported by this data:**
+
+*Example: One article was published from this data: Briney, K. A. (2024). Measuring data rot: An analysis of the continued availability of shared data from a Single University. PLOS ONE, 19(6), e0304781. [https://doi.org/10.1371/journal.pone.0304781](https://doi.org/10.1371/journal.pone.0304781)*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**If applicable, record the funding source for this data:**
+
+*Example: The author received no specific funding for this work.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Identify the license this data is being made available under:**
+
+*Example: The data is available under a Creative Commons Zero v1.0 Universal license.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Write a list of all data files being shared and a short description of what each of these files contains:**
+
+*Example:*
+
+- *DataRot.csv: This data contains all of the links tested, listing results of the web-scraping but not results of the hand testing.*
+- *DataRot_dataDictionary.txt: Data dictionary defining variable names and values for DataRot.csv.*
+- *DataRot_handTested.csv: Subset of supplemental data links from DataRot.csv that were hand-tested and the results of the hand testing.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Describe any relationships between files:**
+
+*Example: DataRot_handTested.csv is a subset of DataRot.csv that only includes the links that were tested by hand.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Is there any related data not shared here? If so, list that data, describe it briefly, and document how it can be accessed:**
+
+*Example: The code used for web-scraping and analysis of this data is available at [https://doi.org/10.22002/d2h9g-5q152](https://doi.org/10.22002/d2h9g-5q152) under a GNU General Public License v3.0.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**For any spreadsheet files, create a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)). Either 1) copy the data dictionary contents here; or 2) share the data dictionary as a separate file, making sure to add the data dictionary to the above list of files and their descriptions.**
+
+*Example: The data dictionary is available in the DataRot_dataDictionary.txt file.* 
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**What else should someone know about this dataset:**
+
+*Example: The data is UTF-8 encoded. R version 4.1.1 was used for web-scraping and data analysis.*
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+**Save all of this information as a README.txt file (you can also use README.md when sharing software) and share with your data.**
+
+\newpage
+
 ## Make Spreadsheets Accessible and Reusable {#accessible-spreadsheets}
 
 ***Description:*** *Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet's reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.*
@@ -172,7 +306,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 \_\_ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.
 
-\_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information [@wickham_tidy_2014]. 
+\_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information [@wickham_tidy_2014].
 
 \_\_ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable: 
 
