@@ -206,7 +206,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 **If applicable, record the funding source for this data:**
 
-*Example: The author received no specific funding for this work.*
+*Example: The author received no funding for this work.*
 
 &nbsp;
 
@@ -304,23 +304,25 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 ---
 
+**Organize the Data**
+
 \_\_ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.
 
 \_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information [@wickham_tidy_2014].
 
+**Make the Data Readable**
+
 \_\_ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable: 
 
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use short but meaningful names;
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use full words or readable abbreviations (e.g. "number" or "num" instead of "n") in variable names;
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use only alphanumeric characters in variable names;
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Remove spaces from variable names;
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).
+- Use short but meaningful names;
+- Use full words or readable abbreviations (e.g. "number" or "num" instead of "n") in variable names;
+- Use only alphanumeric characters in variable names;
+- Remove spaces from variable names;
+- Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).
 
 \_\_ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)
+
+**Clean the Data**
 
 \_\_ Convert any dates to YYYY-MM-DD format. (To work around Excel's weird date formatting you can separate year, month, and day into three separate variables.)
 
@@ -330,17 +332,16 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 \_\_ Fill in empty cells:
 
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Input any missing data values;
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Use "NA" (or the preferred null value for your analysis software) for any cells that do not have recorded values.
+- Input any missing data values;
+- Use "NA" (or the preferred null value for your analysis software) for any cells that do not have recorded values.
 
 \_\_ Perform quality control on the data, removing:
 
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Errors,
+- Errors,
+- Inconsistencies,
+- Accidental spaces.
 
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Inconsistencies,
-
-&nbsp;&nbsp;&nbsp;&nbsp; \_\_ Accidental spaces.
+**Format the Data**
 
 \_\_ Enclose any cells containing commas inside of double quotes (e.g. "text, example"). 
 
@@ -349,6 +350,8 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 \_\_ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to “paste as values”, then deleting the original column.)
 
 \_\_ Use any built-in validation or accessibility checkers provided by your software.
+
+**Save and Share the Data**
 
 \_\_ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.
 
