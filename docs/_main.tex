@@ -107,7 +107,7 @@ The Workbook is intended as a supplement to existing data management education. 
 \section*{Edition}\label{edition}}
 \addcontentsline{toc}{section}{Edition}
 
-This is edition 1.0 of The Research Data Management Workbook.
+This is edition 1.1 of The Research Data Management Workbook.
 
 ISBN (PDF): 978-1-60049-015-6
 
@@ -1480,12 +1480,6 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \_\_ If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each citation/group of files.
 
-\textbf{Data Documentation}
-
-\_\_ Document any spreadsheet data with a data dictionary (see \protect\hyperlink{data-dictionary}{Exercise 2.3: Create a Data Dictionary}). The data dictionary should be shared with the other files.
-
-\_\_ Write a brief description of each data file, including any data dictionaries, and what it contains. Save this information as a README.txt file and share it with the other files.
-
 \textbf{Sharing Information (Metadata)}
 
 \_\_ Give the dataset a title. Default title is ``Data from: {[}name of the article{]}''.
@@ -1502,6 +1496,12 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \_\_ Chose a license for reuse rights. Default license is CC0 (for more information on CC0, see \citep{creative_commons_wiki_cc0_2014}).
 
+\textbf{Data Documentation}
+
+\_\_ Write a README.txt file to be shared with the other files (see \protect\hyperlink{readme-sharing}{Exercise 6.3: Write a README File for Shared Data}).
+
+\_\_ Document any spreadsheet data with a data dictionary (see \protect\hyperlink{data-dictionary}{Exercise 2.3: Create a Data Dictionary}). The data dictionary should be shared with the other files.
+
 \textbf{Deposit Data}
 
 \_\_ Pick a data repository/data repositories for the shared data (see \protect\hyperlink{data-repository}{Exercise 6.1: Pick a Data Repository}).
@@ -1515,6 +1515,149 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 \_\_ Share data with its DOI or, as applicable, other permanent identifier.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
+
+\newpage
+
+\hypertarget{readme-sharing}{%
+\section{Write a README File for Shared Data}\label{readme-sharing}}
+
+\textbf{\emph{Description:}} \emph{A README file can make the difference between not understanding a shared dataset and actually being able to reuse the data. A README file for shared data goes beyond basic information listed in a data repository by explaining what is in each file, how files relate to each other, and anything else someone needs to know to use a dataset. While you may not be required to include a README file when depositing data into a data repository, including a README file is almost always recommended.}
+
+\textbf{\emph{Instructions:}} \emph{Fill out the worksheet for the collection data being shared. Each group of files being deposited into a repository should have an accompanying README file. Note that repositories for very specific types of data sometimes do not accept README files and instead ask for detailed information about the data during the deposit process.}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\textbf{Record the title of the dataset:}
+
+\emph{Example: Data from ``Measuring data rot: an analysis of the continued availability of shared data from a single university''}
+
+~
+
+~
+
+~
+
+\textbf{List the dataset authors, identifying the corresponding author(s) and providing their contact information:}
+
+\emph{Example: Kristin Briney (\href{mailto:briney@caltech.edu}{\nolinkurl{briney@caltech.edu}})}
+
+~
+
+~
+
+~
+
+\textbf{Briefly summarize the project these data files are from:}
+
+\emph{Example: This data is from a study of 2,000+ links to shared data from Caltech-authored publications. The links were web-scraped to test for the continued availability of the data.}
+
+~
+
+~
+
+~
+
+\textbf{If applicable, list any publications supported by this data:}
+
+\emph{Example: One article was published from this data: Briney, K. A. (2024). Measuring data rot: An analysis of the continued availability of shared data from a Single University. PLOS ONE, 19(6), e0304781. \url{https://doi.org/10.1371/journal.pone.0304781}}
+
+~
+
+~
+
+~
+
+\textbf{If applicable, record the funding source for this data:}
+
+\emph{Example: The author received no funding for this work.}
+
+~
+
+~
+
+~
+
+\textbf{Identify the license this data is being made available under:}
+
+\emph{Example: The data is available under a Creative Commons Zero v1.0 Universal license.}
+
+~
+
+~
+
+~
+
+\textbf{Write a list of all data files being shared and a short description of what each of these files contains:}
+
+\emph{Example:}
+
+\begin{itemize}
+\tightlist
+\item
+  \emph{DataRot.csv: This data contains all of the links tested, listing results of the web-scraping but not results of the hand testing.}
+\item
+  \emph{DataRot\_dataDictionary.txt: Data dictionary defining variable names and values for DataRot.csv.}
+\item
+  \emph{DataRot\_handTested.csv: Subset of supplemental data links from DataRot.csv that were hand-tested and the results of the hand testing.}
+\end{itemize}
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+~
+
+\textbf{Describe any relationships between files:}
+
+\emph{Example: DataRot\_handTested.csv is a subset of DataRot.csv that only includes the links that were tested by hand.}
+
+~
+
+~
+
+~
+
+\textbf{Is there any related data not shared here? If so, list that data, describe it briefly, and document how it can be accessed:}
+
+\emph{Example: The code used for web-scraping and analysis of this data is available at \url{https://doi.org/10.22002/d2h9g-5q152} under a GNU General Public License v3.0.}
+
+~
+
+~
+
+~
+
+\textbf{For any spreadsheet files, create a data dictionary (see \protect\hyperlink{data-dictionary}{Exercise 2.3: Create a Data Dictionary}).}
+
+Either copy the data dictionary contents here or share the data dictionary as a separate file (making sure to add the data dictionary to the above list of files and their descriptions).
+
+\emph{Example: The data dictionary is available in the DataRot\_dataDictionary.txt file.}
+
+~
+
+~
+
+~
+
+\textbf{What else should someone know about this dataset:}
+
+\emph{Example: The data is UTF-8 encoded. R version 4.1.1 was used for web-scraping and data analysis.}
+
+~
+
+~
+
+~
+
+\textbf{Save all of this information as a README.txt file (you can also use README.md when sharing software) and share with your data.}
 
 \newpage
 
@@ -1539,23 +1682,33 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
 
+\textbf{Organize the Data}
+
 \_\_ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.
 
 \_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information \citep{wickham_tidy_2014}.
 
+\textbf{Make the Data Readable}
+
 \_\_ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable:
 
-~~~~ \_\_ Use short but meaningful names;
-
-~~~~ \_\_ Use full words or readable abbreviations (e.g.~``number'' or ``num'' instead of ``n'') in variable names;
-
-~~~~ \_\_ Use only alphanumeric characters in variable names;
-
-~~~~ \_\_ Remove spaces from variable names;
-
-~~~~ \_\_ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g.~myVariableName or MyVariableName).
+\begin{itemize}
+\tightlist
+\item
+  Use short but meaningful names;
+\item
+  Use full words or readable abbreviations (e.g.~``number'' or ``num'' instead of ``n'') in variable names;
+\item
+  Use only alphanumeric characters in variable names;
+\item
+  Remove spaces from variable names;
+\item
+  Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g.~myVariableName or MyVariableName).
+\end{itemize}
 
 \_\_ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)
+
+\textbf{Clean the Data}
 
 \_\_ Convert any dates to YYYY-MM-DD format. (To work around Excel's weird date formatting you can separate year, month, and day into three separate variables.)
 
@@ -1565,17 +1718,27 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \_\_ Fill in empty cells:
 
-~~~~ \_\_ Input any missing data values;
-
-~~~~ \_\_ Use ``NA'' (or the preferred null value for your analysis software) for any cells that do not have recorded values.
+\begin{itemize}
+\tightlist
+\item
+  Input any missing data values;
+\item
+  Use ``NA'' (or the preferred null value for your analysis software) for any cells that do not have recorded values.
+\end{itemize}
 
 \_\_ Perform quality control on the data, removing:
 
-~~~~ \_\_ Errors,
+\begin{itemize}
+\tightlist
+\item
+  Errors,
+\item
+  Inconsistencies,
+\item
+  Accidental spaces.
+\end{itemize}
 
-~~~~ \_\_ Inconsistencies,
-
-~~~~ \_\_ Accidental spaces.
+\textbf{Format the Data}
 
 \_\_ Enclose any cells containing commas inside of double quotes (e.g.~``text, example'').
 
@@ -1584,6 +1747,8 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 \_\_ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to ``paste as values'', then deleting the original column.)
 
 \_\_ Use any built-in validation or accessibility checkers provided by your software.
+
+\textbf{Save and Share the Data}
 
 \_\_ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.
 

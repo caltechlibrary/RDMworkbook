@@ -140,7 +140,8 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#data-repository"><i class="fa fa-check"></i><b>6.1</b> Pick a Data Repository</a></li>
 <li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#share-data"><i class="fa fa-check"></i><b>6.2</b> Share Data</a></li>
-<li class="chapter" data-level="6.3" data-path="data-sharing.html"><a href="data-sharing.html#accessible-spreadsheets"><i class="fa fa-check"></i><b>6.3</b> Make Spreadsheets Accessible and Reusable</a></li>
+<li class="chapter" data-level="6.3" data-path="data-sharing.html"><a href="data-sharing.html#readme-sharing"><i class="fa fa-check"></i><b>6.3</b> Write a README File for Shared Data</a></li>
+<li class="chapter" data-level="6.4" data-path="data-sharing.html"><a href="data-sharing.html#accessible-spreadsheets"><i class="fa fa-check"></i><b>6.4</b> Make Spreadsheets Accessible and Reusable</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="project-wrap-up.html"><a href="project-wrap-up.html"><i class="fa fa-check"></i><b>7</b> Project Wrap Up</a>
 <ul>
@@ -238,9 +239,6 @@ div.csl-indent {
 <p>__ Convert data in proprietary file types to open file types, as appropriate (see <a href="project-wrap-up.html#file-type">Exercise 7.2: Convert Data File Types</a>).</p>
 <p>__ Determine if data should be shared under one citation or as several citations. (Group data as makes most sense for citation and reuse. Options can include: sharing as one large group, grouping files by data type, giving large data files their own citations, etc. Each citation represents a unique deposit into a data repository.)</p>
 <p>__ If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each citation/group of files.</p>
-<p><strong>Data Documentation</strong></p>
-<p>__ Document any spreadsheet data with a data dictionary (see <a href="documentation.html#data-dictionary">Exercise 2.3: Create a Data Dictionary</a>). The data dictionary should be shared with the other files.</p>
-<p>__ Write a brief description of each data file, including any data dictionaries, and what it contains. Save this information as a README.txt file and share it with the other files.</p>
 <p><strong>Sharing Information (Metadata)</strong></p>
 <p>__ Give the dataset a title. Default title is “Data from: [name of the article].”</p>
 <p>__ Write a brief description of the dataset to be used as the abstract/description.</p>
@@ -249,6 +247,9 @@ div.csl-indent {
 <p>__ Identify author ORCID numbers for submission (note: this is best practice but not all data repositories have integrated ORCID yet).</p>
 <p>__ Record all funding information that applies to the dataset.</p>
 <p>__ Chose a license for reuse rights. Default license is CC0 (for more information on CC0, see <span class="citation">(<a href="#ref-creative_commons_wiki_cc0_2014" role="doc-biblioref">Creative Commons Wiki, 2014</a>)</span>).</p>
+<p><strong>Data Documentation</strong></p>
+<p>__ Write a README.txt file to be shared with the other files (see <a href="data-sharing.html#readme-sharing">Exercise 6.3: Write a README File for Shared Data</a>).</p>
+<p>__ Document any spreadsheet data with a data dictionary (see <a href="documentation.html#data-dictionary">Exercise 2.3: Create a Data Dictionary</a>). The data dictionary should be shared with the other files.</p>
 <p><strong>Deposit Data</strong></p>
 <p>__ Pick a data repository/data repositories for the shared data (see <a href="data-sharing.html#data-repository">Exercise 6.1: Pick a Data Repository</a>).</p>
 <p>__ Deposit the data and documentation files into the data repository, and fill in metadata as determined above.</p>
@@ -258,8 +259,81 @@ div.csl-indent {
 <p>__ Link the publication to its data, either in a Data Availability Statement or as a citation.</p>
 <div style="page-break-after: always;"></div>
 </div>
-<div id="accessible-spreadsheets" class="section level2 hasAnchor" number="6.3">
-<h2><span class="header-section-number">6.3</span> Make Spreadsheets Accessible and Reusable<a href="data-sharing.html#accessible-spreadsheets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="readme-sharing" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Write a README File for Shared Data<a href="data-sharing.html#readme-sharing" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> <em>A README file can make the difference between not understanding a shared dataset and actually being able to reuse the data. A README file for shared data goes beyond basic information listed in a data repository by explaining what is in each file, how files relate to each other, and anything else someone needs to know to use a dataset. While you may not be required to include a README file when depositing data into a data repository, including a README file is almost always recommended.</em></p>
+<p><strong><em>Instructions:</em></strong> <em>Fill out the worksheet for the collection data being shared. Each group of files being deposited into a repository should have an accompanying README file. Note that repositories for very specific types of data sometimes do not accept README files and instead ask for detailed information about the data during the deposit process.</em></p>
+<hr />
+<p><strong>Record the title of the dataset:</strong></p>
+<p><em>Example: Data from “Measuring data rot: an analysis of the continued availability of shared data from a single university”</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>List the dataset authors, identifying the corresponding author(s) and providing their contact information:</strong></p>
+<p><em>Example: Kristin Briney (<a href="mailto:briney@caltech.edu" class="email">briney@caltech.edu</a>)</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Briefly summarize the project these data files are from:</strong></p>
+<p><em>Example: This data is from a study of 2,000+ links to shared data from Caltech-authored publications. The links were web-scraped to test for the continued availability of the data.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>If applicable, list any publications supported by this data:</strong></p>
+<p><em>Example: One article was published from this data: Briney, K. A. (2024). Measuring data rot: An analysis of the continued availability of shared data from a Single University. PLOS ONE, 19(6), e0304781. <a href="https://doi.org/10.1371/journal.pone.0304781">https://doi.org/10.1371/journal.pone.0304781</a></em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>If applicable, record the funding source for this data:</strong></p>
+<p><em>Example: The author received no funding for this work.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Identify the license this data is being made available under:</strong></p>
+<p><em>Example: The data is available under a Creative Commons Zero v1.0 Universal license.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Write a list of all data files being shared and a short description of what each of these files contains:</strong></p>
+<p><em>Example:</em></p>
+<ul>
+<li><em>DataRot.csv: This data contains all of the links tested, listing results of the web-scraping but not results of the hand testing.</em></li>
+<li><em>DataRot_dataDictionary.txt: Data dictionary defining variable names and values for DataRot.csv.</em></li>
+<li><em>DataRot_handTested.csv: Subset of supplemental data links from DataRot.csv that were hand-tested and the results of the hand testing.</em></li>
+</ul>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Describe any relationships between files:</strong></p>
+<p><em>Example: DataRot_handTested.csv is a subset of DataRot.csv that only includes the links that were tested by hand.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Is there any related data not shared here? If so, list that data, describe it briefly, and document how it can be accessed:</strong></p>
+<p><em>Example: The code used for web-scraping and analysis of this data is available at <a href="https://doi.org/10.22002/d2h9g-5q152">https://doi.org/10.22002/d2h9g-5q152</a> under a GNU General Public License v3.0.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>For any spreadsheet files, create a data dictionary (see <a href="documentation.html#data-dictionary">Exercise 2.3: Create a Data Dictionary</a>).</strong></p>
+<p>Either copy the data dictionary contents here or share the data dictionary as a separate file (making sure to add the data dictionary to the above list of files and their descriptions).</p>
+<p><em>Example: The data dictionary is available in the DataRot_dataDictionary.txt file.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>What else should someone know about this dataset:</strong></p>
+<p><em>Example: The data is UTF-8 encoded. R version 4.1.1 was used for web-scraping and data analysis.</em></p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p><strong>Save all of this information as a README.txt file (you can also use README.md when sharing software) and share with your data.</strong></p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="accessible-spreadsheets" class="section level2 hasAnchor" number="6.4">
+<h2><span class="header-section-number">6.4</span> Make Spreadsheets Accessible and Reusable<a href="data-sharing.html#accessible-spreadsheets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p><strong><em>Description:</em></strong> <em>Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet’s reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.</em></p>
 <p><strong><em>Instructions:</em></strong> <em>For a given spreadsheet, work through the actions on this checklist to make that data more accessible and reusable. This is best done when the data is finalized and/or prior to sharing the data either publicly or with colleagues. It is recommended to also share data in its original form, but your data will be more FAIR <span class="citation">(<a href="#ref-wilkinson_fair_2016" role="doc-biblioref">Wilkinson et al., 2016</a>)</span> when an accessible version is made available alongside the original.</em></p>
 <p><strong><em>Further Resources:</em></strong></p>
@@ -269,29 +343,40 @@ div.csl-indent {
 <li><span class="citation">(<a href="#ref-wickham_tidy_2014" role="doc-biblioref">Wickham, 2014</a>)</span></li>
 </ul>
 <hr />
+<p><strong>Organize the Data</strong></p>
 <p>__ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.</p>
 <p>__ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham’s guidelines on tidy data for more information <span class="citation">(<a href="#ref-wickham_tidy_2014" role="doc-biblioref">Wickham, 2014</a>)</span>.</p>
+<p><strong>Make the Data Readable</strong></p>
 <p>__ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable:</p>
-<p>     __ Use short but meaningful names;</p>
-<p>     __ Use full words or readable abbreviations (e.g. “number” or “num” instead of “n”) in variable names;</p>
-<p>     __ Use only alphanumeric characters in variable names;</p>
-<p>     __ Remove spaces from variable names;</p>
-<p>     __ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).</p>
+<ul>
+<li>Use short but meaningful names;</li>
+<li>Use full words or readable abbreviations (e.g. “number” or “num” instead of “n”) in variable names;</li>
+<li>Use only alphanumeric characters in variable names;</li>
+<li>Remove spaces from variable names;</li>
+<li>Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).</li>
+</ul>
 <p>__ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)</p>
+<p><strong>Clean the Data</strong></p>
 <p>__ Convert any dates to YYYY-MM-DD format. (To work around Excel’s weird date formatting you can separate year, month, and day into three separate variables.)</p>
 <p>__ Ensure that spreadsheet cells contain only one data point. If there is more than one data point per cell, divide columns into multiple variables as appropriate.</p>
 <p>__ Remove formatting such as font, text alignment, highlighting, and merged cells. Any information represented by such formatting should be recorded as data under new variable.</p>
 <p>__ Fill in empty cells:</p>
-<p>     __ Input any missing data values;</p>
-<p>     __ Use “NA” (or the preferred null value for your analysis software) for any cells that do not have recorded values.</p>
+<ul>
+<li>Input any missing data values;</li>
+<li>Use “NA” (or the preferred null value for your analysis software) for any cells that do not have recorded values.</li>
+</ul>
 <p>__ Perform quality control on the data, removing:</p>
-<p>     __ Errors,</p>
-<p>     __ Inconsistencies,</p>
-<p>     __ Accidental spaces.</p>
+<ul>
+<li>Errors,</li>
+<li>Inconsistencies,</li>
+<li>Accidental spaces.</li>
+</ul>
+<p><strong>Format the Data</strong></p>
 <p>__ Enclose any cells containing commas inside of double quotes (e.g. “text, example”).</p>
 <p>__ Remove charts. Charts may be shared separately with corresponding alt text.</p>
 <p>__ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to “paste as values,” then deleting the original column.)</p>
 <p>__ Use any built-in validation or accessibility checkers provided by your software.</p>
+<p><strong>Save and Share the Data</strong></p>
 <p>__ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.</p>
 <p>__ Create an accompanying data dictionary (see <a href="documentation.html#data-dictionary">Exercise 2.3: Create a Data Dictionary</a>).</p>
 <p>__ Share the accessible CSV file(s), the original dataset, and the data dictionary.</p>

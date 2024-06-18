@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  18 JUN 2024 10:21
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  18 JUN 2024 16:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,22 +810,27 @@ Underfull \hbox (badness 1603) in paragraph at lines 1452--1453
  []
 
 [44] [45]
-Underfull \hbox (badness 2181) in paragraph at lines 1493--1494
+Underfull \hbox (badness 2181) in paragraph at lines 1487--1488
 []\TU/lmr/m/n/10 __ Write a brief description of the dataset to be used as the ab-
  []
 
-[46] [47] [48] [49] [50
+[46] [47] [48]
+Underfull \hbox (badness 2165) in paragraph at lines 1601--1602
+[]\TU/lmr/m/it/10 DataRot_handTested.csv: Subset of supplemental data links from
+ []
+
+[49] [50] [51] [52] [53] [54
 
 ]
 Chapter 7.
-[51] [52] [53] [54] [55] [56]
-Underfull \hbox (badness 3803) in paragraph at lines 1785--1786
+[55] [56] [57] [58] [59] [60]
+Underfull \hbox (badness 3803) in paragraph at lines 1950--1951
 []\TU/lmr/m/n/10 __ Identify and keep pertinent research data from storage systems
  []
 
-[57] [58] (./_main.bbl [59
+[61] [62] (./_main.bbl [63
 
-] [60
+] [64
 
 ]
 Underfull \hbox (badness 1831) in paragraph at lines 44--51
@@ -847,21 +852,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--71
 [][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][] [][] [][][][] [][] [][][][][][][][] [][]
  []
 
-[61]) [62] (./_main.aux)
+[65]) [66] (./_main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: EDE34328FFC0C01A6ECF6DB009B01E0C;5871.
+(rerunfilecheck)             Checksum: 8E7BAD1423B98B03A1825DA60FD4F70B;6119.
  ) 
 Here is how much of TeX's memory you used:
- 16910 strings out of 476771
- 311586 string characters out of 5800478
+ 16911 strings out of 476771
+ 311602 string characters out of 5800478
  1938842 words of memory out of 5000000
- 38708 multiletter control sequences out of 15000+600000
+ 38709 multiletter control sequences out of 15000+600000
  564520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  90i,7n,121p,955b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (62 pages).
+Output written on _main.pdf (66 pages).
