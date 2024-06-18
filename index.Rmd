@@ -27,7 +27,7 @@ The Workbook is intended as a supplement to existing data management education. 
 
 ## Edition {-}
 
-This is edition 1.0 of The Research Data Management Workbook.
+This is edition 1.1 of The Research Data Management Workbook.
 
 ISBN (PDF): 978-1-60049-015-6
 
