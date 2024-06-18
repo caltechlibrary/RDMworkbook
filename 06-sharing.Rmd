@@ -266,7 +266,9 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 &nbsp;
 
-**For any spreadsheet files, create a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)). Either 1) copy the data dictionary contents here; or 2) share the data dictionary as a separate file, making sure to add the data dictionary to the above list of files and their descriptions.**
+**For any spreadsheet files, create a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)).**
+
+Either copy the data dictionary contents here or share the data dictionary as a separate file (making sure to add the data dictionary to the above list of files and their descriptions).
 
 *Example: The data dictionary is available in the DataRot_dataDictionary.txt file.* 
 
