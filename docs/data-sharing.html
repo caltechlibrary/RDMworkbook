@@ -26,7 +26,7 @@ for researchers to improve their data management.</p>" />
 <meta name="author" content="Kristin Briney" />
 
 
-<meta name="date" content="2024-03-13" />
+<meta name="date" content="2024-06-18" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -140,6 +140,7 @@ div.csl-indent {
 <ul>
 <li class="chapter" data-level="6.1" data-path="data-sharing.html"><a href="data-sharing.html#data-repository"><i class="fa fa-check"></i><b>6.1</b> Pick a Data Repository</a></li>
 <li class="chapter" data-level="6.2" data-path="data-sharing.html"><a href="data-sharing.html#share-data"><i class="fa fa-check"></i><b>6.2</b> Share Data</a></li>
+<li class="chapter" data-level="6.3" data-path="data-sharing.html"><a href="data-sharing.html#accessible-spreadsheets"><i class="fa fa-check"></i><b>6.3</b> Make Spreadsheets Accessible and Reusable</a></li>
 </ul></li>
 <li class="chapter" data-level="7" data-path="project-wrap-up.html"><a href="project-wrap-up.html"><i class="fa fa-check"></i><b>7</b> Project Wrap Up</a>
 <ul>
@@ -255,19 +256,67 @@ div.csl-indent {
 <p><strong>Share Data</strong></p>
 <p>__ Share data with its DOI or, as applicable, other permanent identifier.</p>
 <p>__ Link the publication to its data, either in a Data Availability Statement or as a citation.</p>
+<div style="page-break-after: always;"></div>
+</div>
+<div id="accessible-spreadsheets" class="section level2 hasAnchor" number="6.3">
+<h2><span class="header-section-number">6.3</span> Make Spreadsheets Accessible and Reusable<a href="data-sharing.html#accessible-spreadsheets" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<p><strong><em>Description:</em></strong> <em>Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet’s reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.</em></p>
+<p><strong><em>Instructions:</em></strong> <em>For a given spreadsheet, work through the actions on this checklist to make that data more accessible and reusable. This is best done when the data is finalized and/or prior to sharing the data either publicly or with colleagues. It is recommended to also share data in its original form, but your data will be more FAIR <span class="citation">(<a href="#ref-wilkinson_fair_2016" role="doc-biblioref">Wilkinson et al., 2016</a>)</span> when an accessible version is made available alongside the original.</em></p>
+<p><strong><em>Further Resources:</em></strong></p>
+<ul>
+<li><span class="citation">(<a href="#ref-broman_data_2018" role="doc-biblioref">Broman &amp; Woo, 2018</a>)</span></li>
+<li><span class="citation">(<a href="#ref-oxford_accessibility_2023" role="doc-biblioref">Oxford &amp; Woodbrook, 2023</a>)</span></li>
+<li><span class="citation">(<a href="#ref-wickham_tidy_2014" role="doc-biblioref">Wickham, 2014</a>)</span></li>
+</ul>
+<hr />
+<p>__ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.</p>
+<p>__ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham’s guidelines on tidy data for more information <span class="citation">(<a href="#ref-wickham_tidy_2014" role="doc-biblioref">Wickham, 2014</a>)</span>.</p>
+<p>__ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable:</p>
+<p>     __ Use short but meaningful names;</p>
+<p>     __ Use full words or readable abbreviations (e.g. “number” or “num” instead of “n”) in variable names;</p>
+<p>     __ Use only alphanumeric characters in variable names;</p>
+<p>     __ Remove spaces from variable names;</p>
+<p>     __ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g. myVariableName or MyVariableName).</p>
+<p>__ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)</p>
+<p>__ Convert any dates to YYYY-MM-DD format. (To work around Excel’s weird date formatting you can separate year, month, and day into three separate variables.)</p>
+<p>__ Ensure that spreadsheet cells contain only one data point. If there is more than one data point per cell, divide columns into multiple variables as appropriate.</p>
+<p>__ Remove formatting such as font, text alignment, highlighting, and merged cells. Any information represented by such formatting should be recorded as data under new variable.</p>
+<p>__ Fill in empty cells:</p>
+<p>     __ Input any missing data values;</p>
+<p>     __ Use “NA” (or the preferred null value for your analysis software) for any cells that do not have recorded values.</p>
+<p>__ Perform quality control on the data, removing:</p>
+<p>     __ Errors,</p>
+<p>     __ Inconsistencies,</p>
+<p>     __ Accidental spaces.</p>
+<p>__ Enclose any cells containing commas inside of double quotes (e.g. “text, example”).</p>
+<p>__ Remove charts. Charts may be shared separately with corresponding alt text.</p>
+<p>__ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to “paste as values,” then deleting the original column.)</p>
+<p>__ Use any built-in validation or accessibility checkers provided by your software.</p>
+<p>__ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.</p>
+<p>__ Create an accompanying data dictionary (see <a href="documentation.html#data-dictionary">Exercise 2.3: Create a Data Dictionary</a>).</p>
+<p>__ Share the accessible CSV file(s), the original dataset, and the data dictionary.</p>
 
 </div>
 </div>
 <h3>References<a href="references.html#references" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <div id="refs" class="references csl-bib-body hanging-indent" line-spacing="2">
+<div id="ref-broman_data_2018" class="csl-entry">
+Broman, K. W., &amp; Woo, K. H. (2018). Data <span>Organization</span> in <span>Spreadsheets</span>. <em>The American Statistician</em>, <em>72</em>(1), 2–10. <a href="https://doi.org/10.1080/00031305.2017.1375989">https://doi.org/10.1080/00031305.2017.1375989</a>
+</div>
 <div id="ref-creative_commons_wiki_cc0_2014" class="csl-entry">
 Creative Commons Wiki. (2014). <em><span>CC0</span> use for data</em>. <a href="https://wiki.creativecommons.org/wiki/CC0_use_for_data">https://wiki.creativecommons.org/wiki/CC0_use_for_data</a>
 </div>
 <div id="ref-nih_generalist_2023" class="csl-entry">
 NIH. (2023). <em>Generalist <span>Repositories</span></em>. <a href="https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories">https://sharing.nih.gov/data-management-and-sharing-policy/sharing-scientific-data/generalist-repositories</a>
 </div>
+<div id="ref-oxford_accessibility_2023" class="csl-entry">
+Oxford, E., &amp; Woodbrook, R. (2023). Accessibility <span>Data</span> <span>Primer</span>. In <em>Data Curation Network Primers</em>. <a href="https://github.com/DataCurationNetwork/data-primers/blob/main/Accessibility%20Data%20Curation%20Primer/accessibility-data-curation-primer.md">https://github.com/DataCurationNetwork/data-primers/blob/main/Accessibility%20Data%20Curation%20Primer/accessibility-data-curation-primer.md</a>
+</div>
 <div id="ref-plos_one_recommended_2023" class="csl-entry">
 PLOS ONE. (2023). <em>Recommended <span>Repositories</span></em>. <a href="https://journals.plos.org/plosone/s/recommended-repositories">https://journals.plos.org/plosone/s/recommended-repositories</a>
+</div>
+<div id="ref-wickham_tidy_2014" class="csl-entry">
+Wickham, H. (2014). Tidy <span>Data</span>. <em>Journal of Statistical Software</em>, <em>59</em>, 1–23. <a href="https://doi.org/10.18637/jss.v059.i10">https://doi.org/10.18637/jss.v059.i10</a>
 </div>
 <div id="ref-wilkinson_fair_2016" class="csl-entry">
 Wilkinson, M. D., Dumontier, M., Aalbersberg, Ij. J., Appleton, G., Axton, M., Baak, A., Blomberg, N., Boiten, J.-W., Silva Santos, L. B. da, Bourne, P. E., Bouwman, J., Brookes, A. J., Clark, T., Crosas, M., Dillo, I., Dumon, O., Edmunds, S., Evelo, C. T., Finkers, R., … Mons, B. (2016). The <span>FAIR</span> <span>Guiding</span> <span>Principles</span> for scientific data management and stewardship. <em>Scientific Data</em>, <em>3</em>(1), 160018. <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>

@@ -6,7 +6,7 @@
 ]{book}
 \title{The Research Data Management Workbook}
 \author{Kristin Briney}
-\date{2024-03-13}
+\date{2024-06-18}
 
 \usepackage{amsmath,amssymb}
 \usepackage{lmodern}
@@ -1516,6 +1516,81 @@ DOIs make data FAIR \citep{wilkinson_fair_2016} and aid with data sharing compli
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
 
+\newpage
+
+\hypertarget{accessible-spreadsheets}{%
+\section{Make Spreadsheets Accessible and Reusable}\label{accessible-spreadsheets}}
+
+\textbf{\emph{Description:}} \emph{Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet's reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.}
+
+\textbf{\emph{Instructions:}} \emph{For a given spreadsheet, work through the actions on this checklist to make that data more accessible and reusable. This is best done when the data is finalized and/or prior to sharing the data either publicly or with colleagues. It is recommended to also share data in its original form, but your data will be more FAIR \citep{wilkinson_fair_2016} when an accessible version is made available alongside the original.}
+
+\textbf{\emph{Further Resources:}}
+
+\begin{itemize}
+\tightlist
+\item
+  \citep{broman_data_2018}
+\item
+  \citep{oxford_accessibility_2023}
+\item
+  \citep{wickham_tidy_2014}
+\end{itemize}
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\_\_ Break data into several smaller rectangular tables instead of one large complex table, as necessary. Each sheet should contain only one table.
+
+\_\_ Arrange data so that the top row contains variable names, with data in all following rows. See Wickham's guidelines on tidy data for more information \citep{wickham_tidy_2014}.
+
+\_\_ Clean up the variable names in the first row of the spreadsheet to be both human and machine readable:
+
+~~~~ \_\_ Use short but meaningful names;
+
+~~~~ \_\_ Use full words or readable abbreviations (e.g.~``number'' or ``num'' instead of ``n'') in variable names;
+
+~~~~ \_\_ Use only alphanumeric characters in variable names;
+
+~~~~ \_\_ Remove spaces from variable names;
+
+~~~~ \_\_ Capitalize the first letter of each word in the variable name, though the first word can be lower case depending on preference (e.g.~myVariableName or MyVariableName).
+
+\_\_ Place the key, or most identifying, variable in the first column on the left, column A. (Spreadsheets should be readable from left to right then top to bottom, and placement of the key variable in the first column will help with readability.)
+
+\_\_ Convert any dates to YYYY-MM-DD format. (To work around Excel's weird date formatting you can separate year, month, and day into three separate variables.)
+
+\_\_ Ensure that spreadsheet cells contain only one data point. If there is more than one data point per cell, divide columns into multiple variables as appropriate.
+
+\_\_ Remove formatting such as font, text alignment, highlighting, and merged cells. Any information represented by such formatting should be recorded as data under new variable.
+
+\_\_ Fill in empty cells:
+
+~~~~ \_\_ Input any missing data values;
+
+~~~~ \_\_ Use ``NA'' (or the preferred null value for your analysis software) for any cells that do not have recorded values.
+
+\_\_ Perform quality control on the data, removing:
+
+~~~~ \_\_ Errors,
+
+~~~~ \_\_ Inconsistencies,
+
+~~~~ \_\_ Accidental spaces.
+
+\_\_ Enclose any cells containing commas inside of double quotes (e.g.~``text, example'').
+
+\_\_ Remove charts. Charts may be shared separately with corresponding alt text.
+
+\_\_ Remove underlying calculations so that the file only includes raw data. (You can do this in Excel by copying a column, using the special paste option to ``paste as values'', then deleting the original column.)
+
+\_\_ Use any built-in validation or accessibility checkers provided by your software.
+
+\_\_ Save data as a CSV file type (TSV is also an acceptable file format). Save individual spreadsheet tabs as separate CSV files.
+
+\_\_ Create an accompanying data dictionary (see \protect\hyperlink{data-dictionary}{Exercise 2.3: Create a Data Dictionary}).
+
+\_\_ Share the accessible CSV file(s), the original dataset, and the data dictionary.
+
 \hypertarget{project-wrap-up}{%
 \chapter{Project Wrap Up}\label{project-wrap-up}}
 
@@ -1761,7 +1836,9 @@ Books are never truly written by only one person. While I did the majority of th
 
 First, thank you to several people at Caltech Library for assistance with this book. Thank you Donna Wrublewski for being on board with this big idea and supporting it. Big thanks to Tom Morrell for critical feedback on the beta edition of this book, particularly on the storage exercise which was really terrible before his feedback. Thank you Tommy Keswick for helping move my bookdown repo to the Caltech Library GitHub account and for showing me the magic that is GitHub Pages. Thank you to George Porter for helping to get the Workbook online into CaltechAUTHORS, even though we were not quite finished migrating that giant repository to its new platform.
 
-Thank you to Abigail Goben and Dorothea Salo for always being encouraging when I come to them with the idea for a new book, no matter the idea. Abigail was one of the first people I discussed the idea for this book with, which helped cement the big idea in my head. Dorothea read and provided feedback and editing, which was greatly appreciated.
+Thank you to Abigail Goben and Dorothea Salo for always being encouraging when I come to them with the idea for a new book, no matter the idea. Abigail was one of the first people I discussed the idea for this book with, which helped cement the big idea in my head.
+
+Thank you to Rachel Woodbrook for feedback on the accessible spreadsheets exercise.
 
 Finally, thank you to Andy for being calm when I had the idea for yet another book. It helped that this book was much shorter than my last two. And thank you to Hank and Willa for cuddles, questions, and all of our adventures that keep me grounded.
 
