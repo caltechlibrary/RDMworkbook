@@ -4,7 +4,7 @@
 
 ### Licensed under a CC BY-NC license
 
-This is the bookdown version of the RDM Workbook (version 1), containing the following sections:
+This is the bookdown version of the RDM Workbook (edition 1.1), containing the following sections:
 
 1. Introduction
 2. Documentation
@@ -13,8 +13,3 @@ This is the bookdown version of the RDM Workbook (version 1), containing the fol
 5. Data Management
 6. Data Sharing
 7. Project Wrap Up
-
-To-do list:
-* Get a DOI and add it to the citation in the License section of the index
-* Get an ISSN
-* Upload to CaltechAUTHORS
