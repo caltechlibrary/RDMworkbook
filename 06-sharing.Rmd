@@ -160,7 +160,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 ***Description:*** *A README file can make the difference between not understanding a shared dataset and actually being able to reuse the data. A README file for shared data goes beyond basic information listed in a data repository by explaining what is in each file, how files relate to each other, and anything else someone needs to know to use a dataset. While you may not be required to include a README file when depositing data into a data repository, including a README file is almost always recommended.*
 
-***Instructions:*** *Fill out the worksheet for the collection data being shared. Each group of files being deposited into a repository should have an accompanying README file. Note that some data repositories that collect a specific type of data do not accept README files and instead ask for detailed information about the data during the deposit process.*
+***Instructions:*** *Fill out the worksheet for the collection data being shared. Each group of files being deposited into a repository should have an accompanying README file. Note that repositories for very specific types of data sometimes do not accept README files and instead ask for detailed information about the data during the deposit process.*
 
 ---
 
