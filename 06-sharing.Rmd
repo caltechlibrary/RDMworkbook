@@ -118,12 +118,6 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 \_\_ If there will be multiple deposits in one repository or data will be divided across more than one data repository, work through the remainder of the checklist separately for each citation/group of files.
 
-**Data Documentation**
-
-\_\_ Document any spreadsheet data with a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)). The data dictionary should be shared with the other files.
-
-\_\_ Write a brief description of each data file, including any data dictionaries, and what it contains. Save this information as a README.txt file and share it with the other files.
-
 **Sharing Information (Metadata)**
 
 \_\_ Give the dataset a title. Default title is “Data from: [name of the article]”.
@@ -139,6 +133,12 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 \_\_ Record all funding information that applies to the dataset.
 
 \_\_ Chose a license for reuse rights. Default license is CC0 (for more information on CC0, see [@creative_commons_wiki_cc0_2014]).
+
+**Data Documentation**
+
+\_\_ Write a README.txt file to be shared with the other files (see [Exercise 6.3: Write a README File for Shared Data](#readme-sharing)).
+
+\_\_ Document any spreadsheet data with a data dictionary (see [Exercise 2.3: Create a Data Dictionary](#data-dictionary)). The data dictionary should be shared with the other files.
 
 **Deposit Data**
 
