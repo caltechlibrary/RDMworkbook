@@ -25,6 +25,12 @@ The book is divided into chapters, loosely by phases of the data lifecycle, with
 
 The Workbook is intended as a supplement to existing data management education. If you would like to learn more about the principles of data management, please see the article "Foundational Practices of Research Data Management" [@briney_foundational_2020] or read the book “Data Management for Researchers” [@briney_data_2015].
 
+## Electronic Copies of the Workbook {-}
+
+You can access the latest edition of the book on the web at: [https://caltechlibrary.github.io/RDMworkbook/](https://caltechlibrary.github.io/RDMworkbook/).
+
+You can access PDF and EPUB copies of edition 1.0 at: [https://doi.org/10.7907/z6czh-7zx60](https://doi.org/10.7907/z6czh-7zx60)
+
 ## Edition {-}
 
 This is edition 1.1 of The Research Data Management Workbook.
@@ -39,7 +45,11 @@ I’m happy to receive any feedback on the Workbook to improve it for the next e
 
 This book is available under a Creative Commons Attribution-NonCommercial (CC BY-NC) 4.0 International license.
 
-I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me:
+I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me.
+
+## Citing the Workbook {#book-citation}
+
+Please use the following when citing The Research Data Management Workbook:
 
 * Briney, K. (2023). *The Research Data Management Workbook.* Caltech Library. [https://doi.org/10.7907/z6czh-7zx60](https://doi.org/10.7907/z6czh-7zx60)
 
