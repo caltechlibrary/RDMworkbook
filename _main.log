@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  18 JUN 2024 16:22
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  25 JUN 2024 13:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -706,131 +706,131 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 \openout4 = `_main.toc'.
 
 [4]
-Underfull \vbox (badness 1286) has occurred while \output is active []
+Underfull \hbox (badness 1127) in paragraph at lines 110--111
+\TU/lmr/m/n/10 You can access the latest edition of the book on the web at: []$[][][][][] []
+ []
 
 [5
 
 ]
 File: images/00_KristinBriney.jpg Graphic file (type bmp)
 <images/00_KristinBriney.jpg>
-[6]
-Chapter 1.
-[7
+[6] [7] [8
 
-] [8] [9] [10
+]
+Chapter 1.
+[9] [10] [11] [12
 
 ]
 Chapter 2.
-[11]
-Overfull \hbox (23.97505pt too wide) in paragraph at lines 231--232
+
+Overfull \hbox (23.97505pt too wide) in paragraph at lines 243--244
 []\TU/lmr/bx/n/10 Date of lab notebook entry being evaluated: \TU/lmr/m/n/10 ____________________ 
  []
 
-[12] [13]
-Overfull \hbox (21.43839pt too wide) in paragraph at lines 294--295
+[13] [14]
+Overfull \hbox (21.43839pt too wide) in paragraph at lines 304--305
 []\TU/lmr/bx/n/10 Project documented by this README.txt: \TU/lmr/m/n/10 ____________________ 
  []
 
-[14]
-Underfull \hbox (badness 1127) in paragraph at lines 348--349
+[15]
+Underfull \hbox (badness 1127) in paragraph at lines 358--359
 []\TU/lmr/m/it/10 Example: All data is in the DataDoubles/Data folder, with subfolders
  []
 
 
-Underfull \hbox (badness 2368) in paragraph at lines 348--349
+Underfull \hbox (badness 2368) in paragraph at lines 358--359
 \TU/lmr/m/it/10 the project folder for individual site files. Interview data files are
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 348--349
+Underfull \hbox (badness 1231) in paragraph at lines 358--359
 \TU/lmr/m/it/10 named with: interview theme, site, interview ID, interview date, and
  []
 
 
-Underfull \hbox (badness 3547) in paragraph at lines 348--349
+Underfull \hbox (badness 3547) in paragraph at lines 358--359
 \TU/lmr/m/it/10 data type/analysis stage (e.g. “PRO_BL03_20180222_Audio.mp3” and
  []
 
-[15] [16] [17] [18
-
-]
+[16] [17] [18]
 Chapter 3.
-[19]
 File: images/03_CardSorting.jpg Graphic file (type bmp)
 <images/03_CardSorting.jpg>
-[20] [21]
+[19
+
+] [20]
 File: images/03_FileNaming.jpg Graphic file (type bmp)
 <images/03_FileNaming.jpg>
-[22] [23]
-Overfull \hbox (42.04002pt too wide) in paragraph at lines 747--748
+[21] [22] [23]
+Overfull \hbox (42.04002pt too wide) in paragraph at lines 751--752
 []\TU/lmr/m/it/10 Example: My file naming convention is “SA-MPL-EID_YYYYMMDD_###_status.tif”
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 747--748
+Underfull \hbox (badness 10000) in paragraph at lines 751--752
 \TU/lmr/m/it/10 Examples are “P1-MUS-023_20200229_051_raw.tif” and “P2-DRS-
  []
 
-[24] [25] [26
-
-]
+[24]
 Chapter 4.
-[27] [28] [29] [30] [31] [32
+[25
+
+] [26] [27] [28] [29] [30
 
 ]
 Chapter 5.
-[33]
-Underfull \hbox (badness 1337) in paragraph at lines 1155--1155
+
+Underfull \hbox (badness 1337) in paragraph at lines 1153--1153
 []\TU/lmr/bx/n/14.4 Write a Living Data Management Plan
  []
 
-[34]
-Underfull \hbox (badness 1248) in paragraph at lines 1205--1206
+[31]
+Underfull \hbox (badness 1248) in paragraph at lines 1203--1204
 \TU/lmr/m/it/10 arated by underscores. Examples: “MA006-20230901_TIMS_raw” and
  []
 
-[35] [36] [37] [38] [39] [40
-
-]
+[32] [33] [34] [35] [36]
 Chapter 6.
-[41]
 File: images/06_Repository.jpg Graphic file (type bmp)
 <images/06_Repository.jpg>
 
-LaTeX Warning: Float too large for page by 24.51428pt on input line 1374.
+LaTeX Warning: Float too large for page by 24.51428pt on input line 1368.
 
-[42] [43]
-Underfull \hbox (badness 1067) in paragraph at lines 1452--1453
+[37
+
+] [38] [39]
+Underfull \hbox (badness 1067) in paragraph at lines 1446--1447
 []\TU/lmr/m/it/10 Example: CaltechDATA provides DOIs for all deposits; my permanent
  []
 
 
-Underfull \hbox (badness 1603) in paragraph at lines 1452--1453
+Underfull \hbox (badness 1603) in paragraph at lines 1446--1447
 \TU/lmr/m/it/10 identifier is doi.org/10.22002/XXXXXXXXXXX. FlyBase provides stable
  []
 
-[44] [45]
-Underfull \hbox (badness 2181) in paragraph at lines 1487--1488
+[40]
+Underfull \hbox (badness 2181) in paragraph at lines 1479--1480
 []\TU/lmr/m/n/10 __ Write a brief description of the dataset to be used as the ab-
  []
 
-[46] [47] [48]
-Underfull \hbox (badness 2165) in paragraph at lines 1601--1602
+[41] [42] [43]
+Underfull \hbox (badness 2165) in paragraph at lines 1591--1592
 []\TU/lmr/m/it/10 DataRot_handTested.csv: Subset of supplemental data links from
  []
 
-[49] [50] [51] [52] [53] [54
+[44] [45] [46] [47] [48
 
 ]
 Chapter 7.
-[55] [56] [57] [58] [59] [60]
-Underfull \hbox (badness 3803) in paragraph at lines 1950--1951
+[49] [50] [51] [52] [53]
+Underfull \hbox (badness 3803) in paragraph at lines 1930--1931
 []\TU/lmr/m/n/10 __ Identify and keep pertinent research data from storage systems
  []
 
-[61] [62] (./_main.bbl [63
+[54] (./_main.bbl [55
 
-] [64
+] [56
 
 ]
 Underfull \hbox (badness 1831) in paragraph at lines 44--51
@@ -852,21 +852,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--71
 [][][][][][][][][][][][][] [] [][][][][][] [] [][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][][][][][][] [][] [][][][] [][] [][][][][][][][] [][]
  []
 
-[65]) [66] (./_main.aux)
+[57]) [58] (./_main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E7BAD1423B98B03A1825DA60FD4F70B;6119.
+(rerunfilecheck)             Checksum: 8C4DF3ED4BAAAF3E018DAC9259FD5CE1;6507.
  ) 
 Here is how much of TeX's memory you used:
- 16911 strings out of 476771
- 311602 string characters out of 5800478
+ 16913 strings out of 476771
+ 311658 string characters out of 5800478
  1938842 words of memory out of 5000000
- 38709 multiletter control sequences out of 15000+600000
+ 38711 multiletter control sequences out of 15000+600000
  564520 words of font info for 89 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 90i,7n,121p,955b,522s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,7n,121p,955b,523s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on _main.pdf (66 pages).
+Output written on _main.pdf (58 pages).
