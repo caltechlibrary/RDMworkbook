@@ -2,7 +2,7 @@
 
 While this entire workbook covers data management activities, it’s often useful to take a step back and document the data management decisions that have been made. This chapter provides exercises in documenting data management in two areas: a worksheet for writing a living data management plan (which builds on exercises from previous chapters); and a worksheet for discussing roles and responsibilities around data management with your research collaborators.
 
-\newpage
+<!-- \newpage -->
 
 ## Write a Living Data Management Plan (DMP) {#living-dmp}
 
@@ -102,7 +102,7 @@ While this entire workbook covers data management activities, it’s often usefu
 
 &nbsp;
 
-\newpage
+<!-- \newpage -->
 
 ## Determine Data Stewardship {#data-governance}
 

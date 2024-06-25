@@ -2,7 +2,7 @@
 
 Sharing data that underlies research has become a common expectation within scholarly research. However, the landscape of data repositories is still uneven and many researchers are still learning best practices for data sharing. To help in this area, this chapter offers four exercises: a decision tree-inspired worksheet for picking the best data repository for your data; checklist for working through the process of sharing data in a data repository; a worksheet for writing a README file for shared data; and a checklist for making spreadsheets more accessible and reusable.
 
-\newpage
+<!-- \newpage -->
 
 ## Pick a Data Repository {#data-repository}
 
@@ -96,7 +96,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 &nbsp;
 
-\newpage
+<!-- \newpage -->
 
 ## Share Data {#share-data}
 
@@ -154,7 +154,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 \_\_ Link the publication to its data, either in a Data Availability Statement or as a citation.
 
-\newpage
+<!-- \newpage -->
 
 ## Write a README File for Shared Data {#readme-sharing}
 
@@ -290,7 +290,7 @@ Either copy the data dictionary contents here or share the data dictionary as a 
 
 **Save all of this information as a README.txt file (you can also use README.md when sharing software) and share with your data.**
 
-\newpage
+<!-- \newpage -->
 
 ## Make Spreadsheets Accessible and Reusable {#accessible-spreadsheets}
 

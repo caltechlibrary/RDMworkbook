@@ -2,7 +2,7 @@
 
 Good file organization and naming are foundational data management practices, as they help you find files quickly when you need them. To set up file organization and naming conventions, this chapter offers two exercises: a card-sorting process for brainstorming a file organization system; and a worksheet for creating a file naming convention for a group of files.
 
-\newpage
+<!-- \newpage -->
 
 ## Set Up a File Organization System {#file-organization}
 
@@ -33,7 +33,7 @@ Good file organization and naming are foundational data management practices, as
 5. Make copies of any type of card and add folder levels, as needed. Adjust placement and hierarchies until you are happy with the organizational system you developed.
 6. Record your organizational system in your lab notebook and/or a [README.txt](#readme-txt).
 
-\newpage
+<!-- \newpage -->
 
 ## Create a File Naming Convention {#file-naming}
 

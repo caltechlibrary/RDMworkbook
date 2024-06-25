@@ -4,7 +4,7 @@ The end of a project is a key time to perform data management activities in orde
 
 This chapter also covers project wrap up in the form of separating from your institution. This checklist exercise for the departing researcher is important to work through so that critical data does not get lost in the transition. A fuller version of this checklist, intended for both the departing personnel and a project administrator to work through together, is also available [@goben_data_2023].
 
-\newpage
+<!-- \newpage -->
 
 ## Prepare Data for Future Use {#future-use}
 
@@ -44,7 +44,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \_\_ Save the project folder on a storage system that you will have access to for the next several years.
 
-\newpage
+<!-- \newpage -->
 
 ## Convert Data File Types {#file-type}
 
@@ -104,7 +104,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 &nbsp;
 
-\newpage
+<!-- \newpage -->
 
 ## Create an Archive Folder {#archive-folder}
 
@@ -166,7 +166,7 @@ This chapter also covers project wrap up in the form of separating from your ins
 
 \_\_ Grant progress reports and final report
 
-\newpage
+<!-- \newpage -->
 
 ## Separate from the Institution {#separation}
 
