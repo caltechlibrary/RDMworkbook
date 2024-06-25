@@ -47,7 +47,7 @@ This book is available under a Creative Commons Attribution-NonCommercial (CC BY
 
 I encourage you to use and adapt all of the exercises in this book for educational and personal use. Just remember to cite me.
 
-## Citing the Workbook {#book-citation}
+## Citing the Workbook {-}
 
 Please use the following when citing The Research Data Management Workbook:
 
