@@ -176,7 +176,7 @@ DOIs make data FAIR [@wilkinson_fair_2016] and aid with data sharing compliance.
 
 **List the dataset authors, identifying the corresponding author(s) and providing their contact information:**
 
-*Example: Kristin Briney (briney@caltech.edu; ORCID: 0000-0003-1802-0184)*
+*Example: Kristin Briney (briney\@caltech.edu; ORCID: 0000-0003-1802-0184)*
 
 &nbsp;
 
