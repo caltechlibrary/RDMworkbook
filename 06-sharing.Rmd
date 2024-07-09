@@ -345,7 +345,7 @@ Either copy the data dictionary contents here or share the data dictionary as a 
 
 **Format the Data**
 
-\_\_ Enclose any cells containing commas inside of double quotes (e.g. "text, example"). 
+\_\_ If using a spreadsheet editor other than Excel, enclose any cells containing commas inside of double quotes (e.g. "text, example"). 
 
 \_\_ Remove charts. Charts may be shared separately with corresponding alt text.
 
