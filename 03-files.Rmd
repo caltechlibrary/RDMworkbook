@@ -10,7 +10,7 @@ Good file organization and naming are foundational data management practices, as
 
 ***Instructions:*** *This is a card-sorting exercise, meaning you will need a stack of note cards or post-it notes to do this activity, ideally in three different colors. Follow the instructions to label cards and move them around until you develop your organizational system. There is no one correct way to do this so feel free to play around, add new cards, and move cards however you want! Once you put your new organizational system into place, be sure to always put your files where they're supposed to go.*
 
-![Example of organizational exercise. Image is of blue (group folder), pink (single folder), and yellow (data type) sticky notes, each with its own label, organized hierarchically on a wooden desktop.](images/03_CardSorting.jpg)
+![Example of organizational exercise. Image is of blue (group folder, text in \[\] brackets), pink (single folder, text in "" quotes), and yellow (data type, regular text) sticky notes, each with its own label, organized hierarchically on a wooden desktop.](images/03_CardSorting.jpg)
 
 ---
 
