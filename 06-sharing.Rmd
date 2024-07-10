@@ -292,7 +292,7 @@ Either copy the data dictionary contents here or share the data dictionary as a 
 
 <!-- \newpage -->
 
-## Make Spreadsheets Accessible and Reusable {#accessible-spreadsheets}
+## Make Spreadsheets More Accessible and Reusable {#accessible-spreadsheets}
 
 ***Description:*** *Making your data both accessible and reusable makes it easier for someone (including your future self) to use and understand your data. Slight tweaks to formatting can make a significant difference to a spreadsheet's reusability. This checklist provides guidance on making a spreadsheet reusable as well as more accessible to those with disabilities. Note that sometimes guidance for reusability and accessibility conflict, and this checklist is a best effort to balance the two considerations.*
 
