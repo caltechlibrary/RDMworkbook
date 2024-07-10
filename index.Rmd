@@ -33,7 +33,7 @@ You can access PDF and EPUB copies of edition 1.0 at: [https://doi.org/10.7907/z
 
 ## Edition {-}
 
-This is edition 1.1 of The Research Data Management Workbook.
+This is edition 1.2 of The Research Data Management Workbook.
 
 ISBN (PDF): 978-1-60049-015-6
 
