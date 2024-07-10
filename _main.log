@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  9 JUL 2024 14:41
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2024.3.13)  10 JUL 2024 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -858,7 +858,7 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `_main.out' has not changed.
-(rerunfilecheck)             Checksum: 8C4DF3ED4BAAAF3E018DAC9259FD5CE1;6507.
+(rerunfilecheck)             Checksum: F0E418AFAB7400808565C4BAB025E983;6535.
  ) 
 Here is how much of TeX's memory you used:
  16913 strings out of 476771
