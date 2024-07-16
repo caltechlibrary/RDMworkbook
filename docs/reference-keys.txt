@@ -21,6 +21,7 @@ data-repository
 share-data
 readme-sharing
 accessible-spreadsheets
+alt-text
 project-wrap-up
 future-use
 file-type
